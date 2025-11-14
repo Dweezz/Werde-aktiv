@@ -1,0 +1,286 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFEC3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Burger-Menü Button */
+.burger-menu {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.burger-menu div {
+    width: 40px;
+    height: 5px;
+    background-color: black;
+    margin: 8px 0;
+
+}
+
+.burger-menu {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Versteckt-Zustand: weich ausgeblendet */
+.burger-menu.hidden {
+  opacity: 0;
+  visibility: hidden;       /* verhindert Klicks, erst nach Fade */
+  pointer-events: none;
+}
+
+
+/* Menü Styling */
+.menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background: #FFFEC3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Menü nach oben verschieben */
+    padding-top: 10vh; /* Abstand von oben */
+    transition: left 0.3s ease-in-out;
+    z-index: 9;
+}
+
+
+.menu a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 20px;
+    z-index: 10;
+}
+
+.menu.active {
+    left: 0; /* Menü fährt von links rein */
+}
+
+
+#WerdeJetztAktiv {
+    text-decoration: none;
+    margin-top: 15vh;
+    font-size: 1.5em;
+    opacity: 0;
+    line-height: 4.5rem;
+    z-index: 1;
+    text-align: center;
+}
+
+/* Stop-Motion Animation */
+#animation-container {
+    position: relative;
+    top: 10%;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 3;
+}
+
+#animation-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+}
+
+#scrollDown {
+    position: relative;
+    bottom: 0;
+}
+
+#header {
+    margin-top: 17vh;
+    font-size: 1.7rem;
+    width: 90%;
+}
+
+#header h1 {
+    line-height: 0.7;
+    margin:0px;
+}
+
+#nicht {
+    width: 50%;
+    position: relative;
+    font-size: 6rem;
+    left: 20vw;
+    margin: 0;
+    color: #D7524D;
+}
+
+#header2 {
+    width: 90%;
+}
+
+#uber{
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 5rem;
+    line-height: 1,2;
+}
+
+#uns {
+    line-height: 0.7;
+    font-size: 5rem;
+    text-align: right;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#waehlenInfo {
+    font-size: 1.1rem;
+    width: 90%;
+    margin-top: 5vh;
+}
+
+#parteien {
+    width: 100%;
+    height: 50%;
+}
+
+#parteien img {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    height: auto;
+}
+
+h3{
+    margin: 0px;
+    font-size: 60px;
+    color: black;
+    font-family: Oswald;
+    font-weight: 500;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h4{
+    font-size: 35px;
+    color: black;
+    font-family: Oswald;
+    font-weight: 500;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: right;
+}
+
+h5{
+    font-size: 25px;
+    font-family: Oswald;
+    margin-block-start: 20px;
+    margin-block-end: 0;
+}
+
+p{
+    font-size: 15px;
+    font-family: Oswald;
+}
+
+#lgbtq{
+    background-color: #FFD050;
+}
+#panel_lgbtq{
+    background-color: #FFEAB1;    
+}
+
+#antifa{
+    background-color: #8EC8B3;
+}
+#panel_antifa{
+    background-color: #BFEADA;    
+}
+
+#klima{
+    background-color: #DA91F1;
+}
+#panel_klima{
+    background-color: #E8C8F2;    
+}
+
+#wer{
+    background-color: #FFD050;
+}
+
+#panel_wer{
+    background-color: #FFEAB1;
+}
+
+#warum{
+    background-color: #8EC8B3;
+}
+#panel_warum{
+    background-color: #BFEADA;    
+}
+
+#pfeil{
+    margin: 0;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+}
+
+.accordion {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: brown;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 18px;
+    width: calc(100% - 30px);
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .accordion.active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+  .panel {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0 18px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+  }

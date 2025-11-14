@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Werde Aktiv</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Burger-Menü Button -->
+    <div class="burger-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Navigations-Menü -->
+    <div class="menu" id="menu">
+        <a href="index.html">START</a>
+        <a href="werd_aktiv.html">WERDE AKTIV</a>
+        <a href="recourcen.html">RECOURCEN</a>
+        <a href="uber_uns.html">ÜBER UNS</a>
+    </div>
+
+    <div id="header">
+        <h1>WEIL WÄHLEN</h1>
+        <h1 id="nicht">NICHT</h1>
+        <h1>REICHT:</h1>
+    </div>
+
+    <div id="waehlenInfo">
+        <p>Wählen reicht nicht, weil es nur punktuell Einfluss gibt, während Politik täglich durch Agenda-Setting, Lobbydruck und Verwaltungspraxis gemacht wird; ohne kontinuierliche Beteiligung bleiben zentrale Interessen unsichtbar und unterrepräsentiert. Ungleiche Wahlbeteiligung verzerrt zusätzlich die Repräsentation, besonders zulasten einkommensschwächerer und marginalisierter Gruppen, deren Anliegen so systematisch weniger Gewicht erhalten. Organisieren und aktivistisches Engagement schaffen dauerhaften Druck, bringen neue Themen auf die Agenda und übersetzen gesellschaftliche Bedürfnisse in konkrete Veränderungen – genau das, was der Wahlakt allein nicht leisten kann.​​</p>
+    </div>
+
+    <div id="parteien">
+        <img src="images/parteien.png">
+    </div>
+
+    <button id="lgbtq" class="accordion"><h3>LGBTQ+</h3><h4>Organisationen</h2></button>
+    <div class="panel" id="panel_lgbtq">
+      <h5><a href="https://www.queerbase.at/?lang=de">Queer Base</a></h5>
+      <p>Zentrale Anlaufstelle für queere Geflüchtete in Wien. Sie helfen LGBTIQ-Personen im Asylverfahren mit rechtlicher, psychosozialer und gesundheitlicher Unterstützung, organisieren Treffen und fördern Sichtbarkeit und Community-Building.</p>
+      <h5>QWien – Zentrum für queere Geschichte</h5>
+      <p>QWien widmet sich der Dokumentation, Erforschung und Vermittlung queerer Geschichte Wiens. Der Verein organisiert Ausstellungen, Stadtführungen, Workshops und leistet Bildungsarbeit zu queeren Themen und Biografien.</p>
+      <h5>HOSI Wien</h5>
+      <p>Die Homosexuelle Initiative Wien ist die älteste und größte LGBTQI+-Organisation Österreichs. Sie kämpft für Gleichberechtigung, bietet Beratungen, organisiert Events wie die Regenbogenparade und betreibt das Communityzentrum „Gugg“.</p>
+    </div>
+
+    <button id="antifa" class="accordion"><h3>ANTIFA</h3><h4>Organisationen</h2></button>
+    <div class="panel" id="panel_antifa">
+      <h5><a href="https://oatwien.noblogs.org/">Offenes Antifa Treffen Wien (OAT)</a></h5>
+      <p>Das OAT ist eine offene Plattform für alle, die antifaschistisch aktiv werden möchten. In regelmäßigen Treffen werden Aktionen geplant, Wissen ausgetauscht und neue Aktivist*innen eingebunden.</p>
+      <h5>Autonome Antifa [w]</h5>
+      <p>Diese Gruppe organisiert Proteste, Informationsarbeit und Kampagnen gegen Rechtsextremismus in Wien und ist stark in antirassistischen Netzwerken verankert.</p>
+      <h5>HOSI Wien</h5>
+      <p>Die Homosexuelle Initiative Wien ist die älteste und größte LGBTQI+-Organisation Österreichs. Sie kämpft für Gleichberechtigung, bietet Beratungen, organisiert Events wie die Regenbogenparade und betreibt das Communityzentrum „Gugg“.</p>
+    </div>
+  
+      <button id="klima" class="accordion"><h3>KLIMA</h3><h4>Organisationen</h2></button>
+    <div class="panel" id="panel_klima">
+      <h5>Fridays For Future Wien</h5>
+      <p>Fridays For Future ist eine global vernetzte Graswurzelbewegung, die von Jugendlichen ausgeht und in Wien regelmäßig Streiks sowie öffentliche Protestaktionen fürs Klima organisiert. Die Bewegung ist niedrigschwellig, offen für neue Mitmacher:innen und zielt darauf ab, politisch Druck zu machen, das 1,5-Grad-Ziel und soziale Klimagerechtigkeit einzufordern. Die Gruppe plant eigene Aktionen – vom großen Klimastreik bis zu Mahnwachen und kreativen Protestformen.</p>
+      <h5>Extinction Rebellion Austria (XR Wien)</h5>
+      <p>Extinction Rebellion ist für gewaltfreien zivilen Ungehorsam bekannt, um die Politik zu entschlossenem Handeln in der Klimakrise zu bewegen. XR Wien protestiert mit Straßenblockaden, Kunstaktionen und medienwirksamen Performances. Besonderheiten sind der Fokus auf kollektive Entscheidungsstrukturen sowie auf nachhaltige, regenerierende Gruppenkultur und zwischenmenschliche Achtsamkeit.</p>
+    </div>
+  
+
+    <script>
+      // Referenzen
+        const burger = document.querySelector('.burger-menu');
+
+        // Scrollrichtung tracken
+        let lastScrollY = window.pageYOffset;
+
+        // Debounce/Throttle optional; hier einfache Version
+        window.addEventListener('scroll', () => {
+            const currentY = window.pageYOffset;
+
+            // Schwelle, um „Mikro“-Scrolls zu ignorieren
+            const delta = currentY - lastScrollY;
+
+            if (delta > 4) {
+            // Scroll nach unten -> ausblenden
+            burger.classList.add('hidden');
+            } else if (delta < -4) {
+            // Scroll nach oben -> einblenden
+            burger.classList.remove('hidden');
+            }
+
+            lastScrollY = currentY <= 0 ? 0 : currentY;
+        }, { passive: true });
+    
+      // Burger-Menü Steuerung
+      function toggleMenu() {
+          document.getElementById("menu").classList.toggle("active");
+      }
+      document.querySelectorAll(".accordion").forEach(button => {
+        button.addEventListener("click", () => {
+          const panel = button.nextElementSibling;
+          const isOpen = panel.style.maxHeight;
+
+          //Alle anderen Accordions schließen (optional)
+          document.querySelectorAll(".accordion + .panel").forEach(p => {
+          p.style.maxHeight = "";
+          p.previousElementSibling.classList.remove("active");
+          });
+
+          if (isOpen) {
+            // Zuklappen
+            panel.style.maxHeight = "";
+            button.classList.remove("active");
+          } else {
+            // Aufklappen
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            button.classList.add("active");
+          }
+        });
+      });
+
+    </script>
+</body>
+</html>

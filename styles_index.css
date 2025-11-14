@@ -1,0 +1,180 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFEC3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+
+
+
+a:active {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Burger-Menü Button */
+.burger-menu {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.burger-menu div {
+    width: 40px;
+    height: 5px;
+    background-color: black;
+    margin: 8px 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Versteckt-Zustand: weich ausgeblendet */
+.burger-menu.hidden {
+  opacity: 0;
+  visibility: hidden;       /* verhindert Klicks, erst nach Fade */
+  pointer-events: none;
+}
+
+/* Menü Styling */
+.menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background: #FFFEC3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Menü nach oben verschieben */
+    padding-top: 10vh; /* Abstand von oben */
+    transition: left 0.3s ease-in-out;
+    z-index: 9;
+}
+
+
+.menu a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 20px;
+    z-index: 10;
+}
+
+.menu.active {
+    left: 0; /* Menü fährt von links rein */
+}
+
+
+#WerdeJetztAktiv {
+    text-decoration: none;
+    margin-top: 15vh;
+    font-size: 1.5em;
+    opacity: 0;
+    line-height: 4.5rem;
+    z-index: 1;
+    text-align: center;
+}
+
+/* Stop-Motion Animation */
+#animation-container {
+    position: relative;
+    top: 10%;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 3;
+}
+
+#animation-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+}
+
+#scrollDown {
+    position: relative;
+    bottom: 0;
+}
+
+#header {
+    margin-top: 17vh;
+    font-size: 1.7rem;
+    width: 90%;
+}
+
+#header h1 {
+    margin: 0;
+    line-height: 0.7;
+}
+
+#nicht {
+    font-size: 6rem;
+    position: relative;
+    left: 30%;
+    margin: 0;
+    color: #D7524D;
+}
+
+#waehlenInfo {
+    font-size: 1.1rem;
+    width: 90%;
+    margin-top: 5vh;
+}
+
+#parteien {
+    width: 100%;
+    height: 50%;
+}
+
+#parteien img {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    height: auto;
+}
+
+#lgbtq {
+    background-color: pink;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }

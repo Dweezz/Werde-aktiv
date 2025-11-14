@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Werde Aktiv</title>
+    <link href="styles_index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Burger-Menü Button -->
+    <div class="burger-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Navigations-Menü -->
+    <div class="menu" id="menu">
+        <a href="index.html">START</a>
+        <a href="werd_aktiv.html">WERDE AKTIV</a>
+        <a href="recourcen.html">RECOURCEN</a>
+        <a href="uber_uns.html">ÜBER UNS</a>
+    </div>
+
+    <!-- Stop-Motion Animation -->
+     <a id="WerdeJetztAktiv" href="werd_aktiv.html">
+            <h1>WERDE<br>
+            JETZT<br>
+            AKTIV!</h1>
+        </a>
+
+    <!-- Stop-Motion Animation -->
+    <div id="animation-container">
+        <img id="stopMotion" src="images/erde brennt.png" alt="Stop Motion">
+        <img id="earth" src="images/erde.png" alt="erde">
+    </div>
+
+    <div id="scrollDown">
+        <h1 lang="de">Runter scrollen 🠗</h1>
+    </div>
+
+    <script>
+        // Referenzen
+        const burger = document.querySelector('.burger-menu');
+
+        // Scrollrichtung tracken
+        let lastScrollY = window.pageYOffset;
+
+        // Debounce/Throttle optional; hier einfache Version
+        window.addEventListener('scroll', () => {
+            const currentY = window.pageYOffset;
+
+            // Schwelle, um „Mikro“-Scrolls zu ignorieren
+            const delta = currentY - lastScrollY;
+
+            if (delta > 4) {
+            // Scroll nach unten -> ausblenden
+            burger.classList.add('hidden');
+            } else if (delta < -4) {
+            // Scroll nach oben -> einblenden
+            burger.classList.remove('hidden');
+            }
+
+            lastScrollY = currentY <= 0 ? 0 : currentY;
+        }, { passive: true });
+        const frames = [
+            "images/erde brennt.png",
+            //"images/earth_transp.png"
+        ];
+
+        let index = 0;
+        const imgElement = document.getElementById("stopMotion");
+
+        function playAnimation() {
+            index = (index + 1) % frames.length;
+            imgElement.src = frames[index];
+        }
+
+        setInterval(playAnimation, 1000); // Wechsel alle 1000ms
+
+        // Burger-Menü Steuerung
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("active");
+        }
+
+        // Move animation up/down while allowing scrolling
+        function fade(event) {
+
+            scale += event.deltaY * -0.001;
+            scale = Math.min(Math.max(0.0, scale), 1); // Limits movement range
+
+            el.style.opacity = scale;
+            firstText.style.opacity = -scale + 1;
+        }
+
+
+        let scale = 1;
+        const el = document.querySelector("#stopMotion");
+        const firstText = document.querySelector("#WerdeJetztAktiv")
+
+        window.addEventListener("wheel", fade);
+    </script>
+</body>
+</html>
