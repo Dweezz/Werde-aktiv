@@ -117,6 +117,12 @@ a:active {
     bottom: 0;
 }
 
+#stopMotion {
+    will-change: opacity;
+    transition: opacity 0.1s linear;
+    pointer-events: none; /* optional */
+}
+
 #header {
     margin-top: 17vh;
     font-size: 1.7rem;
