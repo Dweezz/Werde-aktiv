@@ -118,9 +118,14 @@ a:active {
 }
 
 #stopMotion {
+    will-change: opacity, transform;
+    transition: opacity 0.15s linear;
+    transform: translateZ(0); /* iOS Fix */
+}
+
+#WerdeJetztAktiv {
     will-change: opacity;
-    transition: opacity 0.1s linear;
-    pointer-events: none; /* optional */
+    transition: opacity 0.15s linear;
 }
 
 #header {
