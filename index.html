@@ -101,7 +101,28 @@
         const el = document.querySelector("#stopMotion");
         const firstText = document.querySelector("#WerdeJetztAktiv")
 
-        window.addEventListener("wheel", fade);
+        window.addEventListener("wheel", fade, { passive: true });
+
+        //fix apple touch
+        window.addEventListener("touchmove", fadeTouch, { passive: true });
+
+        function fadeTouch(event) {
+            // event.changedTouches[0].clientY -> aktuelle Fingerposition
+            const currentY = event.changedTouches[0].clientY;
+
+            if (!lastY) lastY = currentY;
+
+            let delta = lastY - currentY; // Scroll-Richtung
+            lastY = currentY;
+
+            scale += delta * 0.01;
+            scale = Math.min(Math.max(0.0, scale), 1);
+
+            el.style.opacity = scale;
+            firstText.style.opacity = 1 - scale;
+        }
+
+        let lastY = null;
     </script>
 </body>
 </html>
