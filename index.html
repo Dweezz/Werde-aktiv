@@ -88,47 +88,77 @@
 
 
         // --------------------------
-        // FADING BEIM SCROLLEN — FÜR ALLE GERÄTE (iPhone fix!)
+        // KÜNSTLICHE INERTIA (funktioniert ohne echten Scroll!)
         // --------------------------
+
         let scale = 1;
         const el = document.querySelector("#stopMotion");
         const firstText = document.querySelector("#WerdeJetztAktiv");
 
+        let velocity = 0;
+        let inertiaFrame = null;
+        let lastTouchY = 0;
+
         function applyFade(delta) {
             scale += delta * -0.01;
-            scale = Math.min(Math.max(0.0, scale), 1);
+            scale = Math.min(Math.max(0, scale), 1);
 
             el.style.opacity = scale;
             firstText.style.opacity = 1 - scale;
         }
 
-        function applyFade_wheel(delta) {
-            scale += delta * -0.001;
-            scale = Math.min(Math.max(0.0, scale), 1);
+        // Inertia Loop
+        function inertiaStep() {
+            if (Math.abs(velocity) < 0.1) {
+                velocity = 0;
+                inertiaFrame = null;
+                return;
+            }
 
-            el.style.opacity = scale;
-            firstText.style.opacity = 1 - scale;
+            applyFade(velocity);
+
+            // iOS-like slowdown
+            velocity *= 0.92;
+
+            inertiaFrame = requestAnimationFrame(inertiaStep);
         }
 
-        // Desktop / Laptop
-        window.addEventListener("wheel", (event) => {
-            applyFade_wheel(event.deltaY);
+
+        // TOUCH -------------------------
+
+        window.addEventListener("touchstart", e => {
+            lastTouchY = e.touches[0].clientY;
+
+            if (inertiaFrame) cancelAnimationFrame(inertiaFrame);
+            inertiaFrame = null;
         }, { passive: true });
 
-        // iPhone / iPad (touchmove unterstützt!)
-        let touchStartY = 0;
+        window.addEventListener("touchmove", e => {
+            const y = e.touches[0].clientY;
+            const delta = lastTouchY - y;
+            lastTouchY = y;
 
-        window.addEventListener("touchstart", (event) => {
-            touchStartY = event.touches[0].clientY;
-        }, { passive: true });
-
-        window.addEventListener("touchmove", (event) => {
-            const currentY = event.touches[0].clientY;
-            const delta = touchStartY - currentY;  // Scroll-Richtung wie bei wheel
-            touchStartY = currentY;
-
+            velocity = delta;
             applyFade(delta);
         }, { passive: true });
+
+        window.addEventListener("touchend", () => {
+            if (Math.abs(velocity) > 0.5) {
+                inertiaFrame = requestAnimationFrame(inertiaStep);
+            }
+        }, { passive: true });
+
+
+        // DESKTOP WHEEL ------------------
+
+        window.addEventListener("wheel", e => {
+            velocity = e.deltaY;
+            applyFade(e.deltaY);
+
+            if (inertiaFrame) cancelAnimationFrame(inertiaFrame);
+            inertiaFrame = requestAnimationFrame(inertiaStep);
+        }, { passive: true });
+
 
     </script>
 </body>
