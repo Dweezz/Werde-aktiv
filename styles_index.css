@@ -84,11 +84,12 @@ a:active {
 
 #WerdeJetztAktiv {
     position:absolute;
-    text-decoration: none;
+    color:black;
+    text-decoration: underline;
     margin-top: 15vh;
     font-size: 1.5em;
     opacity: 0;
-    line-height: 4.5rem;
+    line-height: 5.5rem;
     z-index: 1;
     text-align: center;
 }
