@@ -102,7 +102,7 @@ a:active {
 }
 
 #animation-container img {
-    top: 30vh;
+    bottom: 8vh;
     width: 100%;
     position: absolute;
     height: auto;
