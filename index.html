@@ -100,7 +100,7 @@
         let lastTouchY = 0;
 
         function applyFade(delta) {
-            scale += delta * -0.001;
+            scale += delta * -0.00025;
             scale = Math.min(Math.max(0, scale), 1);
 
             el.style.opacity = scale;
