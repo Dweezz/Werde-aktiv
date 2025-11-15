@@ -83,6 +83,7 @@ a:active {
 
 
 #WerdeJetztAktiv {
+    position:absolute;
     text-decoration: none;
     margin-top: 15vh;
     font-size: 1.5em;
@@ -94,22 +95,17 @@ a:active {
 
 /* Stop-Motion Animation */
 #animation-container {
-    position: relative;
-    position: relative;
-    height: 50vh;  /* oder 50vh, wie du möchtest */
-    top: 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
     align-items: flex-end;
     z-index: 3;
 }
 
 #animation-container img {
+    top: 35vh;
     width: 100%;
-    height: auto;
-    display: block;
     position: absolute;
+    height: auto;
+    z-index: 3;
 }
 
 #scrollDown {
