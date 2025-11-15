@@ -95,6 +95,14 @@
         const firstText = document.querySelector("#WerdeJetztAktiv");
 
         function applyFade(delta) {
+            scale += delta * -0.01;
+            scale = Math.min(Math.max(0.0, scale), 1);
+
+            el.style.opacity = scale;
+            firstText.style.opacity = 1 - scale;
+        }
+
+        function applyFade_wheel(delta) {
             scale += delta * -0.001;
             scale = Math.min(Math.max(0.0, scale), 1);
 
@@ -104,7 +112,7 @@
 
         // Desktop / Laptop
         window.addEventListener("wheel", (event) => {
-            applyFade(event.deltaY);
+            applyFade_wheel(event.deltaY);
         }, { passive: true });
 
         // iPhone / iPad (touchmove unterstützt!)
