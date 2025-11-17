@@ -25,12 +25,18 @@
         <a href="uber_uns.html">ÜBER UNS</a>
     </div>
 
-    <!-- Stop-Motion Animation -->
      <a id="WerdeJetztAktiv" href="werd_aktiv.html">
-            <h1>WERDE<br>
-            JETZT<br>
-            AKTIV!</h1>
-        </a>
+            <h1>BLEIB NICHT<br>
+            ZUSCHAUER*IN<br></h1>
+            <h1 style="text-decoration: underline; margin-top: 7vh;">WERD<br>AKTIV!</h1>
+    </a>
+
+         <div id="ÜberallKriesen">
+            <h1>ÜBERALL<br>
+            KRIESEN
+        </h1>
+    </div>
+
 
     <!-- Stop-Motion Animation -->
     <div id="animation-container">
@@ -93,7 +99,9 @@
 
         let scale = 1;
         const el = document.querySelector("#stopMotion");
-        const firstText = document.querySelector("#WerdeJetztAktiv");
+        const firstText = document.querySelector("#ÜberallKriesen");
+        const secondText = document.querySelector("#WerdeJetztAktiv");
+
 
         let velocity = 0;
         let inertiaFrame = null;
@@ -104,7 +112,9 @@
             scale = Math.min(Math.max(0, scale), 1);
 
             el.style.opacity = scale;
-            firstText.style.opacity = 1 - scale;
+            
+            firstText.style.opacity = scale;
+            secondText.style.opacity = 1 - scale;
         }
 
         // Inertia Loop
