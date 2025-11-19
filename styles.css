@@ -294,11 +294,18 @@ p{
     background-color: #B2E9E8;
 }
 
-#veranstaltungskalender {
+#kalender {
     background-color: #D2B48C;  /* Khaki Braun für Veranstaltungskalender */
 }
-#panel_veranstaltungskalender {
+#panel_kalender {
     background-color: #EFE0C8;
+}
+
+#lokal {
+    background-color: #B7E4C7;  /* Khaki Braun für Veranstaltungskalender */
+}
+#panel_lokal {
+    background-color: #caf0d7;
 }
 
 #wer{
