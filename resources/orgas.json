@@ -46,7 +46,7 @@
     },
     {
       "name": "Gruppe für organisierten Antifaschismus [wien]",
-      "info": "Die Gruppe für organisierten Antifaschismus (gfoa) ist ein linksradikales, anti‑autoritäres Antifa-Kollektiv aus Wien, das sich kontinuierlich gegen Neonazis, extreme Rechte und deren Infrastruktur organisiert. Sie kombinieren Recherche, Öffentlichkeitsarbeit, Vorträge und Demonstrationen – etwa zu Faschismustheorien oder gegen rechtsextreme Netzwerke im 2. Bezirk – um antifaschistische Praxis im Alltag zu verankern und solidarische Gegenmacht aufzubauen.",
+      "info": "Die Gruppe für organisierten Antifaschismus (gfoa) ist ein linksradikales, anti‑autoritäres Antifa-Kollektiv aus Wien, das sich kontinuierlich gegen Neonazis, extreme Rechte und deren Infrastruktur organisiert. Sie kombinieren Recherche, Öffentlichkeitsarbeit, Vorträge und Demonstrationen - etwa zu Faschismustheorien oder gegen rechtsextreme Netzwerke im 2. Bezirk - um antifaschistische Praxis im Alltag zu verankern und solidarische Gegenmacht aufzubauen.",
       "website": "https://gfoa.noblogs.org/",
       "instagram": "https://www.instagram.com/gfoa_w"
     }
@@ -236,7 +236,7 @@
     },
     {
       "name": "Kaleidoskop",
-      "info": "Das Kaleidoskop ist ein Freiraum für gemeinsames Leben, Lernen und Gestalten. Hier entsteht Kultur jenseits von Marktlogik – offen, solidarisch und unkommerziell. Ob Kunstprojekt, Lesekreis, Workshop oder Jam-Session: Im Kaleidoskop können Menschen ihre Ideen teilen und verwirklichen – auf Basis von Respekt, Reflexion und Gemeinschaftssinn.",
+      "info": "Das Kaleidoskop ist ein Freiraum für gemeinsames Leben, Lernen und Gestalten. Hier entsteht Kultur jenseits von Marktlogik - offen, solidarisch und unkommerziell. Ob Kunstprojekt, Lesekreis, Workshop oder Jam-Session: Im Kaleidoskop können Menschen ihre Ideen teilen und verwirklichen - auf Basis von Respekt, Reflexion und Gemeinschaftssinn.",
       "website": "https://www.anarchismus.at/wien/58-kaleidoskop",
       "instagram": "https://www.instagram.com/kaleidoskopwien"
     },
@@ -285,14 +285,14 @@
   ],
   "hochschul": [
     {
-      "name": "ÖH (Österreichische Hochschülerinnen- und Hochschülerschaften)",
+      "name": "ÖH (Österreichische Hochschüler:innenschaften)",
       "info": "Die ÖH ist die offizielle gesetzliche Interessensvertretung der Studierenden an österreichischen Hochschulen. Die ÖH Uni Wien setzt sich für bessere Studienbedingungen, Bekämpfung von Diskriminierung und Unterstützung von benachteiligten Studierendengruppen ein. Die ÖH wird durch Fraktionswahlen alle zwei Jahre neu gewählt.",
       "website": "https://oeh.univie.ac.at/",
       "instagram": "https://www.instagram.com/oeh_univie"
     },
     {
-      "name": "KSV Lili (Kommunistischer StudentInnenverband – Linke Liste)",
-      "info": "Der Kommunistische StudentInnenverband – Linke Liste (KSV-LiLi) ist eine linksradikale Studentenorganisation an österreichischen Hochschulen und die Studentenorganisation der KPÖ. Der KSV-LiLi orientiert sich an der Bundes-KPÖ und versteht sich als kommunistisch, feministisch, antifaschistisch und basisdemokratisch. Die Organisation engagiert sich für Abschaffung von Studiengebühren, gegen Rassismus, für Klimaschutz, und war bei der ÖH-Wahl 2023 mit 5,21% in die Bundesvertretung eingezogen.",
+      "name": "KSV Lili (Kommunistischer Student:innenverband - Linke Liste)",
+      "info": "Der Kommunistische Student:innenverband - Linke Liste (KSV-LiLi) ist eine linksradikale Studentenorganisation an österreichischen Hochschulen und die Studentenorganisation der KPÖ. Der KSV-LiLi orientiert sich an der Bundes-KPÖ und versteht sich als kommunistisch, feministisch, antifaschistisch und basisdemokratisch. Die Organisation engagiert sich für Abschaffung von Studiengebühren, gegen Rassismus, für Klimaschutz, und war bei der ÖH-Wahl 2023 mit 5,21% in die Bundesvertretung eingezogen.",
       "website": "https://ksv-lili.at/",
       "instagram": "https://www.instagram.com/ksv.lili"
     },
@@ -303,14 +303,14 @@
       "instagram": "https://www.instagram.com/kjoe_wien"
     },
     {
-      "name": "GRAS (Grüne & Alternative Student_innen)",
-      "info": "Die Grünen & Alternativen Student_innen (GRAS) sind eine der Partei Die Grünen nahestehende Studierendenorganisation in Österreich. Die GRAS verstehen sich als basisdemokratisch, antidiskriminierend, ökologisch-nachhaltig, antikapitalistisch, antifaschistisch und feministisch. Sie sitzen derzeit in der Exekutive der Bundesvertretung der ÖH und sind an zahlreichen Hochschulen in Österreich vertreten.",
+      "name": "GRAS (Grüne & Alternative Student:innen)",
+      "info": "Die Grünen & Alternativen Student:innen (GRAS) sind eine der Partei Die Grünen nahestehende Studierendenorganisation in Österreich. Die GRAS verstehen sich als basisdemokratisch, antidiskriminierend, ökologisch-nachhaltig, antikapitalistisch, antifaschistisch und feministisch. Sie sitzen derzeit in der Exekutive der Bundesvertretung der ÖH und sind an zahlreichen Hochschulen in Österreich vertreten.",
       "website": "https://www.gras.at/",
       "instagram": "https://www.instagram.com/gras_oe"
     },
     {
-      "name": "VSStÖ (Verband Sozialistischer Student_innen Österreichs)",
-      "info": "Der Verband Sozialistischer Student_innen in Österreich (VSStÖ) ist eine sozialistische Studierendenorganisation an österreichischen Hochschulen mit Wurzeln bis 1893. Der VSStÖ setzt sich für Abschaffung von Studiengebühren, bessere Studienförderung, Frauenpolitik und Gleichberechtigung aus Sicht einer linken Sozialpolitik ein. Der VSStÖ ist derzeit die stärkste Kraft in der ÖH Bundesvertretung.",
+      "name": "VSStÖ (Verband Sozialistischer Student:innen Österreichs)",
+      "info": "Der Verband Sozialistischer Student:innen in Österreich (VSStÖ) ist eine sozialistische Studierendenorganisation an österreichischen Hochschulen mit Wurzeln bis 1893. Der VSStÖ setzt sich für Abschaffung von Studiengebühren, bessere Studienförderung, Frauenpolitik und Gleichberechtigung aus Sicht einer linken Sozialpolitik ein. Der VSStÖ ist derzeit die stärkste Kraft in der ÖH Bundesvertretung.",
       "website": "https://vsstoe.at/",
       "instagram": "https://www.instagram.com/vsstoe"
     }
