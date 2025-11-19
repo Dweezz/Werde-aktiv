@@ -327,6 +327,7 @@ p{
 
 .accordion {
     margin-top: 15px;
+    margin-left: 5%;
     background-color: brown;
     border-radius: 25px;
     cursor: pointer;

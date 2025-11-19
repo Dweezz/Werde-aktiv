@@ -43,32 +43,28 @@
 
       <script>
         fetch('resources/orgas.json')
-          .then(response => {
-            if (!response.ok) {
-              throw new Error("HTTP Fehler: " + response.status);
-            }
-            return response.json();
-          })
-          .then(data => {
-            renderAccordion(data);
-          })
-          .catch(error => {
-            document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
-            console.error(error);
-          });
-
-        function renderAccordion(data) {
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("HTTP Fehler: " + response.status);
+          }
+          return response.json();
+        })
+        .then(data => {
           const root = document.getElementById('accordion-root');
           root.innerHTML = '';
 
           Object.entries(data).forEach(([category, orgs]) => {
+            // Accordion Button
             const btn = document.createElement('button');
             btn.className = 'accordion';
+            btn.id = category;  // optional, für CSS IDs z.B.
             btn.innerHTML = `<h3>${category.toUpperCase()}</h3><h4>Organisationen</h4>`;
             root.appendChild(btn);
 
+            // Panel mit Organisationen
             const panel = document.createElement('div');
             panel.className = 'panel';
+            panel.id = 'panel_' + category;
 
             orgs.forEach(o => {
               const h5 = document.createElement('h5');
@@ -89,7 +85,7 @@
 
               if (o.instagram) {
                 const pInsta = document.createElement('p');
-                const instaUser = o.instagram.split('/').filter(Boolean).pop();
+                let instaUser = o.instagram.split('/').filter(Boolean).pop();
                 pInsta.innerHTML = `<strong>Instagram:</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
                 panel.appendChild(pInsta);
               }
@@ -98,6 +94,7 @@
             root.appendChild(panel);
           });
 
+          // Accordion-Click zur Steuerung der max-height Transition
           document.querySelectorAll('.accordion').forEach(btn => {
             btn.addEventListener('click', () => {
               btn.classList.toggle('active');
@@ -105,11 +102,15 @@
               if (panel.style.maxHeight) {
                 panel.style.maxHeight = null;
               } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
+                panel.style.maxHeight = panel.scrollHeight + 'px';
               }
             });
           });
-        }
+        })
+        .catch(error => {
+          console.error("Fehler beim Laden der Daten:", error);
+          document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
+        });
       </script>
 
 
