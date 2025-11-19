@@ -1,28 +1,16 @@
 {
-  "veranstalltungen": [
+  "über mich": [
     {
-      "name": "Technisches Museum",
-      "info": "Catcalls Vienna ist ein Kollektiv, das seit 2020 sexuelle Belästigung im öffentlichen Raum sichtbar macht, indem Betroffene über Instagram ihre Erfahrungen teilen und die Sprüche mit Kreide am Tatort aufgeschrieben werden. Die Initiative ist Teil der internationalen Chalk Back-Bewegung und erobert durch diese Aktion den Ort für die Betroffenen zurück. Über 50 Freiwillige unterstützen die Kerngruppe bei Aufklärungsarbeit und dem Kampf für die Strafbarkeit verbaler sexueller Belästigung in Österreich.",
-      "website": "https://www.technischesmuseum.at/ausstellung/klima_wissen_handeln",
-      "instagram": null
-    },
-    {
-      "name": "Feminism Unlimited Wien",
-      "info": "Feminism Unlimited Wien ist ein antiautoritäres (queer)feministisches Bündnis aus verschiedenen linksradikalen Organisationen, das sich gegen patriarchale, rassistische, antisemitische, ableistische und kapitalistische Strukturen richtet. Das Bündnis organisiert seit 2024 Demonstrationen zum 8. März und zum 25. November und steht für einen universellen Feminismus ohne Ausschlüsse. Es positioniert sich klar gegen Antisemitismus, Rassismus, Transfeindlichkeit und autoritäres Verhalten innerhalb feministischer Räume.",
+      "name": "Über mich",
+      "info": "Ich bin eine Privatperson, die einen niedrigschwelligen Einstieg für angehende linke Aktivistinnen und Aktivisten unterstützt. Persönlich finde ich, dass Wählen wichtig ist, aber nicht reicht: Politische Entscheidungen werden täglich und oft unter dem Einfluss gut organisierter Interessen getroffen, während unsere Anliegen ohne kontinuierliche Organisierung leicht überhört werden. Deshalb setze ich auf gemeinsames Handeln - in lokalen Gruppen, Initiativen und Bündnissen - um dauerhaften Druck aufzubauen, Themen sichtbar zu machen und konkrete Verbesserungen zu erreichen.",
       "website": null,
       "instagram": null
     }
   ],
-  "downloads": [
+  "warum": [
     {
-      "name": "Technisches Museum",
-      "info": "Catcalls Vienna ist ein Kollektiv, das seit 2020 sexuelle Belästigung im öffentlichen Raum sichtbar macht, indem Betroffene über Instagram ihre Erfahrungen teilen und die Sprüche mit Kreide am Tatort aufgeschrieben werden. Die Initiative ist Teil der internationalen Chalk Back-Bewegung und erobert durch diese Aktion den Ort für die Betroffenen zurück. Über 50 Freiwillige unterstützen die Kerngruppe bei Aufklärungsarbeit und dem Kampf für die Strafbarkeit verbaler sexueller Belästigung in Österreich.",
-      "website": "https://www.technischesmuseum.at/ausstellung/klima_wissen_handeln",
-      "instagram": null
-    },
-    {
-      "name": "Feminism Unlimited Wien",
-      "info": "Feminism Unlimited Wien ist ein antiautoritäres (queer)feministisches Bündnis aus verschiedenen linksradikalen Organisationen, das sich gegen patriarchale, rassistische, antisemitische, ableistische und kapitalistische Strukturen richtet. Das Bündnis organisiert seit 2024 Demonstrationen zum 8. März und zum 25. November und steht für einen universellen Feminismus ohne Ausschlüsse. Es positioniert sich klar gegen Antisemitismus, Rassismus, Transfeindlichkeit und autoritäres Verhalten innerhalb feministischer Räume.",
+      "name": "Wille zur Veränderung unterstützen",
+      "info": "Ich mache das, weil Demokratie mehr braucht als ein Kreuz am Stimmzettel: Ohne kontinuierliche Organisierung bleiben viele Anliegen unsichtbar, besonders wenn politisches Gewicht ungleich verteilt ist und gut organisierte Interessen den Alltag der Entscheidungen prägen. Es geht darum, Beteiligungslücken zu schließen, die durch ungleiche Wahlbeteiligung entstehen, und Menschen zu befähigen, gemeinsam Druck aufzubauen, Themen zu setzen und konkrete Reformen durchzusetzen. Durch niedrigschwellige Einstiege, Bildung und verlässliche Strukturen können aus Einzelnen handlungsfähige Gruppen werden, die Verantwortliche rechenschaftspflichtig machen und Veränderungen beschleunigen – etwas, das Wahlen allein nicht leisten können.",
       "website": null,
       "instagram": null
     }

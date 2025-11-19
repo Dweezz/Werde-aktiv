@@ -213,10 +213,10 @@ p{
     background-color: #BFEADA;
 }
 
-#allgemein {
+#allgemeine {
     background-color: #F4B183;  /* Warmer Orange-Ton passend zur Akzentfarbe */
 }
-#panel_allgemein {
+#panel_allgemeine {
     background-color: #FFE6CC;
 }
 
@@ -248,14 +248,14 @@ p{
     background-color: #FFF8DC;
 }
 
-#besetzungen {
+#besetzungs {
     background-color: #FF6F61;  /* Kräftiges Korallenrot für Protestbewegungen */
 }
-#panel_besetzungen {
+#panel_besetzungs {
     background-color: #FFDAD4;
 }
 
-#linke_spaces {
+#linke spaces {
     background-color: #7EC8E3;  /* Himmelblau für linke Spaces und Kultur */
 }
 #panel_linke_spaces {
@@ -283,32 +283,11 @@ p{
     background-color: #E3F2FD;
 }
 
-#hochschule {
+#hochschul {
     background-color: #FFC300;  /* Intensives Gelb für Hochschulthemen */
 }
 #panel_hochschule {
     background-color: #FFECB3;
-}
-
-#antirassismus {
-    background-color: #FF7F50;  /* Korallenrot für antirassistische Themen */
-}
-#panel_antirassismus {
-    background-color: #FFD9CC;
-}
-
-#partizipation {
-    background-color: #40E0D0;  /* Türkis als einladende Farbe für Partizipation */
-}
-#panel_partizipation {
-    background-color: #B2E9E8;
-}
-
-#kalender {
-    background-color: #D2B48C;  /* Khaki Braun für Veranstaltungskalender */
-}
-#panel_kalender {
-    background-color: #EFE0C8;
 }
 
 #lokal {
@@ -316,6 +295,13 @@ p{
 }
 #panel_lokal {
     background-color: #caf0d7;
+}
+
+#kalender {
+    background-color: #D2B48C;  /* Khaki Braun für Veranstaltungskalender */
+}
+#panel_kalender {
+    background-color: #EFE0C8;
 }
 
 #veranstalltungen{

@@ -30,15 +30,80 @@
     <h1 id="uns">Uns</h1>
     </div>
 
-    <button id="wer" class="accordion_ueber"><h3>Wer bin ich?</h3></button>
-    <div class="panel" id="panel_wer">
-      <p>Ich bin eine Privatperson, die einen niedrigschwelligen Einstieg für angehende linke Aktivistinnen und Aktivisten unterstützt. Persönlich finde ich, dass Wählen wichtig ist, aber nicht reicht: Politische Entscheidungen werden täglich und oft unter dem Einfluss gut organisierter Interessen getroffen, während unsere Anliegen ohne kontinuierliche Organisierung leicht überhört werden. Deshalb setze ich auf gemeinsames Handeln - in lokalen Gruppen, Initiativen und Bündnissen - um dauerhaften Druck aufzubauen, Themen sichtbar zu machen und konkrete Verbesserungen zu erreichen.</p>
-    </div>
+    <div id="accordion-root">Lade Daten...</div>
 
-    <button id="warum" class="accordion_ueber"><h3>Warum?</h3></button>
-    <div class="panel" id="panel_warum">
-      <p>Ich mache das, weil Demokratie mehr braucht als ein Kreuz am Stimmzettel: Ohne kontinuierliche Organisierung bleiben viele Anliegen unsichtbar, besonders wenn politisches Gewicht ungleich verteilt ist und gut organisierte Interessen den Alltag der Entscheidungen prägen. Es geht darum, Beteiligungslücken zu schließen, die durch ungleiche Wahlbeteiligung entstehen, und Menschen zu befähigen, gemeinsam Druck aufzubauen, Themen zu setzen und konkrete Reformen durchzusetzen. Durch niedrigschwellige Einstiege, Bildung und verlässliche Strukturen können aus Einzelnen handlungsfähige Gruppen werden, die Verantwortliche rechenschaftspflichtig machen und Veränderungen beschleunigen – etwas, das Wahlen allein nicht leisten können.</p>
-    </div>
+    <script> 
+      fetch('resources/uber.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("HTTP Fehler: " + response.status);
+          }
+          return response.json();
+        })
+        .then(data => {
+          renderAccordion(data);
+        })
+        .catch(error => {
+          document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
+          console.error(error);
+        });
+
+      function renderAccordion(data) {
+        const root = document.getElementById('accordion-root');
+        root.innerHTML = '';
+
+        Object.entries(data).forEach(([category, orgs]) => {
+          const btn = document.createElement('button');
+          btn.className = 'accordion';
+          btn.id = category;
+          btn.innerHTML = `<h6>${category.toUpperCase()}</h6>`;
+          root.appendChild(btn);
+
+          const panel = document.createElement('div');
+          panel.className = 'panel';
+          panel.id = 'panel_' + category;
+
+          orgs.forEach(o => {
+            const h5 = document.createElement('h5');
+            if (o.website) {
+              const a = document.createElement('a');
+              a.href = o.website;
+              a.target = '_blank';
+              a.textContent = o.name;
+              h5.appendChild(a);
+            } else {
+              h5.textContent = o.name;
+            }
+            panel.appendChild(h5);
+
+            const pInfo = document.createElement('p');
+            pInfo.textContent = o.info;
+            panel.appendChild(pInfo);
+
+            if (o.instagram) {
+              const pInsta = document.createElement('p');
+              const instaUser = o.instagram.split('/').filter(Boolean).pop();
+              pInsta.innerHTML = `<strong>Instagram:</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
+              panel.appendChild(pInsta);
+            }
+          });
+
+          root.appendChild(panel);
+        });
+
+        document.querySelectorAll('.accordion').forEach(btn => {
+          btn.addEventListener('click', () => {
+            btn.classList.toggle('active');
+            const panel = btn.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        });
+      }
+    </script>
 
 
     <script>
@@ -71,13 +136,13 @@
       function toggleMenu() {
           document.getElementById("menu").classList.toggle("active");
       }
-      document.querySelectorAll(".accordion").forEach(button => {
+      document.querySelectorAll(".accordion_ueber").forEach(button => {
         button.addEventListener("click", () => {
           const panel = button.nextElementSibling;
           const isOpen = panel.style.maxHeight;
 
           //Alle anderen Accordions schließen (optional)
-          document.querySelectorAll(".accordion + .panel").forEach(p => {
+          document.querySelectorAll(".accordion_ueber + .panel").forEach(p => {
           p.style.maxHeight = "";
           p.previousElementSibling.classList.remove("active");
           });
@@ -93,7 +158,6 @@
           }
         });
       });
-
     </script>
 </body>
 </html>
