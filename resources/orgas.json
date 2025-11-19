@@ -51,7 +51,7 @@
       "instagram": "https://www.instagram.com/gfoa_w"
     }
   ],
-  "allgemein": [
+  "allgemeine": [
     {
       "name": "Wir* gegen Rechts",
       "info": "Wir* gegen Rechts ist eine lose Gruppe von Menschen, die sich gegen den massiven Rechtsruck in Österreich und Europa organisieren. Die Initiative bietet 50 Aktionsideen, Argumentationstrainings gegen rechte Parolen und Haustürgespräche zur Mobilisierung von Nichtwähler*innen. Die Kampagne wurde durch Spenden finanziert und verteilt kostenlose Plakate im IG KiKK-Büro.",
@@ -189,7 +189,7 @@
       "instagram": "https://www.instagram.com/linkswien"
     }
   ],
-  "besetzungen": [
+  "besetzungs": [
     {
       "name": "Lobau Bleibt",
       "info": "Lobau Bleibt ist eine Protestbewegung gegen den Bau der Lobau-Autobahn und Stadtstraße in Wien, die von Fridays for Future Wien, System Change not Climate Change, Jugendrat und Extinction Rebellion initiiert wurde. Die Bewegung besetzte ab August 2021 mehrere Baustellen und erreichte im November 2021 den Stopp der Lobau-Autobahn durch Klimaschutzministerin Gewessler. Nach der Räumung am 1. Februar 2022 durch die Polizei setzt die Bewegung ihren Widerstand für eine soziale und klimagerechte Mobilitätswende fort.",
@@ -203,34 +203,34 @@
       "instagram": "https://www.instagram.com/fisch.acker"
     }
   ],
-  "linke_spaces": [
+  "linke spaces": [
     {
       "name": "Althangrund / 4lthangrund",
-      "info": "Selbstverwaltetes Kulturzentrum auf dem Gelände der alten WU in Wien, solidarische Raumnutzung für Kunst, Kultur und Soziales.",
+      "info": "Das Kulturzentrum 4lthangrund ist ein selbstverwaltetes Kulturzentrum auf dem Gelände der alten Wirtschaftsuniversität in der Augasse 2-6, 1090 Wien, das seit 2018 Kunst, Kultur und soziales Miteinander im Grätzel verankert. Der als gemeinnütziger Verein organisierte Raum bietet über 40 Gruppen und Initiativen eine Basis mit Büroräumen, Veranstaltungsräumen (Alte Mensa, Wolke, Hütte) und einem umfangreichen Jahresprogramm mit rund 200 Veranstaltungen. Das Motto \"Althangrund für Alle\" steht für solidarische Raumnutzung und alle Veranstaltungen sind kostenfrei zugänglich.",
       "website": "https://4lthangrund.jetzt/",
       "instagram": "https://www.instagram.com/4lthangrund"
     },
     {
       "name": "EKH (Ernst-Kirchweger-Haus)",
-      "info": "Zentrum der autonomen Szene in Wien-Favoriten mit vielfältigen politischen und kulturellen Veranstaltungen.",
+      "info": "Das Ernst-Kirchweger-Haus (EKH) ist ein seit 1990 bestehendes Zentrum der autonomen Szene in Wien-Favoriten (Wielandgasse 2-4), das nach dem antifaschistischen Widerstandskämpfer Ernst Kirchweger benannt wurde. Das Gebäude wurde als Komensky-Schule erbaut, 1990 besetzt und ist seit 2008 legalisiert, nachdem die Stadt Wien die Immobilie kaufte und Nutzungsverträge abschloss. Im EKH sind zahlreiche politische, kulturelle und soziale Gruppen aktiv, und es finden fast täglich Veranstaltungen wie Konzerte, Lesungen und Diskussionen statt.",
       "website": "https://med-user.net/~ekh/",
       "instagram": null
     },
     {
       "name": "WUK (Werkstätten- und Kulturhaus)",
-      "info": "Selbstverwaltetes Kultur- und Bildungszentrum mit Fokus auf alternative Kultur und politische Aktivitäten.",
+      "info": "Das WUK ist ein selbstverwaltetes Kultur- und Bildungszentrum in Wien mit Werkstätten, Ateliers und Veranstaltungsräumen, das verschiedenste künstlerische und politische Gruppen beheimatet. Das Zentrum funktioniert basisdemokratisch und bietet Raum für alternative Kultur, Handwerk und politische Aktivitäten.",
       "website": "https://wuk.at/",
       "instagram": "https://www.instagram.com/wukvienna"
     },
     {
       "name": "Hafen",
-      "info": "Linker Kulturraum und Veranstaltungsort in Wien.",
+      "info": "Der Hafen in Ottakring gehört zu einem linken Kulturraum und Veranstaltungsort in Wien. Der Hafen bietet eine Plattform für politische und kulturelle Veranstaltungen, die Raum für solidarisches Miteinander, alternative Lebensweisen und kreative Projekte schaffen. Er fördert Vernetzung und Austausch in der Szene und trägt zur Vielfalt der Wiener Kulturlandschaft bei.",
       "website": null,
       "instagram": "https://www.instagram.com/der.hafen.ottakring"
     },
     {
       "name": "Villa Vida",
-      "info": "Soziales Projekt mit Raum für Solidarität, Gemeinschaft und politische Vernetzung.",
+      "info": "Villa Vida ist ein soziales Projekt in Wien, das einen Raum für Solidarität, Gemeinschaft und politische Vernetzung bietet. Es versteht sich als kultureller und sozialer Treffpunkt, der Raum für vielfältige Aktivitäten, Workshops und Veranstaltungen schafft, um soziale Gerechtigkeit und gegenseitige Unterstützung zu fördern. ",
       "website": "https://villavida.at/",
       "instagram": "https://www.instagram.com/villavidacafe"
     },
@@ -250,13 +250,13 @@
   "tierschutz": [
     {
       "name": "VGT (Verein gegen Tierfabriken)",
-      "info": "Österreichs führende Tierschutzorganisation mit Fokus auf Gewaltlosigkeit und umfassenden Kampagnen für Tierwohl.",
+      "info": "Der Verein gegen Tierfabriken (VGT) wurde 1992 gegründet und ist mit rund 18.000 Mitgliedern Österreichs führende Tierschutzorganisation, die sich für Mitgefühl und Respekt gegenüber Tieren einsetzt. Der VGT kämpft mit dem Grundsatz der Gewaltlosigkeit gegen Tierfabriken, Tierversuche, Pelz, Wildtierzirkusse und für bessere Tierschutzgesetze. Die Organisation kann Erfolge wie die Schließung aller Pelzfarmen, das Ende von Legebatterien, das Verbot von Wildtieren im Zirkus und die Verankerung von Tierschutz in der Verfassung vorweisen.",
       "website": "https://vgt.at/",
       "instagram": "https://www.instagram.com/vgt.austria"
     },
     {
       "name": "Anonymous for the Voiceless",
-      "info": "Internationale Tierrechtsbewegung mit öffentlichen Aktionen und 'Cube of Truth'-Kampagnen.",
+      "info": "Anonymous for the Voiceless ist eine internationale Tierrechtsorganisation, die sich auf vegane Straßenaktivismus formiert hat. Mit den bekannten \"Cubes of Truth\" machen sie passivem Publikum die Realität der Tierausbeutung sichtbar und schaffen so Bewusstsein und Wandel. Die Gruppe verfolgt eine abolitionistische Haltung gegen jegliche Ausbeutung nichtmenschlicher Tiere und setzt klare, direkte vegane Botschaften um.",
       "website": "https://anonymousforthevoiceless.org/",
       "instagram": null
     }
@@ -264,7 +264,7 @@
   "kapitalismus": [
     {
       "name": "Attac Österreich",
-      "info": "Globalisierungskritische Bewegung mit Fokus auf Finanzmärkte, Steuerpolitik und soziale Gerechtigkeit.",
+      "info": "Attac Österreich ist eine globalisierungskritische Bewegung, die sich gegen neoliberale Globalisierung, Finanzmarktspekulation und die Macht von Konzernen einsetzt. Die Organisation fordert demokratische Kontrolle der Finanzmärkte, eine Finanztransaktionssteuer, faire Handelspolitik und gerechte Besteuerung von Konzernen und Vermögen. Attac hat zentrale Erfolge erzielt, wie das Stoppen von TTIP und der Doha-Runde der WTO, und brachte Themen wie Steuergerechtigkeit und Privatisierung ins Zentrum politischer Debatten.",
       "website": "https://attac.at/",
       "instagram": "https://www.instagram.com/attac.at"
     }
@@ -283,42 +283,42 @@
       "instagram": "https://www.instagram.com/grad.recht"
     }
   ],
-  "hochschule": [
+  "hochschul": [
     {
       "name": "ÖH (Österreichische Hochschülerinnen- und Hochschülerschaften)",
-      "info": "Offizielle Interessensvertretung der Studierenden an österreichischen Hochschulen mit regelmäßigen Wahlen und Veranstaltungen.",
+      "info": "Die ÖH ist die offizielle gesetzliche Interessensvertretung der Studierenden an österreichischen Hochschulen. Die ÖH Uni Wien setzt sich für bessere Studienbedingungen, Bekämpfung von Diskriminierung und Unterstützung von benachteiligten Studierendengruppen ein. Die ÖH wird durch Fraktionswahlen alle zwei Jahre neu gewählt.",
       "website": "https://oeh.univie.ac.at/",
       "instagram": "https://www.instagram.com/oeh_univie"
     },
     {
       "name": "KSV Lili (Kommunistischer StudentInnenverband – Linke Liste)",
-      "info": "Linksradikale Studentenorganisation, aktiv in antifaschistischer, feministischer und antikapitalistischer Hochschulpolitik.",
+      "info": "Der Kommunistische StudentInnenverband – Linke Liste (KSV-LiLi) ist eine linksradikale Studentenorganisation an österreichischen Hochschulen und die Studentenorganisation der KPÖ. Der KSV-LiLi orientiert sich an der Bundes-KPÖ und versteht sich als kommunistisch, feministisch, antifaschistisch und basisdemokratisch. Die Organisation engagiert sich für Abschaffung von Studiengebühren, gegen Rassismus, für Klimaschutz, und war bei der ÖH-Wahl 2023 mit 5,21% in die Bundesvertretung eingezogen.",
       "website": "https://ksv-lili.at/",
       "instagram": "https://www.instagram.com/ksv.lili"
     },
     {
       "name": "KSV KJÖ",
-      "info": "Studentenorganisation der Kommunistischen Jugend Österreichs mit Fokus auf emanzipatorische Hochschulpolitik.",
+      "info": "Der KSV KJÖ ist die Studentenorganisation der Kommunistischen Jugend Österreichs (KJÖ) und tritt an verschiedenen österreichischen Hochschulen, insbesondere an der Universität Wien unter dem Namen \"KJÖ StudentInnen\", bei ÖH-Wahlen an. Die Gruppe kämpft für bessere Studienbedingungen, gegen Studiengebühren und für emanzipatorische Hochschulpolitik.",
       "website": "https://ksv-kjoe.at/",
       "instagram": "https://www.instagram.com/kjoe_wien"
     },
     {
       "name": "GRAS (Grüne & Alternative Student_innen)",
-      "info": "Grüne und alternative Studierendenorganisation mit Fokus auf nachhaltiger und sozialer Hochschulpolitik.",
+      "info": "Die Grünen & Alternativen Student_innen (GRAS) sind eine der Partei Die Grünen nahestehende Studierendenorganisation in Österreich. Die GRAS verstehen sich als basisdemokratisch, antidiskriminierend, ökologisch-nachhaltig, antikapitalistisch, antifaschistisch und feministisch. Sie sitzen derzeit in der Exekutive der Bundesvertretung der ÖH und sind an zahlreichen Hochschulen in Österreich vertreten.",
       "website": "https://www.gras.at/",
       "instagram": "https://www.instagram.com/gras_oe"
     },
     {
       "name": "VSStÖ (Verband Sozialistischer Student_innen Österreichs)",
-      "info": "Sozialistische Studierendenorganisation mit Fokus auf soziale Gerechtigkeit und Abschaffung von Studiengebühren.",
+      "info": "Der Verband Sozialistischer Student_innen in Österreich (VSStÖ) ist eine sozialistische Studierendenorganisation an österreichischen Hochschulen mit Wurzeln bis 1893. Der VSStÖ setzt sich für Abschaffung von Studiengebühren, bessere Studienförderung, Frauenpolitik und Gleichberechtigung aus Sicht einer linken Sozialpolitik ein. Der VSStÖ ist derzeit die stärkste Kraft in der ÖH Bundesvertretung.",
       "website": "https://vsstoe.at/",
       "instagram": "https://www.instagram.com/vsstoe"
     }
   ],
-  "lokal": [
+  "lokale": [
     {
       "name": "Wir machen Wien",
-      "info": "Plattform zur Vernetzung von Aktivist*innen im Klima- und Mobilitätsbereich mit Fokus auf Bürgerbeteiligung und Workshops.",
+      "info": "\"Wir machen Wien\" ist eine unabhängige zivilgesellschaftliche Plattform zur Vernetzung von Aktivistinnen und Bürgerinnen-Initiativen im Mobilitäts- und Klimabereich. Die Initiative bietet Know-How, erstellt eine Online-Karte der Initiativen, produziert Tutorials und stärkt durch Kooperation das zivilgesellschaftliche Engagement. Ziel ist eine klimagerechte, lebenswerte und partizipative Stadt Wien.",
       "website": "https://wirmachen.wien/",
       "instagram": "https://www.instagram.com/wir.machen.wien"
     }
@@ -326,13 +326,13 @@
   "kalender": [
     {
       "name": "Zeit.diebin",
-      "info": "Veranstaltungskalender-Plattform für linke, anarchistische und autonome Veranstaltungen im deutschsprachigen Raum.",
+      "info": "Zeit.diebin ist eine Veranstaltungskalender-Plattform und Netzwerk für linke, anarchistische und autonome Veranstaltungen im deutschsprachigen Raum. Die Plattform ermöglicht es, Termine von Demos, Vorträgen, Workshops und Versammlungen zu finden und zu teilen.",
       "website": "https://zeit.diebin.at/",
       "instagram": null
     },
     {
       "name": "Klimaschutz Kalender",
-      "info": "Öffentlicher Veranstaltungskalender für Klimaaktivitäten und -demonstrationen in Österreich mit koordinierter Eintragung von Aktionen.",
+      "info": "Der Klimaschutz Kalender ist ein öffentlicher Veranstaltungskalender für Klimaaktivitäten und -demonstrationen in Österreich. Die Plattform ermöglicht es Gruppen, ihre Aktionen einzutragen und zu koordinieren.",
       "website": "https://kalender.digital/34f32149943031008418",
       "instagram": null
     }

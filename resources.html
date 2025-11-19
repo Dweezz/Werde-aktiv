@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Werde Aktiv</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Burger-Menü Button -->
+    <div class="burger-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Navigations-Menü -->
+    <div class="menu" id="menu">
+        <a href="index.html">START</a>
+        <a href="werd_aktiv.html">WERDE AKTIV</a>
+        <a href="resources.html">RECOURCEN</a>
+        <a href="uber_uns.html">ÜBER UNS</a>
+    </div>
+
+    <div id="header2">
+    <h1 id="uber">Resour</h1>
+    <h1 id="uns">cen</h1>
+    </div>
+
+    <div id="accordion-root">Lade Daten...</div>
+
+    <script> 
+      fetch('resources/orgas.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("HTTP Fehler: " + response.status);
+          }
+          return response.json();
+        })
+        .then(data => {
+          renderAccordion(data);
+        })
+        .catch(error => {
+          document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
+          console.error(error);
+        });
+
+      function renderAccordion(data) {
+        const root = document.getElementById('accordion-root');
+        root.innerHTML = '';
+
+        Object.entries(data).forEach(([category, orgs]) => {
+          const btn = document.createElement('button');
+          btn.className = 'accordion';
+          btn.innerHTML = `<h3>${category.toUpperCase()}</h3><h4>Organisationen</h4>`;
+          root.appendChild(btn);
+
+          const panel = document.createElement('div');
+          panel.className = 'panel';
+
+          orgs.forEach(o => {
+            const h5 = document.createElement('h5');
+            if (o.website) {
+              const a = document.createElement('a');
+              a.href = o.website;
+              a.target = '_blank';
+              a.textContent = o.name;
+              h5.appendChild(a);
+            } else {
+              h5.textContent = o.name;
+            }
+            panel.appendChild(h5);
+
+            const pInfo = document.createElement('p');
+            pInfo.textContent = o.info;
+            panel.appendChild(pInfo);
+
+            if (o.instagram) {
+              const pInsta = document.createElement('p');
+              const instaUser = o.instagram.split('/').filter(Boolean).pop();
+              pInsta.innerHTML = `<strong>Instagram:</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
+              panel.appendChild(pInsta);
+            }
+          });
+
+          root.appendChild(panel);
+        });
+
+        document.querySelectorAll('.accordion').forEach(btn => {
+          btn.addEventListener('click', () => {
+            btn.classList.toggle('active');
+            const panel = btn.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        });
+      }
+    </script>
+
+    <script>
+
+      // Referenzen
+        const burger = document.querySelector('.burger-menu');
+
+        // Scrollrichtung tracken
+        let lastScrollY = window.pageYOffset;
+
+        // Debounce/Throttle optional; hier einfache Version
+        window.addEventListener('scroll', () => {
+            const currentY = window.pageYOffset;
+
+            // Schwelle, um „Mikro“-Scrolls zu ignorieren
+            const delta = currentY - lastScrollY;
+
+            if (delta > 4) {
+            // Scroll nach unten -> ausblenden
+            burger.classList.add('hidden');
+            } else if (delta < -4) {
+            // Scroll nach oben -> einblenden
+            burger.classList.remove('hidden');
+            }
+
+            lastScrollY = currentY <= 0 ? 0 : currentY;
+        }, { passive: true });
+    
+      // Burger-Menü Steuerung
+      function toggleMenu() {
+          document.getElementById("menu").classList.toggle("active");
+      }
+      document.querySelectorAll(".accordion_resources").forEach(button => {
+        button.addEventListener("click", () => {
+          const panel = button.nextElementSibling;
+          const isOpen = panel.style.maxHeight;
+
+          //Alle anderen Accordions schließen (optional)
+          document.querySelectorAll(".accordion_resources + .panel").forEach(p => {
+          p.style.maxHeight = "";
+          p.previousElementSibling.classList.remove("active");
+          });
+
+          if (isOpen) {
+            // Zuklappen
+            panel.style.maxHeight = "";
+            button.classList.remove("active");
+          } else {
+            // Aufklappen
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            button.classList.add("active");
+          }
+        });
+      });
+    </script>
+</body>
+</html>

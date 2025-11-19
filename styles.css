@@ -185,6 +185,16 @@ h5{
     margin-block-end: 0;
 }
 
+h6{
+    margin: 0px;
+    font-size: 50px;
+    color: black;
+    font-family: Oswald;
+    font-weight: 500;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
 p{
     font-size: 15px;
     font-family: Oswald;
@@ -302,34 +312,29 @@ p{
 }
 
 #lokal {
-    background-color: #B7E4C7;  /* Khaki Braun für Veranstaltungskalender */
+    background-color: #B7E4C7; 
 }
 #panel_lokal {
     background-color: #caf0d7;
 }
 
-#wer{
+#aktuell{
     background-color: #FFD050;
 }
 
-#panel_wer{
+#panel_aktuell{
     background-color: #FFEAB1;
 }
 
-#warum{
+#downloads{
     background-color: #8EC8B3;
 }
-#panel_warum{
+#panel_downloads{
     background-color: #BFEADA;    
 }
 
-#pfeil{
-    margin: 0;
-    margin-bottom: 10px;
-    align-items: center;
-    font-size: 2rem;
-    line-height: 1;
-    text-align: center;
+#accordion-root{
+    margin-bottom: 15px;
 }
 
 .accordion {
@@ -346,20 +351,20 @@ p{
     transition: 0.4s;
   }
 
-  .accordion.active {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+.accordion.active {
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
 }
 
-  .panel {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 18px;
-    padding-right: 18px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out;
-  }
+.panel {
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 18px;
+padding-right: 18px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-color: white;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.4s ease-out;
+}
