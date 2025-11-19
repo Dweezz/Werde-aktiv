@@ -322,19 +322,5 @@
       "website": "https://wirmachen.wien/",
       "instagram": "https://www.instagram.com/wir.machen.wien"
     }
-  ],
-  "kalender": [
-    {
-      "name": "Zeit.diebin",
-      "info": "Zeit.diebin ist eine Veranstaltungskalender-Plattform und Netzwerk für linke, anarchistische und autonome Veranstaltungen im deutschsprachigen Raum. Die Plattform ermöglicht es, Termine von Demos, Vorträgen, Workshops und Versammlungen zu finden und zu teilen.",
-      "website": "https://zeit.diebin.at/",
-      "instagram": null
-    },
-    {
-      "name": "Klimaschutz Kalender",
-      "info": "Der Klimaschutz Kalender ist ein öffentlicher Veranstaltungskalender für Klimaaktivitäten und -demonstrationen in Österreich. Die Plattform ermöglicht es Gruppen, ihre Aktionen einzutragen und zu koordinieren.",
-      "website": "https://kalender.digital/34f32149943031008418",
-      "instagram": null
-    }
   ]
 }
