@@ -72,11 +72,24 @@
         // --------------------------
         // STOP-MOTION ANIMATION
         // --------------------------
+
+        if(window.matchMedia("(max-width: 760px)").matches) {
+            // Lade mobiles Bild
+            document.getElementById("bild1").src = "images/erde_brennt1_small.png";
+            document.getElementById("bild2").src = "images/erde_brennt2_small.png";
+            document.getElementById("bild3").src = "images/erde_brennt3_small.png";
+        } else {
+            // Lade Desktop-Bild
+            document.getElementById("bild1").src = "images/erde_brennt1.png";
+            document.getElementById("bild2").src = "images/erde_brennt2.png";
+            document.getElementById("bild3").src = "images/erde_brennt3.png";
+        }
+
         const frames = [
-            "images/erde_brennt1.png",
-            "images/erde_brennt2.png",
-            "images/erde_brennt3.png",
-            "images/erde_brennt2.png"
+            bild1,
+            bild2,
+            bild3,
+            bild2
         ];
         let index = 0;
         const imgElement = document.getElementById("stopMotion");
