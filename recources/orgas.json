@@ -1,0 +1,340 @@
+{
+  "awareness": [
+    {
+      "name": "Catcalls Vienna",
+      "info": "Catcalls Vienna ist ein Kollektiv, das seit 2020 sexuelle Belästigung im öffentlichen Raum sichtbar macht, indem Betroffene über Instagram ihre Erfahrungen teilen und die Sprüche mit Kreide am Tatort aufgeschrieben werden. Die Initiative ist Teil der internationalen Chalk Back-Bewegung und erobert durch diese Aktion den Ort für die Betroffenen zurück. Über 50 Freiwillige unterstützen die Kerngruppe bei Aufklärungsarbeit und dem Kampf für die Strafbarkeit verbaler sexueller Belästigung in Österreich.",
+      "website": null,
+      "instagram": "https://www.instagram.com/catcallsof.vie"
+    },
+    {
+      "name": "Feminism Unlimited Wien",
+      "info": "Feminism Unlimited Wien ist ein antiautoritäres (queer)feministisches Bündnis aus verschiedenen linksradikalen Organisationen, das sich gegen patriarchale, rassistische, antisemitische, ableistische und kapitalistische Strukturen richtet. Das Bündnis organisiert seit 2024 Demonstrationen zum 8. März und zum 25. November und steht für einen universellen Feminismus ohne Ausschlüsse. Es positioniert sich klar gegen Antisemitismus, Rassismus, Transfeindlichkeit und autoritäres Verhalten innerhalb feministischer Räume.",
+      "website": null,
+      "instagram": "https://www.instagram.com/feminism.unlimited.w"
+    },
+    {
+      "name": "Awarenetz",
+      "info": "Awarenetz bietet Schulungen und Support für Awareness-Strukturen in der Kulturszene und bei Veranstaltungen. Die Organisation entwickelt Konzepte und trainiert Teams in Gewaltprävention und Diskriminierungsschutz an Veranstaltungsorten.",
+      "website": "https://awarenetz.org/",
+      "instagram": null
+    },
+    {
+      "name": "HOSI Wien",
+      "info": "Die Homosexuelle Initiative Wien ist die älteste und größte LGBTQI+-Organisation Österreichs. Sie kämpft für Gleichberechtigung, bietet Beratungen, organisiert Events wie die Regenbogenparade und betreibt das Communityzentrum „Gugg“.",
+      "website": "https://hosiwien.at/",
+      "instagram": "https://www.instagram.com/hosiwien"
+    },
+    {
+      "name": "Vienna Club Commission",
+      "info": "Die Vienna Club Commission ist eine Beratungs- und Vernetzungsstelle für Clubs, Veranstalterinnen und Akteurinnen des Wiener Nachtlebens. Sie bietet rechtliche und organisatorische Unterstützung, stellt Wissen in Form von Leitfäden, FAQs und Infoveranstaltungen bereit und moderiert zwischen Szene, Behörden und Anrainer*innen. Ein Schwerpunkt liegt auf Awareness, fairen Arbeitsbedingungen, Inklusion und dem Schutz von Clubkultur als Teil des kulturellen Erbes der Stadt.",
+      "website": "https://www.viennaclubcommission.at/",
+      "instagram": "https://www.instagram.com/viennaclubcommission"
+    }
+  ],
+  "antifa": [
+    {
+      "name": "Offenes Antifa Treffen (OAT)",
+      "info": "Das OAT ist eine offene Plattform für alle, die antifaschistisch aktiv werden möchten. In regelmäßigen Treffen werden Aktionen geplant, Wissen ausgetauscht und neue Aktivist*innen eingebunden.",
+      "website": "https://oatwien.noblogs.org/",
+      "instagram": "https://www.instagram.com/oatwien"
+    },
+    {
+      "name": "Autonome Antifa [w]",
+      "info": "Das Offene Antifa Treffen (OAT) ist ein Anlaufpunkt für alle antifaschistischen, feministischen und antirassistischen Personen, die sich fernab von Parteijugenden oder NGOs organisieren möchten. Die Gruppe trifft sich monatlich (jeden 2. Dienstag) in der Alten Mensa im Kulturzentrum 4lthangrund und plant gemeinsam Veranstaltungen, Aktionen und politische Bildung. Das OAT versteht sich als linksradikaler, antikapitalistischer Antifaschismus und organisiert sich gegen die extreme Rechte in Wien.",
+      "website": null,
+      "instagram": "https://www.instagram.com/antifa_w"
+    },
+    {
+      "name": "Gruppe für organisierten Antifaschismus [wien]",
+      "info": "Die Gruppe für organisierten Antifaschismus (gfoa) ist ein linksradikales, anti‑autoritäres Antifa-Kollektiv aus Wien, das sich kontinuierlich gegen Neonazis, extreme Rechte und deren Infrastruktur organisiert. Sie kombinieren Recherche, Öffentlichkeitsarbeit, Vorträge und Demonstrationen – etwa zu Faschismustheorien oder gegen rechtsextreme Netzwerke im 2. Bezirk – um antifaschistische Praxis im Alltag zu verankern und solidarische Gegenmacht aufzubauen.",
+      "website": "https://gfoa.noblogs.org/",
+      "instagram": "https://www.instagram.com/gfoa_w"
+    }
+  ],
+  "allgemein": [
+    {
+      "name": "Wir* gegen Rechts",
+      "info": "Wir* gegen Rechts ist eine lose Gruppe von Menschen, die sich gegen den massiven Rechtsruck in Österreich und Europa organisieren. Die Initiative bietet 50 Aktionsideen, Argumentationstrainings gegen rechte Parolen und Haustürgespräche zur Mobilisierung von Nichtwähler*innen. Die Kampagne wurde durch Spenden finanziert und verteilt kostenlose Plakate im IG KiKK-Büro.",
+      "website": "https://wir-gegen-rechts.at/",
+      "instagram": "https://www.instagram.com/wir.gegenrechts"
+    },
+    {
+      "name": "Civil Action Network (CAN)",
+      "info": "Das Civil Action Network ist eine Organisation, die zivilgesellschaftliche Akteur*innen durch Trainings, Coaching, Moderation und Vernetzungsveranstaltungen stärkt, um wirksamen und nachhaltigen sozialen Wandel von unten nach oben zu fördern. CAN bietet sowohl niedrigschwellige Angebote für breite Bevölkerungsgruppen als auch Unterstützung für bereits aktive Initiativen in den Bereichen Community Organizing, gewaltfreie Kommunikation und regeneratives Engagement.",
+      "website": "https://civilaction.net/",
+      "instagram": "https://www.instagram.com/civilactionnetwork"
+    },
+    {
+      "name": "Solidarity Kitchen",
+      "info": "Solidarity Kitchen ist eine solidarische Suppenküche, die beim Kulturzentrum 4lthangrund in Wien betrieben wird. Sie bietet kostenlose oder kostengünstige Mahlzeiten für Menschen in schwierigen Lebenssituationen an, um Gemeinschaft zu stärken und soziale Ausgrenzung zu bekämpfen. Die Initiative wird von Freiwilligen organisiert und versteht sich als Teil der linken, solidarischen Kultur Wiens.",
+      "website": "https://4lthangrund.jetzt/solidarity-kitchen-vienna-4lthangrund/",
+      "instagram": null
+    }
+  ],
+  "klima": [
+    {
+      "name": "Scientists4Future Österreich",
+      "info": "Scientists for Future (S4F) ist eine fächerübergreifende Umweltinitiative von Wissenschaftlerinnen aus dem deutschsprachigen Raum, die 2019 die Berechtigung der Fridays for Future-Anliegen bestätigten. Die Gruppe unterstützt die Klimabewegung durch Verbreitung des wissenschaftlichen Konsenses zum Klimawandel, Bildungsressourcen und Dialog mit Politik und Öffentlichkeit. In Österreich sind mehrere regionale Gruppen aktiv, und die Stellungnahme wurde von fast 27.000 Wissenschaftlerinnen unterzeichnet.",
+      "website": "https://www.scientists4future.at/",
+      "instagram": "https://www.instagram.com/scientists4future_at"
+    },
+    {
+      "name": "Psychologists for Future",
+      "info": "Psychologinnen und Psychotherapeutinnen bringen ihr Fachwissen zur Förderung einer nachhaltigen Zukunft ein. Die Initiative unterstützt Klima-Engagierte und -Gruppen durch psychologische Perspektiven und bietet Workshops für den emotionalen Umgang mit sozial-ökologischen Krisen. Sie schützen Demokratie und fördern gesellschaftlichen Zusammenhalt durch verständnis für psychische Belastungen in Zeiten der Klimakrise.",
+      "website": "https://www.psy4f.org/",
+      "instagram": "https://www.instagram.com/psychologists4future_austria"
+    },
+    {
+      "name": "Seniors for Future",
+      "info": "Seniors for Future ist eine Allianz der Fridays for Future Austria, ein Zusammenschluss von aktiven Erwachsenen in der zweiten Lebenshälfte, die sich für Klimaschutz, Artenvielfalt und den Erhalt einer gesunden Biosphäre einsetzen. Die Bewegung organisiert Demonstrationen, unterstützt gewaltfreie Klima-Aktivitäten und vernetzt sich national und international mit gleichgesinnten Gruppierungen. Das Ziel ist die rasche Erreichung von Klimaneutralität und eine Lebensweise, die Lebensgrundlagen dauerhaft erhält.",
+      "website": "https://seniorsforfuture.at/",
+      "instagram": "https://www.instagram.com/seniorsforfuture.at"
+    },
+    {
+      "name": "Parents for Future",
+      "info": "Parents for Future ist eine Allianz von Eltern und Großeltern, die sich für eine klimagerechte Zukunft und bessere Bedingungen für ihre Kinder einsetzen. Die Organisation schreibt offene Briefe an politische Entscheidungsträger, organisiert Protestaktionen und Tauschparties für Kinderkleidung, und arbeitet mit anderen Klimainitiativen wie Radelnforfuture zusammen. Parents for Future hat Regionalgruppen in ganz Österreich und mobilisiert Elternschaft für Klimagerechtigkeit und gegen klimaschädliche Politiken.",
+      "website": "https://www.parentsforfuture.at/",
+      "instagram": "https://www.instagram.com/each.for.earth"
+    },
+    {
+      "name": "Religions for Future",
+      "info": "Religions for Future ist ein Bündnis von Mitgliedern verschiedener Kirchen und Religionsgemeinschaften in Österreich, das sich für ambitionierte Klimapolitik und einen Nationalen Aktionsplan gegen Rassismus einsetzt. Die Initiative veranstaltet ökumenische Gottesdienste, organisiert Treffpunkte bei Klimademonstrationen und verbindet religiöse Traditionen mit der Klimabewegung. Die Grundsatzerklärung wurde 2019 veröffentlicht und wird kontinuierlich von Religionsvertreter*innen unterzeichnet.",
+      "website": "https://religionsforfuture.at/",
+      "instagram": "https://www.instagram.com/religionsforfuture_wien"
+    },
+    {
+      "name": "Fridays for Future Wien",
+      "info": "Fridays for Future Wien ist die Wiener Regionalgruppe der seit 2018 aktiven Klimabewegung, die sich für eine klimagerechte Welt einsetzt und regelmäßig Klimastreiks und Demonstrationen organisiert. Die Bewegung fordert eine mutige Umweltschutzpolitik in Übereinstimmung mit dem 1,5°C-Ziel des Pariser Klimaabkommens und globale Klimagerechtigkeit. In Wien finden regelmäßige Treffen zur Planung von Aktionen und Kampagnen statt.",
+      "website": "https://fridaysforfuture.at/",
+      "instagram": "https://www.instagram.com/fridaysforfuturevienna"
+    },
+    {
+      "name": "Extinction Rebellion Österreich",
+      "info": "Extinction Rebellion Österreich ist eine internationale Bewegung, die mit gewaltfreiem zivilem Ungehorsam und kreativen Aktionen die Klimakatastrophe abzuwenden und das Massenaussterben aufzuhalten versucht. Die Organisation fordert von der Regierung, die Wahrheit über die Klimakrise zu sagen, sofort zu handeln und eine lebendige Demokratie zu ermöglichen. XR lebt von dezentralen Bezugsgruppen, die selbstbestimmt Aktionen planen und umsetzen.",
+      "website": "https://xrebellion.at/",
+      "instagram": "https://www.instagram.com/xrwien"
+    },
+    {
+      "name": "System Change not Climate Change",
+      "info": "System Change not Climate Change ist eine soziale Bewegung aus Aktivist*innen und Initiativen in ganz Österreich, die seit 2015 für Klimagerechtigkeit und Systemwandel kämpft. Die Bewegung zeigt auf, dass die Klimakrise eng mit dem kapitalistischen Wirtschaftssystem zusammenhängt und fordert eine Transformation hin zu einer Wirtschaft, die nicht auf Profit und Wachstum basiert, sondern ökologische Grenzen respektiert. System Change not Climate Change ist basisdemokratisch organisiert und arbeitet in Regionalgruppen sowie österreichweiten Arbeits- und Inhaltsgruppen.",
+      "website": "https://systemchange-not-climatechange.at/",
+      "instagram": "https://www.instagram.com/systemchange.not.climatechange"
+    },
+    {
+      "name": "Global 2000",
+      "info": "Global 2000 ist die größte rein österreichische Umweltschutzorganisation, die 1982 gegründet wurde und sich für eine intakte Umwelt, eine zukunftsfähige Gesellschaft und nachhaltiges Wirtschaften einsetzt. Die Organisation mit rund 50 Mitarbeiter*innen ist Mitglied des internationalen Netzwerks Friends of the Earth und arbeitet in Bereichen wie Kernenergie, Gentechnik, Klimawandel, Pestizide und Verkehr.",
+      "website": "https://www.global2000.at/",
+      "instagram": "https://www.instagram.com/global2000.at"
+    },
+    {
+      "name": "Radlobby Wien",
+      "info": "Die Radlobby Wien (Radlobby ARGUS Wien) setzt sich seit 1979 für die Förderung des Fahrrads als Verkehrsmittel ein und ist der mitgliedsstärkste Verein im österreichischen Bundesverband Radlobby Österreich. Mit über 10.000 Mitgliedern vertritt die Organisation den Alltagsradverkehr und engagiert sich auf Bezirks- und Gemeindeebene für sichere Infrastruktur und besseren Radverkehr. Die Radlobby organisiert Events wie das ARGUS Bike Festival und die RADpaRADe und bietet monatliche BezirksRadTreffs.",
+      "website": "https://radlobby.at/",
+      "instagram": "https://www.instagram.com/radlobby.wien"
+    },
+    {
+      "name": "Gürtel Liebe",
+      "info": "Gürtel Liebe ist eine Kampagne und Raddemo-Initiative, die sich für die Umwandlung von Autospuren in Radinfrastruktur am Wiener Gürtel einsetzt. Es gibt regelmäßig Aktionen und den Anfang machte die Initiative Raddemos startend am Urban-Loritz-Platz, um gegen Luftverschmutzung, Lärm und mangelnde Verkehrssicherheit zu protestieren. Die Initiative fordert als Sofortmaßnahmen die Umwandlung von Autospuren in Radhighways und Tempo 30 bei Nacht am Gürtel.",
+      "website": "https://guertelliebe.at/",
+      "instagram": "https://www.instagram.com/guertelliebe"
+    },
+    {
+      "name": "Tipping Points",
+      "info": "Forschungsinitiative zu klimatischen Kipppunkten und systemischen Lösungen.",
+      "website": "https://tippingpoints.life/",
+      "instagram": "https://www.instagram.com/tipping.points.at"
+    },
+    {
+      "name": "Greenpeace (Österreich)",
+      "info": "Greenpeace Österreich ist Teil der internationalen, gewaltfreien Umweltorganisation, die seit 1971 weltweit für den Schutz von Klima, Natur und Frieden kämpft und Konzerne wie Regierungen mit Aktionen und Kampagnen unter Druck setzt. In Österreich organisiert Greenpeace Proteste, Recherchen und politische Kampagnen zu Themen wie Energiewende, Agrarpolitik, Meeres- und Waldschutz und baut dabei auf eine aktive Basis von Ehrenamtlichen und Unterstützer*innen.",
+      "website": "https://greenpeace.at/",
+      "instagram": "https://www.instagram.com/greenpeaceaustria"
+    },
+    {
+      "name": "CliMates Austria",
+      "info": "CliMates Austria ist ein von jungen Menschen getragenes Klimanetzwerk, das Bildungsprojekte, Workshops und Kampagnen zur Klimagerechtigkeit organisiert und unter anderem die Local Conference of Youth (LCOY) in Österreich mitgestaltet. Die Organisation bietet Jugendlichen und Studierenden die Möglichkeit, sich in Arbeitsgruppen zu engagieren, eigene Projekte zu entwickeln und als Youth Climate Delegates internationale Klimapolitik mitzugestalten.",
+      "website": "https://climatesaustria.org/",
+      "instagram": "https://www.instagram.com/climatesaustria"
+    },
+    {
+      "name": "Gemeinwohl-Ökonomie",
+      "info": "Die Gemeinwohl-Ökonomie ist eine internationale soziale Bewegung, die Unternehmen, Gemeinden und Organisationen dabei unterstützt, ihren Erfolg nicht am Profit, sondern am Beitrag zum Gemeinwohl zu messen, unter anderem mit der Gemeinwohl‑Bilanz. In Österreich gibt es zahlreiche Regionalgruppen, Bildungsangebote und politische Initiativen, die für ein gerechteres Wirtschafts‑ und Finanzsystem kämpfen und Menschen zur aktiven Mitgestaltung einladen.",
+      "website": "https://austria.ecogood.org/",
+      "instagram": "https://www.instagram.com/econgoodaustria"
+    },
+    {
+      "name": "Frauen säen Zukunft",
+      "info": "„Frauen säen Zukunft“ ist ein Projekt des ÖBV - Via Campesina Austria, das Frauen* im ländlichen Raum und in der Landwirtschaft vernetzt und stärkt, um sozial-ökologische Transformation aus feministischer Perspektive voranzutreiben. Durch Workshops, Podcasts, Kamingespräche und einen Newsletter schafft das Projekt Räume für politischen Austausch, Empowerment und gemeinsames Handeln für eine gerechte, nachhaltige Landwirtschaft und Gesellschaft.",
+      "website": "https://frauen-saen-zukunft.at/",
+      "instagram": null
+    }
+  ],
+  "parteien": [
+    {
+      "name": "KJÖ (Kommunistische Jugend Österreichs)",
+      "info": "Die Kommunistische Jugend Österreichs wurde 1970 gegründet und versteht sich als revolutionäre Jugendorganisation, die für Frieden, Demokratie und Sozialismus kämpft. Sie arbeitet auf marxistisch-leninistischer Grundlage und steht in der antifaschistischen Tradition.",
+      "website": "https://kommunistischejugend.at/",
+      "instagram": "https://www.instagram.com/kjoe_wien"
+    },
+    {
+      "name": "KPÖ (Kommunistische Partei Österreichs)",
+      "info": "Die KPÖ wurde 1918 gegründet und zählt zu den ältesten kommunistischen Parteien weltweit. Sie war eine bedeutende antifaschistische Kraft und strebt sozialistischen demokratischen Sozialismus an.",
+      "website": "https://kpoe.at/",
+      "instagram": "https://www.instagram.com/kpoe.at"
+    },
+    {
+      "name": "LINKS Wien",
+      "info": "LINKS ist eine 2020 gegründete antikapitalistische, antirassistische, queerfeministische Partei mit Mandaten in Bezirksvertretungen. Sie fordert u.a. Arbeitszeitverkürzung und Mindestlohn.",
+      "website": "https://links.wien/",
+      "instagram": "https://www.instagram.com/linkswien"
+    }
+  ],
+  "besetzungen": [
+    {
+      "name": "Lobau Bleibt",
+      "info": "Lobau Bleibt ist eine Protestbewegung gegen den Bau der Lobau-Autobahn und Stadtstraße in Wien, die von Fridays for Future Wien, System Change not Climate Change, Jugendrat und Extinction Rebellion initiiert wurde. Die Bewegung besetzte ab August 2021 mehrere Baustellen und erreichte im November 2021 den Stopp der Lobau-Autobahn durch Klimaschutzministerin Gewessler. Nach der Räumung am 1. Februar 2022 durch die Polizei setzt die Bewegung ihren Widerstand für eine soziale und klimagerechte Mobilitätswende fort.",
+      "website": "https://lobaubleibt.at/",
+      "instagram": "https://www.instagram.com/lobaubleibt"
+    },
+    {
+      "name": "Fischa Au",
+      "info": "Besetzung zum Schutz von Flussufer und Auenlandschaften an der Fischa in Österreich.",
+      "website": null,
+      "instagram": "https://www.instagram.com/fisch.acker"
+    }
+  ],
+  "linke_spaces": [
+    {
+      "name": "Althangrund / 4lthangrund",
+      "info": "Selbstverwaltetes Kulturzentrum auf dem Gelände der alten WU in Wien, solidarische Raumnutzung für Kunst, Kultur und Soziales.",
+      "website": "https://4lthangrund.jetzt/",
+      "instagram": "https://www.instagram.com/4lthangrund"
+    },
+    {
+      "name": "EKH (Ernst-Kirchweger-Haus)",
+      "info": "Zentrum der autonomen Szene in Wien-Favoriten mit vielfältigen politischen und kulturellen Veranstaltungen.",
+      "website": "https://med-user.net/~ekh/",
+      "instagram": null
+    },
+    {
+      "name": "WUK (Werkstätten- und Kulturhaus)",
+      "info": "Selbstverwaltetes Kultur- und Bildungszentrum mit Fokus auf alternative Kultur und politische Aktivitäten.",
+      "website": "https://wuk.at/",
+      "instagram": "https://www.instagram.com/wukvienna"
+    },
+    {
+      "name": "Hafen",
+      "info": "Linker Kulturraum und Veranstaltungsort in Wien.",
+      "website": null,
+      "instagram": "https://www.instagram.com/der.hafen.ottakring"
+    },
+    {
+      "name": "Villa Vida",
+      "info": "Soziales Projekt mit Raum für Solidarität, Gemeinschaft und politische Vernetzung.",
+      "website": "https://villavida.at/",
+      "instagram": "https://www.instagram.com/villavidacafe"
+    },
+    {
+      "name": "Kaleidoskop",
+      "info": "Das Kaleidoskop ist ein Freiraum für gemeinsames Leben, Lernen und Gestalten. Hier entsteht Kultur jenseits von Marktlogik – offen, solidarisch und unkommerziell. Ob Kunstprojekt, Lesekreis, Workshop oder Jam-Session: Im Kaleidoskop können Menschen ihre Ideen teilen und verwirklichen – auf Basis von Respekt, Reflexion und Gemeinschaftssinn.",
+      "website": "https://www.anarchismus.at/wien/58-kaleidoskop",
+      "instagram": "https://www.instagram.com/kaleidoskopwien"
+    },
+    {
+      "name": "KSŠŠD",
+      "info": "Der Klub slovenskih študentk*študentov na Dunaju (KSSSD) ist ein traditionsreicher Verein slowenischer Studierender in Wien, der seit 1923 besteht und als Ort für gemeinsames politisches und kulturelles Engagement dient. Thematische Schwerpunkte liegen auf Antifaschismus, Feminismus und Minderheitenschutz, und der Klub veranstaltet regelmäßig kulturelle und politische Events sowie Sprachkurse. KSSSD ist ein wichtiger Treffpunkt für die slowenischsprachige Gemeinschaft und fördert Vernetzung, Solidarität und politische Bildung.",
+      "website": "https://www.ksssd.org/",
+      "instagram": "https://www.instagram.com/rdeca_vrata"
+    }
+  ],
+  "tierschutz": [
+    {
+      "name": "VGT (Verein gegen Tierfabriken)",
+      "info": "Österreichs führende Tierschutzorganisation mit Fokus auf Gewaltlosigkeit und umfassenden Kampagnen für Tierwohl.",
+      "website": "https://vgt.at/",
+      "instagram": "https://www.instagram.com/vgt.austria"
+    },
+    {
+      "name": "Anonymous for the Voiceless",
+      "info": "Internationale Tierrechtsbewegung mit öffentlichen Aktionen und 'Cube of Truth'-Kampagnen.",
+      "website": "https://anonymousforthevoiceless.org/",
+      "instagram": null
+    }
+  ],
+  "kapitalismus": [
+    {
+      "name": "Attac Österreich",
+      "info": "Globalisierungskritische Bewegung mit Fokus auf Finanzmärkte, Steuerpolitik und soziale Gerechtigkeit.",
+      "website": "https://attac.at/",
+      "instagram": "https://www.instagram.com/attac.at"
+    }
+  ],
+  "rechtshilfe": [
+    {
+      "name": "Rote Hilfe Wien",
+      "info": "Die Rote Hilfe Wien ist ein Verein, der Menschen unterstützt, die aufgrund ihres politischen Engagements Repression durch Polizei und Justiz erfahren. Die Organisation versteht sich als strömungsübergreifende Solidaritätsorganisation und bietet an drei Mittwochabenden im Monat kostenlose Beratung in Strafsachen und Verwaltungsstrafen an verschiedenen Orten in Wien. Die Rote Hilfe unterstützt durch Beratung, politische Solidarität und bei Bedarf auch finanziell (bis zu 70% der Kosten) unter der Voraussetzung politischer Prozessführung.",
+      "website": "https://rotehilfe.wien/",
+      "instagram": null
+    },
+    {
+      "name": "Grad Recht",
+      "info": "Grad Recht ist eine Initiative von (Jus-)Studierenden, Jurist:innen und erfahrenen Klimaaktivist:innen, die kostenlose Rechtsberatung für Klimaaktivist:innen anbietet. Die Organisation unterstützt Menschen bei rechtlichen Anliegen im Kontext von Klimaschutz und sozial gerechter Klimapolitik und baut ein breites Netzwerk von Rechtsanwält:innen für diese Zwecke auf. Grad Recht hat bereits zahlreiche Aktivist:innen rechtlich beraten und steht für solidarische rechtliche Begleitung.",
+      "website": "https://www.gradrecht.at/",
+      "instagram": "https://www.instagram.com/grad.recht"
+    }
+  ],
+  "hochschule": [
+    {
+      "name": "ÖH (Österreichische Hochschülerinnen- und Hochschülerschaften)",
+      "info": "Offizielle Interessensvertretung der Studierenden an österreichischen Hochschulen mit regelmäßigen Wahlen und Veranstaltungen.",
+      "website": "https://oeh.univie.ac.at/",
+      "instagram": "https://www.instagram.com/oeh_univie"
+    },
+    {
+      "name": "KSV Lili (Kommunistischer StudentInnenverband – Linke Liste)",
+      "info": "Linksradikale Studentenorganisation, aktiv in antifaschistischer, feministischer und antikapitalistischer Hochschulpolitik.",
+      "website": "https://ksv-lili.at/",
+      "instagram": "https://www.instagram.com/ksv.lili"
+    },
+    {
+      "name": "KSV KJÖ",
+      "info": "Studentenorganisation der Kommunistischen Jugend Österreichs mit Fokus auf emanzipatorische Hochschulpolitik.",
+      "website": "https://ksv-kjoe.at/",
+      "instagram": "https://www.instagram.com/kjoe_wien"
+    },
+    {
+      "name": "GRAS (Grüne & Alternative Student_innen)",
+      "info": "Grüne und alternative Studierendenorganisation mit Fokus auf nachhaltiger und sozialer Hochschulpolitik.",
+      "website": "https://www.gras.at/",
+      "instagram": "https://www.instagram.com/gras_oe"
+    },
+    {
+      "name": "VSStÖ (Verband Sozialistischer Student_innen Österreichs)",
+      "info": "Sozialistische Studierendenorganisation mit Fokus auf soziale Gerechtigkeit und Abschaffung von Studiengebühren.",
+      "website": "https://vsstoe.at/",
+      "instagram": "https://www.instagram.com/vsstoe"
+    }
+  ],
+  "lokal": [
+    {
+      "name": "Wir machen Wien",
+      "info": "Plattform zur Vernetzung von Aktivist*innen im Klima- und Mobilitätsbereich mit Fokus auf Bürgerbeteiligung und Workshops.",
+      "website": "https://wirmachen.wien/",
+      "instagram": "https://www.instagram.com/wir.machen.wien"
+    }
+  ],
+  "kalender": [
+    {
+      "name": "Zeit.diebin",
+      "info": "Veranstaltungskalender-Plattform für linke, anarchistische und autonome Veranstaltungen im deutschsprachigen Raum.",
+      "website": "https://zeit.diebin.at/",
+      "instagram": null
+    },
+    {
+      "name": "Klimaschutz Kalender",
+      "info": "Öffentlicher Veranstaltungskalender für Klimaaktivitäten und -demonstrationen in Österreich mit koordinierter Eintragung von Aktionen.",
+      "website": "https://kalender.digital/34f32149943031008418",
+      "instagram": null
+    }
+  ]
+}

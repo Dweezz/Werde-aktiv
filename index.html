@@ -73,7 +73,10 @@
         // STOP-MOTION ANIMATION
         // --------------------------
         const frames = [
-            "images/erde brennt.png"
+            "images/erde_brennt1.png",
+            "images/erde_brennt2.png",
+            "images/erde_brennt3.png",
+            "images/erde_brennt2.png"
         ];
         let index = 0;
         const imgElement = document.getElementById("stopMotion");
@@ -82,7 +85,7 @@
             index = (index + 1) % frames.length;
             imgElement.src = frames[index];
         }
-        setInterval(playAnimation, 1000); //1000ms
+        setInterval(playAnimation, 500); //1000ms
 
 
         // --------------------------
