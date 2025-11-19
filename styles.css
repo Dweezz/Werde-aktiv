@@ -290,7 +290,7 @@ p{
     background-color: #FFECB3;
 }
 
-#lokal {
+#lokale {
     background-color: #B7E4C7; 
 }
 #panel_lokal {
@@ -316,6 +316,22 @@ p{
     background-color: #8EC8B3;
 }
 #panel_downloads{
+    background-color: #BFEADA;    
+}
+
+
+#uber{
+    background-color: #FFD050;
+}
+
+#panel_uber{
+    background-color: #FFEAB1;
+}
+
+#warum{
+    background-color: #8EC8B3;
+}
+#panel_warum{
     background-color: #BFEADA;    
 }
 
