@@ -65,13 +65,12 @@
             const btn = document.createElement('button');
             btn.className = 'accordion';
             btn.id = category
-            panel.id = 'panel_' + category;
             btn.innerHTML = `<h3>${category.toUpperCase().replace(/-/g, ' ')}</h3><h4>Organisationen</h4>`;
             root.appendChild(btn);
 
-            const panel = document.createElement('div');
-            panel.className = 'panel';
-            panel.id = 'panel_' + category;
+          const panel = document.createElement('div');
+          panel.className = 'panel';
+          panel.id = 'panel_' + category;
 
             orgs.forEach(o => {
               const h5 = document.createElement('h5');
