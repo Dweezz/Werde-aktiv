@@ -65,7 +65,7 @@
             const btn = document.createElement('button');
             btn.className = 'accordion';
             btn.id = category
-            btn.innerHTML = `<h3>${category.toUpperCase().replace(/-/g, ' ')}</h3><h4>Organisationen</h4>`;
+            btn.innerHTML = `<h3>${category.toUpperCase().replace("-", ' ')}</h3><h4>Organisationen</h4>`;
             root.appendChild(btn);
 
           const panel = document.createElement('div');
