@@ -64,11 +64,13 @@
           Object.entries(data).forEach(([category, orgs]) => {
             const btn = document.createElement('button');
             btn.className = 'accordion';
+            btn.id = category;
             btn.innerHTML = `<h3>${category.toUpperCase()}</h3><h4>Organisationen</h4>`;
             root.appendChild(btn);
 
             const panel = document.createElement('div');
             panel.className = 'panel';
+            panel.id = 'panel_' + category;
 
             orgs.forEach(o => {
               const h5 = document.createElement('h5');
