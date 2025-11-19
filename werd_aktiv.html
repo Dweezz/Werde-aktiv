@@ -64,7 +64,10 @@
           Object.entries(data).forEach(([category, orgs]) => {
             const btn = document.createElement('button');
             btn.className = 'accordion';
-            btn.id = category;
+            const cleanId = category.toLowerCase().replace(/\s+/g, ' ');
+            btn.id = cleanId;
+            panel.id = 'panel_' + cleanId;
+            btn.id = cleanId;
             btn.innerHTML = `<h3>${category.toUpperCase()}</h3><h4>Organisationen</h4>`;
             root.appendChild(btn);
 
