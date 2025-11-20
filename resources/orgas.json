@@ -1,6 +1,8 @@
 {
   "awareness": {
     "isOrga": 1,
+    "mainC":"#FFD050",
+    "secondC":"#FFEAB1",
     "groups": [
       {
         "name": "Catcalls Vienna",
@@ -36,6 +38,8 @@
   },
   "antifa": {
     "isOrga": 1,
+    "mainC":"#8EC8B3",
+    "secondC":"#BFEADA",
     "groups": [
       {
         "name": "Offenes Antifa Treffen (OAT)",
@@ -59,6 +63,8 @@
   },
   "allgemeine": {
     "isOrga": 0,
+    "mainC":"#F4B183",
+    "secondC":"#FFE6CC",
     "groups": [
       {
         "name": "Wir* gegen Rechts",
@@ -82,6 +88,8 @@
   },
   "klima": {
     "isOrga": 1,
+    "mainC":"#DA91F1",
+    "secondC":"#E8C8F2",
     "groups": [
       {
         "name": "Scientists4Future Österreich",
@@ -183,6 +191,8 @@
   },
   "parteien": {
     "isOrga": 0,
+    "mainC":"#FA8072",
+    "secondC":"#FAD2C5",
     "groups": [
       {
         "name": "KJÖ (Kommunistische Jugend Österreichs)",
@@ -206,6 +216,8 @@
   },
   "besetzungen": {
     "isOrga": 0,
+    "mainC":"#FF6F61",
+    "secondC":"#FFDAD4",
     "groups": [
       {
         "name": "Lobau Bleibt",
@@ -223,6 +235,8 @@
   },
   "linke-spaces": {
     "isOrga": 0,
+    "mainC":"#7EC8E3",
+    "secondC":"#D6ECF7",
     "groups": [
       {
         "name": "Althangrund / 4lthangrund",
@@ -270,6 +284,8 @@
   },
   "tierschutz": {
     "isOrga": 1,
+    "mainC":"#90EE90",
+    "secondC":"#DFF0D8",
     "groups": [
       {
         "name": "VGT (Verein gegen Tierfabriken)",
@@ -287,6 +303,8 @@
   },
   "antikapitalismus": {
     "isOrga": 0,
+    "mainC":"#FFB6C1",
+    "secondC":"#FFE4E1",
     "groups": [
       {
         "name": "Attac Österreich",
@@ -298,6 +316,8 @@
   },
   "rechtshilfe": {
     "isOrga": 1,
+    "mainC":"#ADD8E6",
+    "secondC":"#E3F2FD",
     "groups": [
       {
         "name": "Rote Hilfe Wien",
@@ -315,6 +335,8 @@
   },
   "unipolitik": {
     "isOrga": 0,
+    "mainC":"#FFC300",
+    "secondC":"#FFECB3",
     "groups": [
       {
         "name": "ÖH (Österreichische Hochschüler:innenschaften)",
@@ -350,6 +372,8 @@
   },
   "lokale": {
     "isOrga": 1,
+    "mainC":"#B7E4C7",
+    "secondC":"#caf0d7",
     "groups": [
       {
         "name": "Wir machen Wien",
