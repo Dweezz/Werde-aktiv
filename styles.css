@@ -199,117 +199,12 @@ p{
     font-size: 15px;
     font-family: Oswald;
 }
-#awareness {
-    background-color: #FFD050;
-}
-#panel_awareness {
-    background-color: #FFEAB1;
-}
-
-#antifa {
-    background-color: #8EC8B3;
-}
-#panel_antifa {
-    background-color: #BFEADA;
-}
-
-#allgemeine {
-    background-color: #F4B183;  /* Warmer Orange-Ton passend zur Akzentfarbe */
-}
-#panel_allgemeine {
-    background-color: #FFE6CC;
-}
-
-#civilaction {
-    background-color: #9BC1BC;  /* Sanftes Türkis-Grün als beruhigender Farbton */
-}
-#panel_civilaction {
-    background-color: #D9E6E4;
-}
-
-#parteien {
-    background-color: #FA8072;  /* Lachsrot für politische Parteien */
-}
-#panel_parteien {
-    background-color: #FAD2C5;
-}
-
-#klima {
-    background-color: #DA91F1;
-}
-#panel_klima {
-    background-color: #E8C8F2;
-}
-
-#menschenrechte {
-    background-color: #FFD700;  /* Goldgelb symbolisch für Menschenrechte */
-}
-#panel_menschenrechte {
-    background-color: #FFF8DC;
-}
-
-#besetzungs {
-    background-color: #FF6F61;  /* Kräftiges Korallenrot für Protestbewegungen */
-}
-#panel_besetzungs {
-    background-color: #FFDAD4;
-}
-
-#linke-spaces {
-    background-color: #7EC8E3;  /* Himmelblau für linke Spaces und Kultur */
-}
-#panel_linke-spaces {
-    background-color: #D6ECF7;
-}
-
-#tierschutz {
-    background-color: #90EE90;  /* Leichtes Grün für Tierschutzthemen */
-}
-#panel_tierschutz {
-    background-color: #DFF0D8;
-}
-
-#kapitalismus {
-    background-color: #FFB6C1;  /* Zartes Rosa als Kontrast für Kapitalismuskritik */
-}
-#panel_kapitalismus {
-    background-color: #FFE4E1;
-}
-
-#rechtshilfe {
-    background-color: #ADD8E6;  /* Hellblau für Rechtshilfethemen */
-}
-#panel_rechtshilfe {
-    background-color: #E3F2FD;
-}
-
-#hochschul {
-    background-color: #FFC300;  /* Intensives Gelb für Hochschulthemen */
-}
-#panel_hochschule {
-    background-color: #FFECB3;
-}
-
-#lokale {
-    background-color: #B7E4C7; 
-}
-#panel_lokal {
-    background-color: #caf0d7;
-}
 
 #kalender {
     background-color: #D2B48C;  /* Khaki Braun für Veranstaltungskalender */
 }
 #panel_kalender {
     background-color: #EFE0C8;
-}
-
-#veranstalltungen{
-    background-color: #FFD050;
-}
-
-#panel_veranstalltungen{
-    background-color: #FFEAB1;
 }
 
 #downloads{
