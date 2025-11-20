@@ -79,7 +79,7 @@
         // HTML zusammensetzen: <h3>Kategorie</h3> + optional <h4>Organisationen</h4>
         let innerHTML = `<h3>${displayCategoryName}</h3>`;
         if (meta && meta.isOrga === 1) {
-          innerHTML += `<h4>[translate: Organisationen]</h4>`;
+          innerHTML += `<h4>Organisationen</h4>`;
         }
 
         btn.innerHTML = innerHTML;
