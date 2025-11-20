@@ -47,6 +47,11 @@
     <img src="images/parteien.png">
   </div>
 
+  <div id="orgaHeader">
+  <h1 id="headline1">Organisa</h1>
+  <h1 id="headline2">tionen</h1>
+  </div>
+
   <div id="accordion-root">Lade Daten...</div>
   <script>
 
@@ -85,14 +90,11 @@
 
         // HTML zusammensetzen: <h3>Kategorie</h3> + optional <h4>Organisationen</h4>
         let innerHTML = "";
-        if (displayCategoryName.length < 11){
+        if (displayCategoryName.length < 12){
           innerHTML += `<h3>${displayCategoryName}</h3>`;
         }
         else {
           innerHTML += `<h6>${displayCategoryName}</h6>`;
-        }
-        if (meta && meta.isOrga === 1) {
-          innerHTML += `<h4>Organisationen</h4>`;
         }
 
         btn.innerHTML = innerHTML;

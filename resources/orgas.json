@@ -1,6 +1,5 @@
 {
   "awareness": {
-    "isOrga": 1,
     "mainC":"#FFD050",
     "secondC":"#FFEAB1",
     "groups": [
@@ -37,7 +36,6 @@
     ]
   },
   "antifa": {
-    "isOrga": 1,
     "mainC":"#8EC8B3",
     "secondC":"#BFEADA",
     "groups": [
@@ -62,7 +60,6 @@
     ]
   },
   "allgemeine": {
-    "isOrga": 0,
     "mainC":"#F4B183",
     "secondC":"#FFE6CC",
     "groups": [
@@ -87,7 +84,6 @@
     ]
   },
   "klima": {
-    "isOrga": 1,
     "mainC":"#DA91F1",
     "secondC":"#E8C8F2",
     "groups": [
@@ -190,7 +186,6 @@
     ]
   },
   "parteien": {
-    "isOrga": 0,
     "mainC":"#FA8072",
     "secondC":"#FAD2C5",
     "groups": [
@@ -215,7 +210,6 @@
     ]
   },
   "besetzungen": {
-    "isOrga": 0,
     "mainC":"#FF6F61",
     "secondC":"#FFDAD4",
     "groups": [
@@ -234,7 +228,6 @@
     ]
   },
   "linke-spaces": {
-    "isOrga": 0,
     "mainC":"#7EC8E3",
     "secondC":"#D6ECF7",
     "groups": [
@@ -283,7 +276,6 @@
     ]
   },
   "tierschutz": {
-    "isOrga": 1,
     "mainC":"#90EE90",
     "secondC":"#DFF0D8",
     "groups": [
@@ -302,7 +294,6 @@
     ]
   },
   "antikapitalismus": {
-    "isOrga": 0,
     "mainC":"#FFB6C1",
     "secondC":"#FFE4E1",
     "groups": [
@@ -315,7 +306,6 @@
     ]
   },
   "rechtshilfe": {
-    "isOrga": 1,
     "mainC":"#ADD8E6",
     "secondC":"#E3F2FD",
     "groups": [
@@ -334,7 +324,6 @@
     ]
   },
   "unipolitik": {
-    "isOrga": 0,
     "mainC":"#FFC300",
     "secondC":"#FFECB3",
     "groups": [
@@ -371,7 +360,6 @@
     ]
   },
   "lokale": {
-    "isOrga": 1,
     "mainC":"#B7E4C7",
     "secondC":"#caf0d7",
     "groups": [
