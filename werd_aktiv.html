@@ -52,7 +52,7 @@
     fetch('resources/orgas.json')
       .then(response => {
         if (!response.ok) {
-          throw new Error([translate: "HTTP Fehler: "] + response.status);
+          throw new Error("HTTP Fehler: " + response.status);
         }
         return response.json();
       })
@@ -60,7 +60,7 @@
         renderAccordion(data);
       })
       .catch(error => {
-        document.getElementById('accordion-root').textContent = [translate: "Fehler beim Laden der Daten: "] + error;
+        document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
         console.error(error);
       });
 
