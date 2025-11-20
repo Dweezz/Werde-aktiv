@@ -50,6 +50,21 @@
   <div id="accordion-root">Lade Daten...</div>
   <script>
 
+    fetch('resources/orgas.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP Fehler: " + response.status);
+        }
+        return response.json();
+      })
+      .then(data => {
+        renderAccordion(data);
+      })
+      .catch(error => {
+        document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
+        console.error(error);
+      });
+
     function renderAccordion(data) {
       const root = document.getElementById('accordion-root');
       root.innerHTML = '';
