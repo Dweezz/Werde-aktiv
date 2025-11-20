@@ -195,14 +195,21 @@ h6{
     margin-block-end: 0;
 }
 
+h7{
+    margin: 0px;
+    font-size: 40px;
+    color: black;
+    font-family: Oswald;
+    font-weight: 500;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
 p{
     font-size: 15px;
     font-family: Oswald;
 }
 
-#antikapitalismus{
-    font-size: 40px !important;
-}
 
 #kalender {
     background-color: #D2B48C;  /* Khaki Braun für Veranstaltungskalender */
