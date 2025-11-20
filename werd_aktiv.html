@@ -117,7 +117,7 @@
           if (o.instagram) {
             const pInsta = document.createElement('p');
             const instaUser = o.instagram.split('/').filter(Boolean).pop();
-            pInsta.innerHTML = `<strong>[translate: Instagram:]</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
+            pInsta.innerHTML = `<strong>Instagram:</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
             panel.appendChild(pInsta);
           }
         });
