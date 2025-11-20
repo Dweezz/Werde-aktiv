@@ -48,12 +48,11 @@
   </div>
 
   <div id="accordion-root">Lade Daten...</div>
-
   <script>
     fetch('resources/orgas.json')
       .then(response => {
         if (!response.ok) {
-          throw new Error("HTTP Fehler: " + response.status);
+          throw new Error([translate: "HTTP Fehler: "] + response.status);
         }
         return response.json();
       })
@@ -61,7 +60,7 @@
         renderAccordion(data);
       })
       .catch(error => {
-        document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
+        document.getElementById('accordion-root').textContent = [translate: "Fehler beim Laden der Daten: "] + error;
         console.error(error);
       });
 
@@ -77,63 +76,61 @@
         btn.className = 'accordion';
         btn.id = category;
 
-        // HTML zusammensetzen: <h3>Kategorie</h3> + optional <h4>Organisation</h4>
+        // HTML zusammensetzen: <h3>Kategorie</h3> + optional <h4>Organisationen</h4>
         let innerHTML = `<h3>${displayCategoryName}</h3>`;
         if (meta && meta.isOrga === 1) {
-          innerHTML += `<h4>Organisationen</h4>`;
+          innerHTML += `<h4>[translate: Organisationen]</h4>`;
         }
 
         btn.innerHTML = innerHTML;
         root.appendChild(btn);
+
+        // Panel erzeugen
+        const panel = document.createElement('div');
+        panel.className = 'panel';
+        panel.id = 'panel_' + category;
+
+        // Gruppen (orgs) durchgehen
+        meta.groups.forEach(o => {
+          const h5 = document.createElement('h5');
+          if (o.website) {
+            const a = document.createElement('a');
+            a.href = o.website;
+            a.target = '_blank';
+            a.textContent = o.name;
+            h5.appendChild(a);
+          } else {
+            h5.textContent = o.name;
+          }
+          panel.appendChild(h5);
+
+          const pInfo = document.createElement('p');
+          pInfo.textContent = o.info;
+          panel.appendChild(pInfo);
+
+          if (o.instagram) {
+            const pInsta = document.createElement('p');
+            const instaUser = o.instagram.split('/').filter(Boolean).pop();
+            pInsta.innerHTML = `<strong>[translate: Instagram:]</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
+            panel.appendChild(pInsta);
+          }
+        });
+
+        root.appendChild(panel);
       });
 
-
-      // Panel erzeugen
-      const panel = document.createElement('div');
-      panel.className = 'panel';
-      panel.id = 'panel_' + category;
-
-      // Gruppen (orgs) durchgehen
-      meta.groups.forEach(o => {
-        const h5 = document.createElement('h5');
-        if (o.website) {
-          const a = document.createElement('a');
-          a.href = o.website;
-          a.target = '_blank';
-          a.textContent = o.name;
-          h5.appendChild(a);
-        } else {
-          h5.textContent = o.name;
-        }
-        panel.appendChild(h5);
-
-        const pInfo = document.createElement('p');
-        pInfo.textContent = o.info;
-        panel.appendChild(pInfo);
-
-        if (o.instagram) {
-          const pInsta = document.createElement('p');
-          const instaUser = o.instagram.split('/').filter(Boolean).pop();
-          pInsta.innerHTML = `<strong>Instagram:</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
-          panel.appendChild(pInsta);
-        }
+      // Akkordeon-Eventhandler
+      document.querySelectorAll('.accordion').forEach(btn => {
+        btn.addEventListener('click', () => {
+          btn.classList.toggle('active');
+          const panel = btn.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
       });
-
-      root.appendChild(panel);
-    });
-
-    // Akkordeon-Eventhandler
-    document.querySelectorAll('.accordion').forEach(btn => {
-      btn.addEventListener('click', () => {
-        btn.classList.toggle('active');
-        const panel = btn.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      });
-    });
     }
   </script>
 
