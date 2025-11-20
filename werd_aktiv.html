@@ -69,28 +69,32 @@
       const root = document.getElementById('accordion-root');
       root.innerHTML = '';
 
-      Object.entries(data).forEach(([category, orgs]) => {
-        // Prüfen, ob im data-Objekt `isOrga` vorhanden ist
-        const meta = data[category]; // Zugriff auf Metadaten, z.B. { isOrga: 1, groups: [...] }
-        let displayCategoryName = category;
+      Object.entries(data).forEach(([category, meta]) => {
+        const displayCategoryName = category.toUpperCase().replace('-', ' ');
 
-        if (meta && meta.isOrga === 1) {
-          displayCategoryName = `<h3>${displayCategoryName.toUpperCase().replace('-', ' ')}</h3> <h4>Organisationen</h4>`;
-        }
-
+        // Button erzeugen
         const btn = document.createElement('button');
         btn.className = 'accordion';
         btn.id = category;
-        btn.innerHTML = displayCategoryName;
-        root.appendChild(btn);  
+
+        // HTML zusammensetzen: <h3>Kategorie</h3> + optional <h4>Organisation</h4>
+        let innerHTML = `<h3>${displayCategoryName}</h3>`;
+        if (meta && meta.isOrga === 1) {
+          innerHTML += `<h4>Organisationen</h4>`;
+        }
+
+        btn.innerHTML = innerHTML;
+        root.appendChild(btn);
       });
 
 
+      // Panel erzeugen
       const panel = document.createElement('div');
       panel.className = 'panel';
       panel.id = 'panel_' + category;
 
-      orgs.forEach(o => {
+      // Gruppen (orgs) durchgehen
+      meta.groups.forEach(o => {
         const h5 = document.createElement('h5');
         if (o.website) {
           const a = document.createElement('a');
@@ -118,6 +122,7 @@
       root.appendChild(panel);
     });
 
+    // Akkordeon-Eventhandler
     document.querySelectorAll('.accordion').forEach(btn => {
       btn.addEventListener('click', () => {
         btn.classList.toggle('active');
@@ -129,7 +134,7 @@
         }
       });
     });
-        }
+    }
   </script>
 
 
