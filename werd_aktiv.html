@@ -49,20 +49,6 @@
 
   <div id="accordion-root">Lade Daten...</div>
   <script>
-    fetch('resources/orgas.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("HTTP Fehler: " + response.status);
-        }
-        return response.json();
-      })
-      .then(data => {
-        renderAccordion(data);
-      })
-      .catch(error => {
-        document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
-        console.error(error);
-      });
 
     function renderAccordion(data) {
       const root = document.getElementById('accordion-root');
@@ -75,6 +61,11 @@
         const btn = document.createElement('button');
         btn.className = 'accordion';
         btn.id = category;
+
+        // Hier das Style-Attribut für mainC hinzufügen
+        if (meta && meta.mainC) {
+          btn.style.backgroundColor = meta.mainC;
+        }
 
         // HTML zusammensetzen: <h3>Kategorie</h3> + optional <h4>Organisationen</h4>
         let innerHTML = `<h3>${displayCategoryName}</h3>`;
@@ -90,7 +81,7 @@
         panel.className = 'panel';
         panel.id = 'panel_' + category;
 
-        // Gruppen (orgs) durchgehen
+        // Gruppen durchgehen
         meta.groups.forEach(o => {
           const h5 = document.createElement('h5');
           if (o.website) {
@@ -116,10 +107,15 @@
           }
         });
 
+        // Hier das Style-Attribut für secondC hinzufügen
+        if (meta && meta.secondC) {
+          panel.style.backgroundColor = meta.secondC;
+        }
+
         root.appendChild(panel);
       });
 
-      // Akkordeon-Eventhandler
+      // Akkordeon-Eventhandler bleibt gleich
       document.querySelectorAll('.accordion').forEach(btn => {
         btn.addEventListener('click', () => {
           btn.classList.toggle('active');
@@ -132,6 +128,7 @@
         });
       });
     }
+
   </script>
 
 
