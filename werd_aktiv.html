@@ -86,10 +86,10 @@
         // HTML zusammensetzen: <h3>Kategorie</h3> + optional <h4>Organisationen</h4>
         let innerHTML = "";
         if (displayCategoryName.length < 13){
-          let innerHTML = `<h3>${displayCategoryName}</h3>`;
+          innerHTML += `<h3>${displayCategoryName}</h3>`;
         }
         else {
-          let innerHTML = `<h6>${displayCategoryName}</h6>`;
+          innerHTML += `<h6>${displayCategoryName}</h6>`;
         }
         if (meta && meta.isOrga === 1) {
           innerHTML += `<h4>Organisationen</h4>`;
