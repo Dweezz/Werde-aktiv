@@ -245,6 +245,7 @@ p{
 }
 
 .accordion {
+    text-align: justify;
     height: 88px;
     margin-top: 15px;
     margin-left: 5%;
@@ -254,7 +255,6 @@ p{
     padding: 18px;
     width: 90%;
     border: none;
-    text-align: left;
     outline: none;
     transition: 0.4s;
   }
