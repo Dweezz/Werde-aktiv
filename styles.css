@@ -245,6 +245,7 @@ p{
 }
 
 .accordion {
+    height: 125px;
     margin-top: 15px;
     margin-left: 5%;
     background-color: brown;
