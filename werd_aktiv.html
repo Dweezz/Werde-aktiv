@@ -21,11 +21,13 @@
 
   <!-- Navigations-Menü -->
   <div class="menu" id="menu">
-    <a href="index.html">START</a>
-    <a href="werd_aktiv.html">WERDE AKTIV</a>
-    <a href="resources.html">RESSOURCEN</a>
-    <a href="uber_uns.html">ÜBER UNS</a>
+    <a href="index.html"><span class="lang lang-de">START</span><span class="lang lang-en">HOME</span></a>
+    <a href="werd_aktiv.html"><span class="lang lang-de">WERDE AKTIV</span><span class="lang lang-en">BECOME
+        ACTIVE</span></a>
+    <a href="resources.html"><span class="lang lang-de">RESSOURCEN</span><span class="lang lang-en">RESOURCES</span></a>
+    <a href="uber_uns.html"><span class="lang lang-de">ÜBER UNS</span><span class="lang lang-en">ABOUT US</span></a>
   </div>
+
 
   <div id="header">
     <h1>WEIL WÄHLEN</h1>
@@ -48,8 +50,8 @@
   </div>
 
   <div id="orgaHeader">
-  <h1 id="headline1">Organisa</h1>
-  <h1 id="headline2">tionen</h1>
+    <h1 id="headline1">Organisa</h1>
+    <h1 id="headline2">tionen</h1>
   </div>
 
   <div id="accordion-root">Lade Daten...</div>
@@ -71,41 +73,25 @@
       });
 
     function renderAccordion(data) {
+      window.orgaJsonData = data; // Merke das geladenene data-Objekt global
       const root = document.getElementById('accordion-root');
       root.innerHTML = '';
 
       Object.entries(data).forEach(([category, meta]) => {
+        // Sprachenlogik für Kategorienamen
+        const displayCategoryName = (currentLang === 'en' && meta.catEn) ? meta.catEn.toUpperCase() : category.toUpperCase().replace('-', ' ');
 
-        const displayCategoryName = category.toUpperCase().replace('-', ' ');
-
-        // Button erzeugen
         const btn = document.createElement('button');
         btn.className = 'accordion';
         btn.id = category;
-
-        // Hier das Style-Attribut für mainC hinzufügen
-        if (meta && meta.mainC) {
-          btn.style.backgroundColor = meta.mainC;
-        }
-
-        // HTML zusammensetzen: <h3>Kategorie</h3> + optional <h4>Organisationen</h4>
-        let innerHTML = "";
-        if (displayCategoryName.length < 12){
-          innerHTML += `<h3>${displayCategoryName}</h3>`;
-        }
-        else {
-          innerHTML += `<h6>${displayCategoryName}</h6>`;
-        }
-
-        btn.innerHTML = innerHTML;
+        if (meta && meta.mainC) btn.style.backgroundColor = meta.mainC;
+        btn.innerHTML = displayCategoryName.length < 12 ? `<h3>${displayCategoryName}</h3>` : `<h6>${displayCategoryName}</h6>`;
         root.appendChild(btn);
 
-        // Panel erzeugen
         const panel = document.createElement('div');
         panel.className = 'panel';
         panel.id = 'panel_' + category;
 
-        // Gruppen durchgehen
         meta.groups.forEach(o => {
           const h5 = document.createElement('h5');
           if (o.website) {
@@ -119,8 +105,13 @@
           }
           panel.appendChild(h5);
 
+          // Info-Text je nach Sprache nehmen:
           const pInfo = document.createElement('p');
-          pInfo.textContent = o.info;
+          if (currentLang === "en" && o.info_en) {
+            pInfo.textContent = o.info_en;
+          } else {
+            pInfo.textContent = o.info;
+          }
           panel.appendChild(pInfo);
 
           if (o.instagram) {
@@ -131,15 +122,11 @@
           }
         });
 
-        // Hier das Style-Attribut für secondC hinzufügen
-        if (meta && meta.secondC) {
-          panel.style.backgroundColor = meta.secondC;
-        }
-
+        if (meta && meta.secondC) panel.style.backgroundColor = meta.secondC;
         root.appendChild(panel);
       });
 
-      // Akkordeon-Eventhandler bleibt gleich
+      // Accordion-Eventhandler
       document.querySelectorAll('.accordion').forEach(btn => {
         btn.addEventListener('click', () => {
           btn.classList.toggle('active');

@@ -1,5 +1,6 @@
 {
   "awareness": {
+    "catEn":"awareness",
     "mainC": "#FFD050",
     "secondC": "#FFEAB1",
     "groups": [
@@ -41,6 +42,7 @@
     ]
   },
   "antifa": {
+    "catEng": "antifa",
     "mainC": "#8EC8B3",
     "secondC": "#BFEADA",
     "groups": [
@@ -68,6 +70,7 @@
     ]
   },
   "allgemeine": {
+    "catEn": "general",
     "mainC": "#F4B183",
     "secondC": "#FFE6CC",
     "groups": [
@@ -95,6 +98,7 @@
     ]
   },
   "klima": {
+    "catEn": "climate",
     "mainC": "#DA91F1",
     "secondC": "#E8C8F2",
     "groups": [
@@ -213,6 +217,7 @@
     ]
   },
   "parteien": {
+    "catEn": "parties",
     "mainC": "#FA8072",
     "secondC": "#FAD2C5",
     "groups": [
@@ -240,6 +245,7 @@
     ]
   },
   "besetzungen": {
+    "catEn": "squads",
     "mainC": "#FF6F61",
     "secondC": "#FFDAD4",
     "groups": [
@@ -260,6 +266,7 @@
     ]
   },
   "linke-spaces": {
+    "catEn": "left-spaces",
     "mainC": "#7EC8E3",
     "secondC": "#D6ECF7",
     "groups": [
@@ -315,6 +322,7 @@
     ]
   },
   "tierschutz": {
+    "catEn": "animal-welfare",
     "mainC": "#90EE90",
     "secondC": "#DFF0D8",
     "groups": [
@@ -335,6 +343,7 @@
     ]
   },
   "antikapitalismus": {
+    "catEn": "anticapitalism",
     "mainC": "#FFB6C1",
     "secondC": "#FFE4E1",
     "groups": [
@@ -348,6 +357,7 @@
     ]
   },
   "rechtshilfe": {
+    "catEn": "legal assistance",
     "mainC": "#ADD8E6",
     "secondC": "#E3F2FD",
     "groups": [
@@ -368,6 +378,7 @@
     ]
   },
   "unipolitik": {
+    "catEn": "university-politics",
     "mainC": "#FFC300",
     "secondC": "#FFECB3",
     "groups": [
@@ -409,6 +420,7 @@
     ]
   },
   "lokale": {
+    "catEn": "local",
     "mainC": "#B7E4C7",
     "secondC": "#caf0d7",
     "groups": [
