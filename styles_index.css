@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -6,6 +7,34 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Sprache ausblenden */
+.lang {
+    display: none;
+}
+
+.lang.active {
+    display: block;
+}
+
+#language-switcher  {
+    z-index: 100;
+    top: 30px;
+    right: 30px;
+    position: absolute;
+}
+
+#language-switcher button {
+    all: unset;
+    font-size: 37px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#language-switcher button.focused {
+    text-decoration: underline;
 }
 
 h1 {
@@ -45,9 +74,10 @@ a:active {
 
 /* Versteckt-Zustand: weich ausgeblendet */
 .burger-menu.hidden {
-  opacity: 0;
-  visibility: hidden;       /* verhindert Klicks, erst nach Fade */
-  pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    /* verhindert Klicks, erst nach Fade */
+    pointer-events: none;
 }
 
 /* Menü Styling */
@@ -62,8 +92,10 @@ a:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Menü nach oben verschieben */
-    padding-top: 10vh; /* Abstand von oben */
+    justify-content: flex-start;
+    /* Menü nach oben verschieben */
+    padding-top: 10vh;
+    /* Abstand von oben */
     transition: left 0.3s ease-in-out;
     z-index: 9;
 }
@@ -80,13 +112,14 @@ a:active {
 }
 
 .menu.active {
-    left: 0; /* Menü fährt von links rein */
+    left: 0;
+    /* Menü fährt von links rein */
 }
 
 
 #WerdeJetztAktiv {
-    position:absolute;
-    color:black;
+    position: absolute;
+    color: black;
     margin-top: 8vh;
     font-size: 2.6vh;
     opacity: 0;
@@ -96,8 +129,8 @@ a:active {
 }
 
 #ÜberallKriesen {
-    position:absolute;
-    color:black;
+    position: absolute;
+    color: black;
     margin-top: 5vh;
     font-size: 4vh;
     opacity: 1;
@@ -129,13 +162,15 @@ a:active {
 #stopMotion {
     will-change: opacity, transform;
     transition: opacity 0.15s linear;
-    transform: translateZ(0); /* iOS Fix */
+    transform: translateZ(0);
+    /* iOS Fix */
 }
 
 #WerdeJetztAktiv {
     will-change: opacity;
     transition: opacity 0.15s linear;
 }
+
 .accordion {
     background-color: #eee;
     color: #444;
@@ -147,8 +182,8 @@ a:active {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-  }
-  
+}
+
 .panel {
     width: 100%;
     padding: 0 18px;

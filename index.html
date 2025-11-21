@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Werde Aktiv</title>
     <link href="styles_index.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
+    <!-- Sprachwechsel -->
+    <div id="language-switcher">
+        <button id="btn-de" onclick="switchLanguage('de')">DE</button>
+        <button id="btn-en" onclick="switchLanguage('en')">EN</button>
+    </div>
+
+
     <!-- Burger-Menü Button -->
     <div class="burger-menu" onclick="toggleMenu()">
         <div></div>
@@ -19,174 +28,149 @@
 
     <!-- Navigations-Menü -->
     <div class="menu" id="menu">
-        <a href="index.html">START</a>
-        <a href="werd_aktiv.html">WERDE AKTIV</a>
-        <a href="resources.html">RESSOURCEN</a>
-        <a href="uber_uns.html">ÜBER UNS</a>
+        <a href="index.html"><span class="lang lang-de" lang="de">START</span><span class="lang lang-en"
+                lang="en">START</span></a>
+        <a href="werd_aktiv.html"><span class="lang lang-de" lang="de">WERDE AKTIV</span><span class="lang lang-en"
+                lang="en">BECOME ACTIVE</span></a>
+        <a href="resources.html"><span class="lang lang-de" lang="de">RESSOURCEN</span><span class="lang lang-en"
+                lang="en">RESOURCES</span></a>
+        <a href="uber_uns.html"><span class="lang lang-de" lang="de">ÜBER UNS</span><span class="lang lang-en"
+                lang="en">ABOUT US</span></a>
     </div>
 
-     <a id="WerdeJetztAktiv" href="werd_aktiv.html">
-            <h1>BLEIB NICHT<br>
-            ZUSCHAUER*IN<br></h1>
-            <h1 style="text-decoration: underline; margin-top: 2vh;">WERD<br>AKTIV!</h1>
+    <a id="WerdeJetztAktiv" href="werd_aktiv.html">
+        <h1 class="lang lang-de" lang="de">BLEIB NICHT<br>ZUSCHAUER*IN</h1>
+        <h1 class="lang lang-en" lang="en">DON'T JUST<br>WATCH</h1>
+        <h1 style="text-decoration: underline; margin-top: 2vh;">
+            <span class="lang lang-de" lang="de">WERD<br>AKTIV!</span>
+            <span class="lang lang-en" lang="en">GET<br>ACTIVE!</span>
+        </h1>
     </a>
 
-         <div id="ÜberallKriesen">
-            <h1>ÜBERALL<br>
-            KRISEN
-        </h1>
+    <div id="ÜberallKriesen">
+        <h1 class="lang lang-de" lang="de">ÜBERALL<br>KRISEN</h1>
+        <h1 class="lang lang-en" lang="en">EVERYWHERE<br>CRISES</h1>
     </div>
-
 
     <!-- Stop-Motion Animation -->
     <div id="animation-container">
-        <img id="stopMotion" src="images/erde_brennt1" alt="Stop Motion">
-        <img id="earth" src="images/erde.png" alt="erde">
+        <img id="stopMotion" src="images/erde_brennt1.png" alt="Stop Motion" />
+        <img id="earth" src="images/erde.png" alt="erde" />
     </div>
 
     <div id="scrollDown">
-        <img src="images/arrow-down.svg" width="50" height="50">
+        <img src="images/arrow-down.svg" width="50" height="50" />
     </div>
 
     <script>
-        // --------------------------
-        // BURGER-MENÜ EIN-/AUSBLENDEN
-        // --------------------------
-        const burger = document.querySelector('.burger-menu');
-        let lastScrollY = window.pageYOffset;
+        // Sprache initial aus localStorage laden oder Deutsch als Standard
+        let savedLang = localStorage.getItem("siteLanguage");
+        let currentLang = savedLang ? savedLang : "de";
 
-        window.addEventListener('scroll', () => {
+        function switchLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem("siteLanguage", lang);  // Sprache speichern
+            document.querySelectorAll(".lang").forEach(el => el.classList.remove("active"));
+            document.querySelectorAll(".lang-" + lang).forEach(el => el.classList.add("active"));
+            document.documentElement.lang = lang;
+
+            // Klasse "focused" nur beim aktuellen Sprach-Button setzen
+            document.getElementById("btn-de").classList.toggle("focused", lang === "de");
+            document.getElementById("btn-en").classList.toggle("focused", lang === "en");
+        }
+
+        switchLanguage(currentLang);
+
+        // BURGER-MENÜ EIN-/AUSBLENDEN
+        const burger = document.querySelector(".burger-menu");
+        let lastScrollY = window.pageYOffset;
+        window.addEventListener("scroll", () => {
             const currentY = window.pageYOffset;
             const delta = currentY - lastScrollY;
-
             if (delta > 4) {
-                burger.classList.add('hidden'); // Scroll nach unten -> verstecken
+                burger.classList.add("hidden"); // Scroll nach unten -> verstecken
             } else if (delta < -4) {
-                burger.classList.remove('hidden'); // Scroll nach oben -> zeigen
+                burger.classList.remove("hidden"); // Scroll nach oben -> zeigen
             }
-
             lastScrollY = currentY <= 0 ? 0 : currentY;
         }, { passive: true });
 
-
-        // --------------------------
         // STOP-MOTION ANIMATION
-        // --------------------------
-
         const framesDesktop = [
-        "images/erde_brennt1.png",
-        "images/erde_brennt2.png",
-        "images/erde_brennt3.png",
-        "images/erde_brennt2.png"
+            "images/erde_brennt1.png",
+            "images/erde_brennt2.png",
+            "images/erde_brennt3.png",
+            "images/erde_brennt2.png"
         ];
-
         const framesMobile = [
-        "images/erde_brennt1_small.png",
-        "images/erde_brennt2_small.png",
-        "images/erde_brennt3_small.png",
-        "images/erde_brennt2_small.png"
+            "images/erde_brennt1_small.png",
+            "images/erde_brennt2_small.png",
+            "images/erde_brennt3_small.png",
+            "images/erde_brennt2_small.png"
         ];
-
         const imgElement = document.getElementById("stopMotion");
-
-        // Prüfe, ob Mobile oder Desktop und wähle das passende Frames-Set
         const frames = window.matchMedia("(max-width: 1080px)").matches ? framesMobile : framesDesktop;
-
         let index = 0;
-
         function playAnimation() {
-        index = (index + 1) % frames.length;
-        imgElement.src = frames[index];
+            index = (index + 1) % frames.length;
+            imgElement.src = frames[index];
         }
+        setInterval(playAnimation, 300);
 
-        setInterval(playAnimation, 300); 
-
-
-        // --------------------------
         // BURGER-MENÜ TOGGLE
-        // --------------------------
         function toggleMenu() {
             document.getElementById("menu").classList.toggle("active");
         }
 
-
-        // --------------------------
         // KÜNSTLICHE INERTIA (funktioniert ohne echten Scroll!)
-        // --------------------------
-
         let scale = 1;
         const el = document.querySelector("#stopMotion");
         const firstText = document.querySelector("#ÜberallKriesen");
         const secondText = document.querySelector("#WerdeJetztAktiv");
-
-
         let velocity = 0;
         let inertiaFrame = null;
         let lastTouchY = 0;
-
         function applyFade(delta) {
             scale += delta * -0.003;
             scale = Math.min(Math.max(0, scale), 1);
-
             el.style.opacity = scale;
-            
             firstText.style.opacity = scale;
             secondText.style.opacity = 1 - scale;
         }
-
-        // Inertia Loop
         function inertiaStep() {
             if (Math.abs(velocity) < 0.1) {
                 velocity = 0;
                 inertiaFrame = null;
                 return;
             }
-
             applyFade(velocity);
-
-            // iOS-like slowdown
             velocity *= 0.92;
-
             inertiaFrame = requestAnimationFrame(inertiaStep);
         }
-
-
-        // TOUCH -------------------------
-
         window.addEventListener("touchstart", e => {
             lastTouchY = e.touches[0].clientY;
-
             if (inertiaFrame) cancelAnimationFrame(inertiaFrame);
             inertiaFrame = null;
         }, { passive: true });
-
         window.addEventListener("touchmove", e => {
             const y = e.touches[0].clientY;
             const delta = lastTouchY - y;
             lastTouchY = y;
-
             velocity = delta;
             applyFade(delta);
         }, { passive: true });
-
         window.addEventListener("touchend", () => {
             if (Math.abs(velocity) > 0.5) {
                 inertiaFrame = requestAnimationFrame(inertiaStep);
             }
         }, { passive: true });
-
-
-        // DESKTOP WHEEL ------------------
-
         window.addEventListener("wheel", e => {
             velocity = e.deltaY;
             applyFade(e.deltaY);
-
             if (inertiaFrame) cancelAnimationFrame(inertiaFrame);
             inertiaFrame = requestAnimationFrame(inertiaStep);
         }, { passive: true });
-
-
     </script>
 </body>
+
 </html>
