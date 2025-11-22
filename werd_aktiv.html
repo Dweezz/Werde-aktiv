@@ -28,170 +28,201 @@
     <a href="uber_uns.html"><span class="lang lang-de">ÜBER UNS</span><span class="lang lang-en">ABOUT US</span></a>
   </div>
 
-<div id="header">
-  <h1><span class="lang lang-de">WEIL WÄHLEN</span><span class="lang lang-en">BECAUSE VOTING</span></h1>
-  <h1 id="nicht"><span class="lang lang-de">NICHT</span><span class="lang lang-en">IS NOT</span></h1>
-  <h1><span class="lang lang-de">REICHT:</span><span class="lang lang-en">ENOUGH:</span></h1>
-</div>
+  <div id="language-switcher">
+    <button id="btn-de" onclick="switchLanguage('de')">DE</button>
+    <button id="btn-en" onclick="switchLanguage('en')">EN</button>
+  </div>
 
-<div id="waehlenInfo">
-  <p>
-    <span class="lang lang-de">
-      Wählen reicht nicht, weil es nur punktuell Einfluss gibt, während Politik täglich durch Agenda-Setting,
-      Lobbydruck und Verwaltungspraxis gemacht wird; ohne kontinuierliche Beteiligung bleiben zentrale Interessen
-      unsichtbar und unterrepräsentiert. Ungleiche Wahlbeteiligung verzerrt zusätzlich die Repräsentation, besonders
-      zulasten einkommensschwächerer und marginalisierter Gruppen, deren Anliegen so systematisch weniger Gewicht
-      erhalten. Organisieren und aktivistisches Engagement schaffen dauerhaften Druck, bringen neue Themen auf die
-      Agenda und übersetzen gesellschaftliche Bedürfnisse in konkrete Veränderungen - genau das, was der Wahlakt allein
-      nicht leisten kann.
-    </span>
-    <span class="lang lang-en">
-      Voting is not enough because it only provides occasional influence, while politics is shaped daily through agenda-setting,
-      lobbying pressure, and administrative practice; without continuous participation, central interests remain invisible
-      and underrepresented. Unequal voter turnout further distorts representation, especially disadvantaging lower
 
-  <div id="accordion-root">Loading Data...</div>
-  <script>
+  <div id="header">
+    <h1><span class="lang lang-de">WEIL WÄHLEN</span><span class="lang lang-en">BECAUSE VOTING</span></h1>
+    <h1 id="nicht"><span class="lang lang-de">NICHT</span><span class="lang lang-en">IS NOT</span></h1>
+    <h1><span class="lang lang-de">REICHT:</span><span class="lang lang-en">ENOUGH:</span></h1>
+  </div>
 
-    fetch('resources/orgas.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("HTTP Fehler: " + response.status);
-        }
-        return response.json();
-      })
-      .then(data => {
-        renderAccordion(data);
-      })
-      .catch(error => {
-        document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
-        console.error(error);
-      });
+  <div id="waehlenInfo">
+    <p>
+      <span class="lang lang-de">
+        Wählen reicht nicht, weil es nur punktuell Einfluss gibt, während Politik täglich durch Agenda-Setting,
+        Lobbydruck und Verwaltungspraxis gemacht wird; ohne kontinuierliche Beteiligung bleiben zentrale Interessen
+        unsichtbar und unterrepräsentiert. Ungleiche Wahlbeteiligung verzerrt zusätzlich die Repräsentation, besonders
+        zulasten einkommensschwächerer und marginalisierter Gruppen, deren Anliegen so systematisch weniger Gewicht
+        erhalten. Organisieren und aktivistisches Engagement schaffen dauerhaften Druck, bringen neue Themen auf die
+        Agenda und übersetzen gesellschaftliche Bedürfnisse in konkrete Veränderungen - genau das, was der Wahlakt
+        allein
+        nicht leisten kann.
+      </span>
+      <span class="lang lang-en">
+        Voting is not enough because it only provides occasional influence, while politics is shaped daily through
+        agenda-setting,
+        lobbying pressure, and administrative practice; without continuous participation, central interests remain
+        invisible
+        and underrepresented. Unequal voter turnout further distorts representation, especially disadvantaging lower
 
-    function renderAccordion(data) {
-      window.orgaJsonData = data; // Merke das geladenene data-Objekt global
-      const root = document.getElementById('accordion-root');
-      root.innerHTML = '';
+        <div id="accordion-root">Loading Data...</div>
+        <script>
 
-      Object.entries(data).forEach(([category, meta]) => {
-        // Sprachenlogik für Kategorienamen
-        const displayCategoryName = (currentLang === 'en' && meta.catEn) ? meta.catEn.toUpperCase() : category.toUpperCase().replace('-', ' ');
+          fetch('resources/orgas.json')
+            .then(response => {
+              if (!response.ok) throw new Error("HTTP Fehler: " + response.status);
+              return response.json();
+            })
+            .then(data => {
+              window.orgaJsonData = data;
+              renderAccordion(data); // wird beim Umschalten automatisch neu gerendert
+            })
+            .catch(error => {
+              document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
+              console.error(error);
+            });
 
-        const btn = document.createElement('button');
-        btn.className = 'accordion';
-        btn.id = category;
-        if (meta && meta.mainC) btn.style.backgroundColor = meta.mainC;
-        btn.innerHTML = displayCategoryName.length < 12 ? `<h3>${displayCategoryName}</h3>` : `<h6>${displayCategoryName}</h6>`;
-        root.appendChild(btn);
+          let savedLang = localStorage.getItem("siteLanguage");
+          let currentLang = savedLang ? savedLang : "de";
+          switchLanguage(currentLang);
 
-        const panel = document.createElement('div');
-        panel.className = 'panel';
-        panel.id = 'panel_' + category;
+          function switchLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem("siteLanguage", lang);
 
-        meta.groups.forEach(o => {
-          const h5 = document.createElement('h5');
-          if (o.website) {
-            const a = document.createElement('a');
-            a.href = o.website;
-            a.target = '_blank';
-            a.textContent = o.name;
-            h5.appendChild(a);
-          } else {
-            h5.textContent = o.name;
+            // Menü und statische Elemente wechseln
+            document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+            document.querySelectorAll('.lang-' + lang).forEach(el => el.style.display = '');
+
+            // Sprach-Button visuell markieren
+            document.getElementById("btn-de").classList.toggle("focused", lang === "de");
+            document.getElementById("btn-en").classList.toggle("focused", lang === "en");
+
+            // Accordion neu rendern, wenn die Daten schon geladen sind
+            if (window.orgaJsonData) {
+              renderAccordion(window.orgaJsonData);
+            }
           }
-          panel.appendChild(h5);
 
-          // Info-Text je nach Sprache nehmen:
-          const pInfo = document.createElement('p');
-          if (currentLang === "en" && o.info_en) {
-            pInfo.textContent = o.info_en;
-          } else {
-            pInfo.textContent = o.info;
+          // Accordion-Code AUF DIE SPRACHWAHL ANPASSEN:
+          function renderAccordion(data) {
+            window.orgaJsonData = data; // Merke das geladenene data-Objekt global
+            const root = document.getElementById('accordion-root');
+            root.innerHTML = '';
+
+            Object.entries(data).forEach(([category, meta]) => {
+              // Sprachenlogik für Kategorienamen
+              const displayCategoryName = (currentLang === 'en' && meta.catEn) ? meta.catEn.toUpperCase() : category.toUpperCase().replace('-', ' ');
+
+              const btn = document.createElement('button');
+              btn.className = 'accordion';
+              btn.id = category;
+              if (meta && meta.mainC) btn.style.backgroundColor = meta.mainC;
+              btn.innerHTML = displayCategoryName.length < 12 ? `<h3>${displayCategoryName}</h3>` : `<h6>${displayCategoryName}</h6>`;
+              root.appendChild(btn);
+
+              const panel = document.createElement('div');
+              panel.className = 'panel';
+              panel.id = 'panel_' + category;
+
+              meta.groups.forEach(o => {
+                const h5 = document.createElement('h5');
+                if (o.website) {
+                  const a = document.createElement('a');
+                  a.href = o.website;
+                  a.target = '_blank';
+                  a.textContent = o.name;
+                  h5.appendChild(a);
+                } else {
+                  h5.textContent = o.name;
+                }
+                panel.appendChild(h5);
+
+                // Info-Text je nach Sprache nehmen:
+                const pInfo = document.createElement('p');
+                if (currentLang === "en" && o.info_en) {
+                  pInfo.textContent = o.info_en;
+                } else {
+                  pInfo.textContent = o.info;
+                }
+                panel.appendChild(pInfo);
+
+                if (o.instagram) {
+                  const pInsta = document.createElement('p');
+                  const instaUser = o.instagram.split('/').filter(Boolean).pop();
+                  pInsta.innerHTML = `<strong>Instagram:</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
+                  panel.appendChild(pInsta);
+                }
+              });
+
+              if (meta && meta.secondC) panel.style.backgroundColor = meta.secondC;
+              root.appendChild(panel);
+            });
+
+            // Accordion-Eventhandler
+            document.querySelectorAll('.accordion').forEach(btn => {
+              btn.addEventListener('click', () => {
+                btn.classList.toggle('active');
+                const panel = btn.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+              });
+            });
           }
-          panel.appendChild(pInfo);
 
-          if (o.instagram) {
-            const pInsta = document.createElement('p');
-            const instaUser = o.instagram.split('/').filter(Boolean).pop();
-            pInsta.innerHTML = `<strong>Instagram:</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
-            panel.appendChild(pInsta);
+        </script>
+
+
+        <script>
+          // Referenzen
+          const burger = document.querySelector('.burger-menu');
+
+          // Scrollrichtung tracken
+          let lastScrollY = window.pageYOffset;
+
+          // Debounce/Throttle optional; hier einfache Version
+          window.addEventListener('scroll', () => {
+            const currentY = window.pageYOffset;
+
+            // Schwelle, um „Mikro“-Scrolls zu ignorieren
+            const delta = currentY - lastScrollY;
+
+            if (delta > 4) {
+              // Scroll nach unten -> ausblenden
+              burger.classList.add('hidden');
+            } else if (delta < -4) {
+              // Scroll nach oben -> einblenden
+              burger.classList.remove('hidden');
+            }
+
+            lastScrollY = currentY <= 0 ? 0 : currentY;
+          }, { passive: true });
+
+          // Burger-Menü Steuerung
+          function toggleMenu() {
+            document.getElementById("menu").classList.toggle("active");
           }
-        });
+          document.querySelectorAll(".accordion").forEach(button => {
+            button.addEventListener("click", () => {
+              const panel = button.nextElementSibling;
+              const isOpen = panel.style.maxHeight;
 
-        if (meta && meta.secondC) panel.style.backgroundColor = meta.secondC;
-        root.appendChild(panel);
-      });
+              //Alle anderen Accordions schließen (optional)
+              document.querySelectorAll(".accordion + .panel").forEach(p => {
+                p.style.maxHeight = "";
+                p.previousElementSibling.classList.remove("active");
+              });
 
-      // Accordion-Eventhandler
-      document.querySelectorAll('.accordion').forEach(btn => {
-        btn.addEventListener('click', () => {
-          btn.classList.toggle('active');
-          const panel = btn.nextElementSibling;
-          if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-          }
-        });
-      });
-    }
+              if (isOpen) {
+                // Zuklappen
+                panel.style.maxHeight = "";
+                button.classList.remove("active");
+              } else {
+                // Aufklappen
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                button.classList.add("active");
+              }
+            });
+          });
 
-  </script>
-
-
-  <script>
-    // Referenzen
-    const burger = document.querySelector('.burger-menu');
-
-    // Scrollrichtung tracken
-    let lastScrollY = window.pageYOffset;
-
-    // Debounce/Throttle optional; hier einfache Version
-    window.addEventListener('scroll', () => {
-      const currentY = window.pageYOffset;
-
-      // Schwelle, um „Mikro“-Scrolls zu ignorieren
-      const delta = currentY - lastScrollY;
-
-      if (delta > 4) {
-        // Scroll nach unten -> ausblenden
-        burger.classList.add('hidden');
-      } else if (delta < -4) {
-        // Scroll nach oben -> einblenden
-        burger.classList.remove('hidden');
-      }
-
-      lastScrollY = currentY <= 0 ? 0 : currentY;
-    }, { passive: true });
-
-    // Burger-Menü Steuerung
-    function toggleMenu() {
-      document.getElementById("menu").classList.toggle("active");
-    }
-    document.querySelectorAll(".accordion").forEach(button => {
-      button.addEventListener("click", () => {
-        const panel = button.nextElementSibling;
-        const isOpen = panel.style.maxHeight;
-
-        //Alle anderen Accordions schließen (optional)
-        document.querySelectorAll(".accordion + .panel").forEach(p => {
-          p.style.maxHeight = "";
-          p.previousElementSibling.classList.remove("active");
-        });
-
-        if (isOpen) {
-          // Zuklappen
-          panel.style.maxHeight = "";
-          button.classList.remove("active");
-        } else {
-          // Aufklappen
-          panel.style.maxHeight = panel.scrollHeight + "px";
-          button.classList.add("active");
-        }
-      });
-    });
-
-  </script>
+        </script>
 </body>
 
 </html>

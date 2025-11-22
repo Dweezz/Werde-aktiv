@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -47,9 +48,10 @@ a {
 
 /* Versteckt-Zustand: weich ausgeblendet */
 .burger-menu.hidden {
-  opacity: 0;
-  visibility: hidden;       /* verhindert Klicks, erst nach Fade */
-  pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    /* verhindert Klicks, erst nach Fade */
+    pointer-events: none;
 }
 
 
@@ -65,8 +67,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Menü nach oben verschieben */
-    padding-top: 10vh; /* Abstand von oben */
+    justify-content: flex-start;
+    /* Menü nach oben verschieben */
+    padding-top: 10vh;
+    /* Abstand von oben */
     transition: left 0.3s ease-in-out;
     z-index: 9;
 }
@@ -83,7 +87,37 @@ a {
 }
 
 .menu.active {
-    left: 0; /* Menü fährt von links rein */
+    left: 0;
+    /* Menü fährt von links rein */
+}
+
+#language-switcher  {
+    z-index: 100;
+    top: 30px;
+    right: 30px;
+    position: absolute;
+}
+
+#language-switcher button {
+    all: unset;
+    font-size: 37px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#language-switcher button.focused {
+    text-decoration: underline;
+}
+
+.lang {
+    display: none;
+}
+
+.lang.active,
+.lang-de,
+.lang-en {
+    display: inline;
 }
 
 
@@ -111,7 +145,7 @@ a {
 
 #header h1 {
     line-height: 0.7;
-    margin:0px;
+    margin: 0px;
 }
 
 #nicht {
@@ -167,7 +201,7 @@ a {
     height: auto;
 }
 
-h3{
+h3 {
     margin: 0px;
     font-size: 45px;
     color: black;
@@ -177,7 +211,7 @@ h3{
     margin-block-end: 0;
 }
 
-h4{
+h4 {
     font-size: 35px;
     color: black;
     font-family: Oswald;
@@ -187,14 +221,14 @@ h4{
     text-align: right;
 }
 
-h5{
+h5 {
     font-size: 25px;
     font-family: Oswald;
     margin-block-start: 20px;
     margin-block-end: 0;
 }
 
-h6{
+h6 {
     margin: 0px;
     font-size: 40px;
     color: black;
@@ -204,43 +238,47 @@ h6{
     margin-block-end: 0;
 }
 
-p{
+p {
     font-size: 15px;
     font-family: Oswald;
 }
 
 
 #kalender {
-    background-color: #D2B48C;  /* Khaki Braun für Veranstaltungskalender */
+    background-color: #D2B48C;
+    /* Khaki Braun für Veranstaltungskalender */
 }
+
 #panel_kalender {
     background-color: #EFE0C8;
 }
 
-#downloads{
+#downloads {
     background-color: #8EC8B3;
 }
-#panel_downloads{
-    background-color: #BFEADA;    
+
+#panel_downloads {
+    background-color: #BFEADA;
 }
 
 
-#uber{
+#uber {
     background-color: #FFD050;
 }
 
-#panel_uber{
+#panel_uber {
     background-color: #FFEAB1;
 }
 
-#warum{
+#warum {
     background-color: #8EC8B3;
 }
-#panel_warum{
-    background-color: #BFEADA;    
+
+#panel_warum {
+    background-color: #BFEADA;
 }
 
-#accordion-root{
+#accordion-root {
     margin-bottom: 15px;
 }
 
@@ -257,22 +295,22 @@ p{
     border: none;
     outline: none;
     transition: 0.4s;
-  }
+}
 
 .accordion.active {
-border-bottom-left-radius: 0;
-border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .panel {
-margin-left: 5%;
-margin-right: 5%;
-padding-left: 18px;
-padding-right: 18px;
-border-bottom-left-radius: 25px;
-border-bottom-right-radius: 25px;
-background-color: white;
-max-height: 0;
-overflow: hidden;
-transition: max-height 0.4s ease-out;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
 }
