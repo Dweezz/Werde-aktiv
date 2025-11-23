@@ -156,12 +156,12 @@ a {
     position: absolute;
     font-size: 6rem;
     text-align: right;
-    top:100px;
+    top: 130px;
     color: #D7524D;
 }
 
 #reicht{
-    
+    margin-top: 20px;
 }
 
 #header2 {
