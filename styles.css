@@ -144,16 +144,15 @@ a {
 }
 
 #header h1 {
-    line-height: 0.7;
+    margin-top: 20px;
     margin: 0px;
 }
 
 #nicht {
-    width: 50%;
+    width: 80%;
     position: relative;
     font-size: 6rem;
     left: 20vw;
-    margin: 0;
     color: #D7524D;
 }
 
@@ -286,7 +285,6 @@ p {
     text-align: justify;
     height: 125px;
     margin-top: 15px;
-    margin-left: 5%;
     background-color: brown;
     border-radius: 25px;
     cursor: pointer;
