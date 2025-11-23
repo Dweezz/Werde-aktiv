@@ -131,7 +131,6 @@ a {
     text-align: center;
 }
 
-
 #scrollDown {
     position: relative;
     bottom: 0;
@@ -148,6 +147,10 @@ a {
     margin: 0px;
 }
 
+#weil{
+    
+}
+
 #nicht {
     width: 80%;
     position: absolute;
@@ -155,6 +158,10 @@ a {
     text-align: right;
     top:100px;
     color: #D7524D;
+}
+
+#reicht{
+    
 }
 
 #header2 {
@@ -303,7 +310,6 @@ p {
 }
 
 .panel {
-    width: 90%;
     margin-left: 5%;
     padding-left: 18px;
     padding-right: 18px;
