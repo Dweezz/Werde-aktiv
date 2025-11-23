@@ -282,6 +282,8 @@ p {
 }
 
 .accordion {
+    width: 90%;
+    margin-left: 5%;
     text-align: justify;
     height: 125px;
     margin-top: 15px;
@@ -301,6 +303,8 @@ p {
 }
 
 .panel {
+    width: 90%;
+    margin-left: 5%;
     padding-left: 18px;
     padding-right: 18px;
     border-bottom-left-radius: 25px;
