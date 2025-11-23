@@ -291,6 +291,7 @@ p {
     border-radius: 25px;
     cursor: pointer;
     padding: 18px;
+    width: 100%;
     border: none;
     outline: none;
     transition: 0.4s;
@@ -302,8 +303,6 @@ p {
 }
 
 .panel {
-    margin-left: 5%;
-    margin-right: 5%;
     padding-left: 18px;
     padding-right: 18px;
     border-bottom-left-radius: 25px;
