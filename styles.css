@@ -150,9 +150,10 @@ a {
 
 #nicht {
     width: 80%;
-    position: relative;
+    position: absolute;
     font-size: 6rem;
-    left: 20vw;
+    text-align: right;
+    top:100px;
     color: #D7524D;
 }
 
