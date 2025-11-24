@@ -18,7 +18,7 @@ body {
     display: block;
 }
 
-#language-switcher  {
+#language-switcher {
     z-index: 100;
     top: 30px;
     right: 30px;
@@ -147,10 +147,12 @@ a:active {
 }
 
 #animation-container img {
-    bottom: 8vh;
-    width: 100%;
     position: absolute;
-    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 8vh;   /* keep your original upward offset */
+    max-width: 100%;
+    max-height: 60vh;
     z-index: 3;
 }
 
@@ -163,7 +165,6 @@ a:active {
     will-change: opacity, transform;
     transition: opacity 0.15s linear;
     transform: translateZ(0);
-    /* iOS Fix */
 }
 
 #WerdeJetztAktiv {
