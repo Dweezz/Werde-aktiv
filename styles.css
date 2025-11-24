@@ -149,14 +149,14 @@ a {
 #nicht {
     width: 80%;
     position: absolute;
-    font-size: 6rem;
+    font-size: 25vw;
     text-align: right;
     top: 130px;
     color: #D7524D;
 }
 
 #reicht{
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 12vw;
 }
 
