@@ -167,6 +167,7 @@ a {
 }
 
 .percent-bar-wrapper {
+    margin-top: 50px;
     margin-left: 5%;
     width: 90%;
     font-family: Arial, sans-serif;
