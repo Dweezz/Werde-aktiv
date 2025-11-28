@@ -137,7 +137,7 @@ a {
 }
 
 #header {
-    margin-top: 17vh;
+    margin-top: 15vh;
     font-size: 1.7rem;
     width: 90%;
 }
@@ -168,7 +168,6 @@ a {
 
 .percent-bar-wrapper {
     margin-top: 50px;
-    margin-left: 5%;
     width: 90%;
     font-family: Arial, sans-serif;
 }
