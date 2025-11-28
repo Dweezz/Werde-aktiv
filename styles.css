@@ -151,7 +151,7 @@ a {
     position: absolute;
     font-size: 25vw;
     text-align: right;
-    top: 130px;
+    top: 150px;
     color: #D7524D;
 }
 
@@ -167,7 +167,8 @@ a {
 }
 
 .percent-bar-wrapper {
-    width: 100%;
+    margin-left: 5%;
+    width: 90%;
     font-family: Arial, sans-serif;
 }
 

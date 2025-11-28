@@ -1,11 +1,18 @@
 {
   "awareness": {
-    "catEn":"awareness",
+    "catEn": "awareness",
     "mainC": "#FFD050",
     "secondC": "#FFEAB1",
     "groups": [
       {
         "name": "Catcalls Vienna",
+        "info": "Catcalls Vienna ist ein Kollektiv, das seit 2020 sexuelle Belästigung im öffentlichen Raum sichtbar macht, indem Betroffene über Instagram ihre Erfahrungen teilen und die Sprüche mit Kreide am Tatort aufgeschrieben werden. Die Initiative ist Teil der internationalen Chalk Back-Bewegung und erobert durch diese Aktion den Ort für die Betroffenen zurück. Über 50 Freiwillige unterstützen die Kerngruppe bei Aufklärungsarbeit und dem Kampf für die Strafbarkeit verbaler sexueller Belästigung in Österreich.",
+        "info_en": "Catcalls Vienna is a collective that has been making sexual harassment in public spaces visible since 2020. Affected individuals share their experiences on Instagram, and catcalling phrases are written in chalk at the locations where they occurred. The initiative is part of the international Chalk Back movement and reclaims public spaces for the affected through this action. More than 50 volunteers support the core group in awareness-raising and advocating for the criminalization of verbal sexual harassment in Austria.",
+        "website": null,
+        "instagram": "https://www.instagram.com/catcallsof.vie"
+      },
+      {
+        "name": "Gfoa",
         "info": "Catcalls Vienna ist ein Kollektiv, das seit 2020 sexuelle Belästigung im öffentlichen Raum sichtbar macht, indem Betroffene über Instagram ihre Erfahrungen teilen und die Sprüche mit Kreide am Tatort aufgeschrieben werden. Die Initiative ist Teil der internationalen Chalk Back-Bewegung und erobert durch diese Aktion den Ort für die Betroffenen zurück. Über 50 Freiwillige unterstützen die Kerngruppe bei Aufklärungsarbeit und dem Kampf für die Strafbarkeit verbaler sexueller Belästigung in Österreich.",
         "info_en": "Catcalls Vienna is a collective that has been making sexual harassment in public spaces visible since 2020. Affected individuals share their experiences on Instagram, and catcalling phrases are written in chalk at the locations where they occurred. The initiative is part of the international Chalk Back movement and reclaims public spaces for the affected through this action. More than 50 volunteers support the core group in awareness-raising and advocating for the criminalization of verbal sexual harassment in Austria.",
         "website": null,
@@ -321,24 +328,38 @@
       }
     ]
   },
-  "tierschutz": {
-    "catEn": "animal-welfare",
+  "veganismus": {
+    "catEn": "veganism",
     "mainC": "#90EE90",
     "secondC": "#DFF0D8",
     "groups": [
-      {
-        "name": "VGT (Verein gegen Tierfabriken)",
-        "info": "Der Verein gegen Tierfabriken (VGT) wurde 1992 gegründet und ist mit rund 18.000 Mitgliedern Österreichs führende Tierschutzorganisation, die sich für Mitgefühl und Respekt gegenüber Tieren einsetzt. Der VGT kämpft mit dem Grundsatz der Gewaltlosigkeit gegen Tierfabriken, Tierversuche, Pelz, Wildtierzirkusse und für bessere Tierschutzgesetze. Die Organisation kann Erfolge wie die Schließung aller Pelzfarmen, das Ende von Legebatterien, das Verbot von Wildtieren im Zirkus und die Verankerung von Tierschutz in der Verfassung vorweisen.",
-        "info_en": "The Association Against Animal Factories (VGT) was founded in 1992 and is Austria's leading animal protection organization with around 18,000 members committed to compassion and respect for animals. The VGT fights, on the principle of nonviolence, against animal factories, animal testing, fur, wild animals in circuses, and for better animal protection laws. The organization can point to successes such as the closure of all fur farms, the end of battery cages, the ban on wild animals in circuses, and the anchoring of animal protection in the constitution.",
-        "website": "https://vgt.at/",
-        "instagram": "https://www.instagram.com/vgt.austria"
-      },
       {
         "name": "Anonymous for the Voiceless",
         "info": "Anonymous for the Voiceless ist eine internationale Tierrechtsorganisation, die sich auf vegane Straßenaktivismus formiert hat. Mit den bekannten Cubes of Truth machen sie passivem Publikum die Realität der Tierausbeutung sichtbar und schaffen so Bewusstsein und Wandel. Die Gruppe verfolgt eine abolitionistische Haltung gegen jegliche Ausbeutung nichtmenschlicher Tiere und setzt klare, direkte vegane Botschaften um.",
         "info_en": "Anonymous for the Voiceless is an international animal rights organization that has organized around vegan street activism. With their famous Cubes of Truth, they make the reality of animal exploitation visible to passive audiences, creating awareness and change. The group pursues an abolitionist stance against any exploitation of non-human animals and implements clear, direct vegan messages.",
         "website": "https://anonymousforthevoiceless.org/",
         "instagram": null
+      },
+      {
+        "name": "Plant-Based Universities",
+        "info": "Plant-Based Universities ist eine internationale, von Studierenden geführte Kampagne, die darauf abzielt, an Universitäten eine 100% pflanzenbasierte Verpflegung einzuführen, um der Klimakrise und Umweltzerstörung entgegenzuwirken. Die Bewegung begann 2021 in Großbritannien und hat sich inzwischen auf über 60 Hochschulen in mehreren europäischen Ländern ausgedehnt, darunter auch Österreich und Deutschland.",
+        "info_en": "Plant-Based Universities is an international student-led campaign aiming to implement 100% plant-based catering at universities to address the climate crisis and environmental damage. The movement started in 2021 in the UK and has since spread to over 60 universities across several European countries, including Austria and Germany.",
+        "website": "https://plantbaseduniversities.org/",
+        "instagram": "https://www.instagram.com/plantbasedunisvienna/"
+      },
+      {
+        "name": "vegan.at",
+        "info": "Vegan.at ist die Online-Plattform der Vegane Gesellschaft Österreich, die Informationen, Rezepte und Neuigkeiten rund um die vegane Lebensweise in Österreich bereitstellt. Die Seite fördert einen bewussten, nachhaltigen und tierfreundlichen Lebensstil durch vielfältige Inhalte und aktuelle Berichte.",
+        "info_en": "Vegan.at is the online platform of the Vegan Society of Austria, providing information, recipes, and news about the vegan lifestyle in Austria. The site promotes a conscious, sustainable, and animal-friendly way of living through diverse content and up-to-date reports.",
+        "website": "https://www.vegan.at/",
+        "instagram": "https://www.instagram.com/vegane_gesellschaft"
+      },
+      {
+        "name": "VGT (Verein gegen Tierfabriken)",
+        "info": "Der Verein gegen Tierfabriken (VGT) wurde 1992 gegründet und ist mit rund 18.000 Mitgliedern Österreichs führende Tierschutzorganisation, die sich für Mitgefühl und Respekt gegenüber Tieren einsetzt. Der VGT kämpft mit dem Grundsatz der Gewaltlosigkeit gegen Tierfabriken, Tierversuche, Pelz, Wildtierzirkusse und für bessere Tierschutzgesetze. Die Organisation kann Erfolge wie die Schließung aller Pelzfarmen, das Ende von Legebatterien, das Verbot von Wildtieren im Zirkus und die Verankerung von Tierschutz in der Verfassung vorweisen.",
+        "info_en": "The Association Against Animal Factories (VGT) was founded in 1992 and is Austria's leading animal protection organization with around 18,000 members committed to compassion and respect for animals. The VGT fights, on the principle of nonviolence, against animal factories, animal testing, fur, wild animals in circuses, and for better animal protection laws. The organization can point to successes such as the closure of all fur farms, the end of battery cages, the ban on wild animals in circuses, and the anchoring of animal protection in the constitution.",
+        "website": "https://vgt.at/",
+        "instagram": "https://www.instagram.com/vgt.austria"
       }
     ]
   },
@@ -362,18 +383,25 @@
     "secondC": "#E3F2FD",
     "groups": [
       {
-        "name": "Rote Hilfe Wien",
-        "info": "Die Rote Hilfe Wien ist ein Verein, der Menschen unterstützt, die aufgrund ihres politischen Engagements Repression durch Polizei und Justiz erfahren. Die Organisation versteht sich als strömungsübergreifende Solidaritätsorganisation und bietet an drei Mittwochabenden im Monat kostenlose Beratung in Strafsachen und Verwaltungsstrafen an verschiedenen Orten in Wien. Die Rote Hilfe unterstützt durch Beratung, politische Solidarität und bei Bedarf auch finanziell (bis zu 70% der Kosten) unter der Voraussetzung politischer Prozessführung.",
-        "info_en": "Red Aid Vienna is an association that supports people experiencing repression through police and judicial systems because of their political engagement. The organization sees itself as a cross-ideological solidarity organization and offers free legal consultation on criminal and administrative fines three Wednesday evenings per month at various locations in Vienna. Red Aid provides support through consultation, political solidarity, and if needed, financial assistance (up to 70% of costs) under the condition of political case conduct.",
-        "website": "https://rotehilfe.wien/",
-        "instagram": null
-      },
-      {
         "name": "Grad Recht",
         "info": "Grad Recht ist eine Initiative von (Jus-)Studierenden, Jurist:innen und erfahrenen Klimaaktivist:innen, die kostenlose Rechtsberatung für Klimaaktivist:innen anbietet. Die Organisation unterstützt Menschen bei rechtlichen Anliegen im Kontext von Klimaschutz und sozial gerechter Klimapolitik und baut ein breites Netzwerk von Rechtsanwält:innen für diese Zwecke auf. Grad Recht hat bereits zahlreiche Aktivist:innen rechtlich beraten und steht für solidarische rechtliche Begleitung.",
         "info_en": "Grad Recht is an initiative of law students, lawyers, and experienced climate activists that offers free legal advice to climate activists. The organization supports people with legal matters in the context of climate protection and socially just climate policy and builds a broad network of lawyers for these purposes. Grad Recht has already provided legal advice to numerous activists and stands for solidarity-based legal support.",
         "website": "https://www.gradrecht.at/",
         "instagram": "https://www.instagram.com/grad.recht"
+      },
+      {
+        "name": "Rechtsinfokollektiv",
+        "info": "Das Rechtsinfokollektiv (RiKo) ist ein unabhängiges und bündnisübergreifendes Kollektiv in Österreich, das Aktivist*innen und zivilgesellschaftliche Gruppen bei rechtlichen Fragen im Zusammenhang mit Demonstrationen, Versammlungen und politischem Aktivismus unterstützt. Es bietet praktische Rechtsinformationen, Beratung und Rechtshilfe, um gegen staatliche und polizeiliche Repression vorzugehen und gesellschaftlichen Protest zu stärken.",
+        "info_en": "The Rechtsinfokollektiv (RiKo) is an independent and alliance-based collective in Austria that provides legal information and support to activists and civil society groups, especially regarding demonstrations, assemblies, and political activism. RiKo offers practical legal advice and assistance to help individuals counter state repression and strengthen social protest movements.",
+        "website": "https://at.rechtsinfokollektiv.org/",
+        "instagram": "https://www.instagram.com/grad.recht"
+      },
+      {
+        "name": "Rote Hilfe Wien",
+        "info": "Die Rote Hilfe Wien ist ein Verein, der Menschen unterstützt, die aufgrund ihres politischen Engagements Repression durch Polizei und Justiz erfahren. Die Organisation versteht sich als strömungsübergreifende Solidaritätsorganisation und bietet an drei Mittwochabenden im Monat kostenlose Beratung in Strafsachen und Verwaltungsstrafen an verschiedenen Orten in Wien. Die Rote Hilfe unterstützt durch Beratung, politische Solidarität und bei Bedarf auch finanziell (bis zu 70% der Kosten) unter der Voraussetzung politischer Prozessführung.",
+        "info_en": "Red Aid Vienna is an association that supports people experiencing repression through police and judicial systems because of their political engagement. The organization sees itself as a cross-ideological solidarity organization and offers free legal consultation on criminal and administrative fines three Wednesday evenings per month at various locations in Vienna. Red Aid provides support through consultation, political solidarity, and if needed, financial assistance (up to 70% of costs) under the condition of political case conduct.",
+        "website": "https://rotehilfe.wien/",
+        "instagram": null
       }
     ]
   },
