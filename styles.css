@@ -361,6 +361,7 @@ p {
 
 .panel {
     margin-left: 5%;
+    margin-right: 5%;
     padding-left: 18px;
     padding-right: 18px;
     border-bottom-left-radius: 25px;
