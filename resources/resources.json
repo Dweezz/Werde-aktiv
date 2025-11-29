@@ -47,24 +47,17 @@
     "secondC": "#FFE6CC",
     "groups": [
       {
-        "name": "Kalender 1",
-        "info": "Wir* gegen Rechts ist eine lose Gruppe von Menschen, die sich gegen den massiven Rechtsruck in Österreich und Europa organisieren. Die Initiative bietet 50 Aktionsideen, Argumentationstrainings gegen rechte Parolen und Haustürgespräche zur Mobilisierung von Nichtwähler*innen. Die Kampagne wurde durch Spenden finanziert und verteilt kostenlose Plakate im IG KiKK-Büro.",
-        "info_en": "Wir* gegen Rechts is a loose group of people organizing against the massive right-wing shift in Austria and Europe. The initiative offers 50 action ideas, argumentation training against right-wing rhetoric, and door-to-door conversations to mobilize non-voters. The campaign is funded by donations and distributes free posters at the IG KiKK office.",
-        "website": "https://wir-gegen-rechts.at/",
-        "instagram": "https://www.instagram.com/wir.gegenrechts"
+        "name": "Zeit.diebin",
+        "info": "Zeit.diebin ist eine Veranstaltungskalender-Plattform und Netzwerk für linke, anarchistische und autonome Veranstaltungen im deutschsprachigen Raum. Die Plattform ermöglicht es, Termine von Demos, Vorträgen, Workshops und Versammlungen zu finden und zu teilen.",
+        "info_en": "Zeit.diebin is an event calendar platform and network for left-wing, anarchist, and autonomous events in German-speaking regions. The platform allows users to find and share dates for demonstrations, lectures, workshops, and assemblies.",
+        "website": "https://zeit.diebin.at/",
+        "instagram": null
       },
       {
-        "name": "Kalender 2",
-        "info": "Das Civil Action Network ist eine Organisation, die zivilgesellschaftliche Akteur*innen durch Trainings, Coaching, Moderation und Vernetzungsveranstaltungen stärkt, um wirksamen und nachhaltigen sozialen Wandel von unten nach oben zu fördern. CAN bietet sowohl niedrigschwellige Angebote für breite Bevölkerungsgruppen als auch Unterstützung für bereits aktive Initiativen in den Bereichen Community Organizing, gewaltfreie Kommunikation und regeneratives Engagement.",
-        "info_en": "The Civil Action Network is an organization that strengthens civil society actors through training, coaching, moderation, and networking events to promote effective and sustainable social change from the bottom up. CAN offers accessible programs for broad populations and support for already active initiatives in community organizing, non-violent communication, and regenerative engagement.",
-        "website": "https://civilaction.net/",
-        "instagram": "https://www.instagram.com/civilactionnetwork"
-      },
-      {
-        "name": "Kalender 3",
-        "info": "Solidarity Kitchen ist eine solidarische Suppenküche, die beim Kulturzentrum 4lthangrund in Wien betrieben wird. Sie bietet kostenlose oder kostengünstige Mahlzeiten für Menschen in schwierigen Lebenssituationen an, um Gemeinschaft zu stärken und soziale Ausgrenzung zu bekämpfen. Die Initiative wird von Freiwilligen organisiert und versteht sich als Teil der linken, solidarischen Kultur Wiens.",
-        "info_en": "Solidarity Kitchen is a solidarity soup kitchen operated at the 4lthangrund cultural center in Vienna. It offers free or low-cost meals to people in difficult life situations to strengthen community and combat social exclusion. The initiative is organized by volunteers and considers itself part of Vienna's leftist, solidarity culture.",
-        "website": "https://4lthangrund.jetzt/solidarity-kitchen-vienna-4lthangrund/",
+        "name": "Klimaschutz Kalender",
+        "info": "Der Klimaschutz Kalender ist ein öffentlicher Veranstaltungskalender für Klimaaktivitäten und -demonstrationen in Österreich. Die Plattform ermöglicht es Gruppen, ihre Aktionen einzutragen und zu koordinieren.",
+        "info_en": "The Climate Protection Calendar is a public event calendar for climate-related activities and demonstrations in Austria. The platform enables groups to enter and coordinate their actions.",
+        "website": "https://kalender.digital/34f32149943031008418",
         "instagram": null
       }
     ]
