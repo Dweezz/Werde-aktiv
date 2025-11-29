@@ -1,0 +1,72 @@
+{
+  "veranstalltungen": {
+    "catEn": "events",
+    "mainC": "#FFD050",
+    "secondC": "#FFEAB1",
+    "groups": [
+      {
+        "name": "Event 1",
+        "info": "Catcalls Vienna ist ein Kollektiv, das seit 2020 sexuelle Belästigung im öffentlichen Raum sichtbar macht, indem Betroffene über Instagram ihre Erfahrungen teilen und die Sprüche mit Kreide am Tatort aufgeschrieben werden. Die Initiative ist Teil der internationalen Chalk Back-Bewegung und erobert durch diese Aktion den Ort für die Betroffenen zurück. Über 50 Freiwillige unterstützen die Kerngruppe bei Aufklärungsarbeit und dem Kampf für die Strafbarkeit verbaler sexueller Belästigung in Österreich.",
+        "info_en": "Catcalls Vienna is a collective that has been making sexual harassment in public spaces visible since 2020. Affected individuals share their experiences on Instagram, and catcalling phrases are written in chalk at the locations where they occurred. The initiative is part of the international Chalk Back movement and reclaims public spaces for the affected through this action. More than 50 volunteers support the core group in awareness-raising and advocating for the criminalization of verbal sexual harassment in Austria.",
+        "website": null,
+        "instagram": "https://www.instagram.com/catcallsof.vie"
+      },
+      {
+        "name": "Event 2",
+        "info": "Catcalls Vienna ist ein Kollektiv, das seit 2020 sexuelle Belästigung im öffentlichen Raum sichtbar macht, indem Betroffene über Instagram ihre Erfahrungen teilen und die Sprüche mit Kreide am Tatort aufgeschrieben werden. Die Initiative ist Teil der internationalen Chalk Back-Bewegung und erobert durch diese Aktion den Ort für die Betroffenen zurück. Über 50 Freiwillige unterstützen die Kerngruppe bei Aufklärungsarbeit und dem Kampf für die Strafbarkeit verbaler sexueller Belästigung in Österreich.",
+        "info_en": "Catcalls Vienna is a collective that has been making sexual harassment in public spaces visible since 2020. Affected individuals share their experiences on Instagram, and catcalling phrases are written in chalk at the locations where they occurred. The initiative is part of the international Chalk Back movement and reclaims public spaces for the affected through this action. More than 50 volunteers support the core group in awareness-raising and advocating for the criminalization of verbal sexual harassment in Austria.",
+        "website": null,
+        "instagram": "https://www.instagram.com/catcallsof.vie"
+      }
+    ]
+  },
+  "downloads": {
+    "catEng": "downloads",
+    "mainC": "#8EC8B3",
+    "secondC": "#BFEADA",
+    "groups": [
+      {
+        "name": "Download 1",
+        "info": "Das OAT ist eine offene Plattform für alle, die antifaschistisch aktiv werden möchten. In regelmäßigen Treffen werden Aktionen geplant, Wissen ausgetauscht und neue Aktivist*innen eingebunden.",
+        "info_en": "The OAT is an open platform for anyone who wants to become active against fascism. Regular meetings are held to plan actions, exchange knowledge, and include new activists.",
+        "website": "https://oatwien.noblogs.org/",
+        "instagram": "https://www.instagram.com/oatwien"
+      },
+      {
+        "name": "Download 2",
+        "info": "Das Offene Antifa Treffen (OAT) ist ein Anlaufpunkt für alle antifaschistischen, feministischen und antirassistischen Personen, die sich fernab von Parteijugenden oder NGOs organisieren möchten. Die Gruppe trifft sich monatlich (jeden 2. Dienstag) in der Alten Mensa im Kulturzentrum 4lthangrund und plant gemeinsam Veranstaltungen, Aktionen und politische Bildung. Das OAT versteht sich als linksradikaler, antikapitalistischer Antifaschismus und organisiert sich gegen die extreme Rechte in Wien.",
+        "info_en": "The Autonome Antifa [w] is a meeting point for antifascist, feminist, and anti-racist people who want to organize independently from party youth groups or NGOs. The group meets monthly (every 2nd Tuesday) at the Alte Mensa in the 4lthangrund cultural center and plans events, actions, and political education together. It understands itself as left-radical, anti-capitalist antifascism and organizes against the far-right in Vienna.",
+        "website": null,
+        "instagram": "https://www.instagram.com/antifa_w"
+      }
+    ]
+  },
+  "kalender": {
+    "catEn": "calendar",
+    "mainC": "#F4B183",
+    "secondC": "#FFE6CC",
+    "groups": [
+      {
+        "name": "Kalender 1",
+        "info": "Wir* gegen Rechts ist eine lose Gruppe von Menschen, die sich gegen den massiven Rechtsruck in Österreich und Europa organisieren. Die Initiative bietet 50 Aktionsideen, Argumentationstrainings gegen rechte Parolen und Haustürgespräche zur Mobilisierung von Nichtwähler*innen. Die Kampagne wurde durch Spenden finanziert und verteilt kostenlose Plakate im IG KiKK-Büro.",
+        "info_en": "Wir* gegen Rechts is a loose group of people organizing against the massive right-wing shift in Austria and Europe. The initiative offers 50 action ideas, argumentation training against right-wing rhetoric, and door-to-door conversations to mobilize non-voters. The campaign is funded by donations and distributes free posters at the IG KiKK office.",
+        "website": "https://wir-gegen-rechts.at/",
+        "instagram": "https://www.instagram.com/wir.gegenrechts"
+      },
+      {
+        "name": "Kalender 2",
+        "info": "Das Civil Action Network ist eine Organisation, die zivilgesellschaftliche Akteur*innen durch Trainings, Coaching, Moderation und Vernetzungsveranstaltungen stärkt, um wirksamen und nachhaltigen sozialen Wandel von unten nach oben zu fördern. CAN bietet sowohl niedrigschwellige Angebote für breite Bevölkerungsgruppen als auch Unterstützung für bereits aktive Initiativen in den Bereichen Community Organizing, gewaltfreie Kommunikation und regeneratives Engagement.",
+        "info_en": "The Civil Action Network is an organization that strengthens civil society actors through training, coaching, moderation, and networking events to promote effective and sustainable social change from the bottom up. CAN offers accessible programs for broad populations and support for already active initiatives in community organizing, non-violent communication, and regenerative engagement.",
+        "website": "https://civilaction.net/",
+        "instagram": "https://www.instagram.com/civilactionnetwork"
+      },
+      {
+        "name": "Kalender 3",
+        "info": "Solidarity Kitchen ist eine solidarische Suppenküche, die beim Kulturzentrum 4lthangrund in Wien betrieben wird. Sie bietet kostenlose oder kostengünstige Mahlzeiten für Menschen in schwierigen Lebenssituationen an, um Gemeinschaft zu stärken und soziale Ausgrenzung zu bekämpfen. Die Initiative wird von Freiwilligen organisiert und versteht sich als Teil der linken, solidarischen Kultur Wiens.",
+        "info_en": "Solidarity Kitchen is a solidarity soup kitchen operated at the 4lthangrund cultural center in Vienna. It offers free or low-cost meals to people in difficult life situations to strengthen community and combat social exclusion. The initiative is organized by volunteers and considers itself part of Vienna's leftist, solidarity culture.",
+        "website": "https://4lthangrund.jetzt/solidarity-kitchen-vienna-4lthangrund/",
+        "instagram": null
+      }
+    ]
+  }
+}

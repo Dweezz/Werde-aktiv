@@ -32,78 +32,115 @@
 
     <div id="accordion-root">Lade Daten...</div>
 
-    <script> 
-      fetch('resources/recources.json')
-        .then(response => {
-          if (!response.ok) {
-            throw new Error("HTTP Fehler: " + response.status);
-          }
-          return response.json();
-        })
-        .then(data => {
-          renderAccordion(data);
-        })
-        .catch(error => {
-          document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
-          console.error(error);
-        });
+  <script>
 
-      function renderAccordion(data) {
-        const root = document.getElementById('accordion-root');
-        root.innerHTML = '';
+    fetch('resources/resources.json')
+      .then(response => {
+        if (!response.ok) throw new Error("HTTP Fehler: " + response.status);
+        return response.json();
+      })
+      .then(data => {
+        window.orgaJsonData = data;
+        renderAccordion(data); // wird beim Umschalten automatisch neu gerendert
+      })
+      .catch(error => {
+        document.getElementById('accordion-root').textContent = "Fehler beim Laden der Daten: " + error;
+        console.error(error);
+      });
 
-        Object.entries(data).forEach(([category, orgs]) => {
-          const btn = document.createElement('button');
-          btn.className = 'accordion';
-          btn.id = category;
-          btn.innerHTML = `<h6>${category.toUpperCase()}</h6>`;
-          root.appendChild(btn);
+    let savedLang = localStorage.getItem("siteLanguage");
+    let currentLang = savedLang ? savedLang : "de";
+    switchLanguage(currentLang);
 
-          const panel = document.createElement('div');
-          panel.className = 'panel';
-          panel.id = 'panel_' + category;
+    function switchLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem("siteLanguage", lang);
 
-          orgs.forEach(o => {
-            const h5 = document.createElement('h5');
-            if (o.website) {
-              const a = document.createElement('a');
-              a.href = o.website;
-              a.target = '_blank';
-              a.textContent = o.name;
-              h5.appendChild(a);
-            } else {
-              h5.textContent = o.name;
-            }
-            panel.appendChild(h5);
+      // Menü und statische Elemente wechseln
+      document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+      document.querySelectorAll('.lang-' + lang).forEach(el => el.style.display = '');
 
-            const pInfo = document.createElement('p');
-            pInfo.textContent = o.info;
-            panel.appendChild(pInfo);
+      // Sprach-Button visuell markieren
+      document.getElementById("btn-de").classList.toggle("focused", lang === "de");
+      document.getElementById("btn-en").classList.toggle("focused", lang === "en");
 
-            if (o.instagram) {
-              const pInsta = document.createElement('p');
-              const instaUser = o.instagram.split('/').filter(Boolean).pop();
-              pInsta.innerHTML = `<strong>Instagram:</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
-              panel.appendChild(pInsta);
-            }
-          });
-
-          root.appendChild(panel);
-        });
-
-        document.querySelectorAll('.accordion').forEach(btn => {
-          btn.addEventListener('click', () => {
-            btn.classList.toggle('active');
-            const panel = btn.nextElementSibling;
-            if (panel.style.maxHeight) {
-              panel.style.maxHeight = null;
-            } else {
-              panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-          });
-        });
+      // Accordion neu rendern, wenn die Daten schon geladen sind
+      if (window.orgaJsonData) {
+        renderAccordion(window.orgaJsonData);
       }
-    </script>
+    }
+
+    // Accordion-Code AUF DIE SPRACHWAHL ANPASSEN:
+    function renderAccordion(data) {
+      window.orgaJsonData = data; // Merke das geladenene data-Objekt global
+      const root = document.getElementById('accordion-root');
+      root.innerHTML = '';
+
+      Object.entries(data).forEach(([category, meta]) => {
+        // Sprachenlogik für Kategorienamen
+        const displayCategoryName = (currentLang === 'en' && meta.catEn) ? meta.catEn.toUpperCase() : category.toUpperCase().replace('-', ' ');
+
+        const btn = document.createElement('button');
+        btn.className = 'accordion';
+        btn.id = category;
+        if (meta && meta.mainC) btn.style.backgroundColor = meta.mainC;
+        btn.innerHTML = displayCategoryName.length < 12 ? `<h3>${displayCategoryName}</h3>` : `<h6>${displayCategoryName}</h6>`;
+        root.appendChild(btn);
+
+        const panel = document.createElement('div');
+        panel.className = 'panel';
+        panel.id = 'panel_' + category;
+
+        meta.groups.forEach(o => {
+          const h5 = document.createElement('h5');
+          if (o.website) {
+            const a = document.createElement('a');
+            a.href = o.website;
+            a.target = '_blank';
+            a.textContent = o.name;
+            h5.appendChild(a);
+          } else {
+            h5.textContent = o.name;
+          }
+          panel.appendChild(h5);
+
+          // Info-Text je nach Sprache nehmen:
+          const pInfo = document.createElement('p');
+          if (currentLang === "en" && o.info_en) {
+            pInfo.textContent = o.info_en;
+          } else {
+            pInfo.textContent = o.info;
+          }
+          panel.appendChild(pInfo);
+
+          if (o.instagram) {
+            const pInsta = document.createElement('p');
+            const instaUser = o.instagram.split('/').filter(Boolean).pop();
+            pInsta.innerHTML = `<strong>Instagram:</strong> <a href="${o.instagram}" target="_blank">@${instaUser}</a>`;
+            panel.appendChild(pInsta);
+          }
+        });
+
+        if (meta && meta.secondC) panel.style.backgroundColor = meta.secondC;
+        root.appendChild(panel);
+      });
+
+      // Accordion-Eventhandler
+      document.querySelectorAll('.accordion').forEach(btn => {
+        btn.addEventListener('click', () => {
+          btn.classList.toggle('active');
+          const panel = btn.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      });
+    }
+
+  </script>
+
 
     <script>
 
