@@ -1,18 +1,30 @@
 {
-  "über-mich": [
-    {
-      "name": "Über mich",
-      "info": "Ich bin eine Privatperson, die einen niedrigschwelligen Einstieg für angehende linke Aktivistinnen und Aktivisten unterstützt. Persönlich finde ich, dass Wählen wichtig ist, aber nicht reicht: Politische Entscheidungen werden täglich und oft unter dem Einfluss gut organisierter Interessen getroffen, während unsere Anliegen ohne kontinuierliche Organisierung leicht überhört werden. Deshalb setze ich auf gemeinsames Handeln - in lokalen Gruppen, Initiativen und Bündnissen - um dauerhaften Druck aufzubauen, Themen sichtbar zu machen und konkrete Verbesserungen zu erreichen.",
-      "website": null,
-      "instagram": null
-    }
-  ],
-  "warum": [
-    {
-      "name": "Wille zur Veränderung unterstützen",
-      "info": "Ich mache das, weil Demokratie mehr braucht als ein Kreuz am Stimmzettel: Ohne kontinuierliche Organisierung bleiben viele Anliegen unsichtbar, besonders wenn politisches Gewicht ungleich verteilt ist und gut organisierte Interessen den Alltag der Entscheidungen prägen. Es geht darum, Beteiligungslücken zu schließen, die durch ungleiche Wahlbeteiligung entstehen, und Menschen zu befähigen, gemeinsam Druck aufzubauen, Themen zu setzen und konkrete Reformen durchzusetzen. Durch niedrigschwellige Einstiege, Bildung und verlässliche Strukturen können aus Einzelnen handlungsfähige Gruppen werden, die Verantwortliche rechenschaftspflichtig machen und Veränderungen beschleunigen – etwas, das Wahlen allein nicht leisten können.",
-      "website": null,
-      "instagram": null
-    }
-  ]
+  "über-mich": {
+    "catEn": "about me",
+    "mainC": "#FFD050",
+    "secondC": "#FFEAB1",
+    "groups": [
+      {
+        "name": "Event 1",
+        "info": "Ich bin eine Privatperson, die einen niedrigschwelligen Einstieg für angehende linke Aktivistinnen und Aktivisten unterstützt. Persönlich finde ich, dass Wählen wichtig ist, aber nicht reicht: Politische Entscheidungen werden täglich und oft unter dem Einfluss gut organisierter Interessen getroffen, während unsere Anliegen ohne kontinuierliche Organisierung leicht überhört werden. Deshalb setze ich auf gemeinsames Handeln - in lokalen Gruppen, Initiativen und Bündnissen - um dauerhaften Druck aufzubauen, Themen sichtbar zu machen und konkrete Verbesserungen zu erreichen.",
+        "info_en": "I am a private individual supporting low-threshold entry points for aspiring left-wing activists. Personally, I believe voting is important but not enough: political decisions are made daily, often under the influence of well-organized interests, while our concerns are easily overlooked without continuous organization. Therefore, I focus on collective action—in local groups, initiatives, and alliances—to build sustained pressure, make issues visible, and achieve concrete improvements.",
+        "website": null,
+        "instagram": "https://www.instagram.com/catcallsof.vie"
+      }
+    ]
+  },
+  "warum": {
+    "catEng": "why",
+    "mainC": "#8EC8B3",
+    "secondC": "#BFEADA",
+    "groups": [
+      {
+        "name": "Wille zur Veränderung unterstützen",
+        "info": "Ich mache das, weil Demokratie mehr braucht als ein Kreuz am Stimmzettel: Ohne kontinuierliche Organisierung bleiben viele Anliegen unsichtbar, besonders wenn politisches Gewicht ungleich verteilt ist und gut organisierte Interessen den Alltag der Entscheidungen prägen. Es geht darum, Beteiligungslücken zu schließen, die durch ungleiche Wahlbeteiligung entstehen, und Menschen zu befähigen, gemeinsam Druck aufzubauen, Themen zu setzen und konkrete Reformen durchzusetzen. Durch niedrigschwellige Einstiege, Bildung und verlässliche Strukturen können aus Einzelnen handlungsfähige Gruppen werden, die Verantwortliche rechenschaftspflichtig machen und Veränderungen beschleunigen – etwas, das Wahlen allein nicht leisten können.",
+        "info_en": "I do this because democracy requires more than a checkmark on a ballot: without continuous organization, many concerns remain invisible, especially when political influence is unevenly distributed and well-organized interests shape everyday decisions. The goal is to close participation gaps arising from unequal voter turnout, empower people to build collective pressure, set agendas, and enforce concrete reforms. Through low-threshold entry points, education, and reliable structures, individuals can form effective groups that hold decision-makers accountable and accelerate change—something elections alone cannot achieve.",
+        "website": null,
+        "instagram": null
+      }
+    ]
+  }
 }
