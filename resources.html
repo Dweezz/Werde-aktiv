@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Werde Aktiv</title>
-    <link href="styles.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Werde Aktiv</title>
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Burger-Menü Button -->
-    <div class="burger-menu" onclick="toggleMenu()">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+  <!-- Burger-Menü Button -->
+  <div class="burger-menu" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 
-    <!-- Navigations-Menü -->
-    <div class="menu" id="menu">
-        <a href="index.html">START</a>
-        <a href="werd_aktiv.html">WERDE AKTIV</a>
-        <a href="resources.html">RESSOURCEN</a>
-        <a href="uber_uns.html">ÜBER UNS</a>
-    </div>
+  <!-- Navigations-Menü -->
+  <div class="menu" id="menu">
+    <a href="index.html">START</a>
+    <a href="werd_aktiv.html">WERDE AKTIV</a>
+    <a href="resources.html">RESSOURCEN</a>
+    <a href="uber_uns.html">ÜBER UNS</a>
+  </div>
 
-    <div id="header2">
+
+  <div id="language-switcher">
+    <button id="btn-de" onclick="switchLanguage('de')">DE</button>
+    <button id="btn-en" onclick="switchLanguage('en')">EN</button>
+  </div>
+
+
+  <div id="header2">
     <h1 id="headline1">Ressour</h1>
     <h1 id="headline2">cen</h1>
-    </div>
+  </div>
 
-    <div id="accordion-root">Lade Daten...</div>
+  <div id="accordion-root">Lade Daten...</div>
 
   <script>
 
@@ -142,58 +151,59 @@
   </script>
 
 
-    <script>
+  <script>
 
-      // Referenzen
-        const burger = document.querySelector('.burger-menu');
+    // Referenzen
+    const burger = document.querySelector('.burger-menu');
 
-        // Scrollrichtung tracken
-        let lastScrollY = window.pageYOffset;
+    // Scrollrichtung tracken
+    let lastScrollY = window.pageYOffset;
 
-        // Debounce/Throttle optional; hier einfache Version
-        window.addEventListener('scroll', () => {
-            const currentY = window.pageYOffset;
+    // Debounce/Throttle optional; hier einfache Version
+    window.addEventListener('scroll', () => {
+      const currentY = window.pageYOffset;
 
-            // Schwelle, um „Mikro“-Scrolls zu ignorieren
-            const delta = currentY - lastScrollY;
+      // Schwelle, um „Mikro“-Scrolls zu ignorieren
+      const delta = currentY - lastScrollY;
 
-            if (delta > 4) {
-            // Scroll nach unten -> ausblenden
-            burger.classList.add('hidden');
-            } else if (delta < -4) {
-            // Scroll nach oben -> einblenden
-            burger.classList.remove('hidden');
-            }
-
-            lastScrollY = currentY <= 0 ? 0 : currentY;
-        }, { passive: true });
-    
-      // Burger-Menü Steuerung
-      function toggleMenu() {
-          document.getElementById("menu").classList.toggle("active");
+      if (delta > 4) {
+        // Scroll nach unten -> ausblenden
+        burger.classList.add('hidden');
+      } else if (delta < -4) {
+        // Scroll nach oben -> einblenden
+        burger.classList.remove('hidden');
       }
-      document.querySelectorAll(".accordion_resources").forEach(button => {
-        button.addEventListener("click", () => {
-          const panel = button.nextElementSibling;
-          const isOpen = panel.style.maxHeight;
 
-          //Alle anderen Accordions schließen (optional)
-          document.querySelectorAll(".accordion_resources + .panel").forEach(p => {
+      lastScrollY = currentY <= 0 ? 0 : currentY;
+    }, { passive: true });
+
+    // Burger-Menü Steuerung
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+    document.querySelectorAll(".accordion_resources").forEach(button => {
+      button.addEventListener("click", () => {
+        const panel = button.nextElementSibling;
+        const isOpen = panel.style.maxHeight;
+
+        //Alle anderen Accordions schließen (optional)
+        document.querySelectorAll(".accordion_resources + .panel").forEach(p => {
           p.style.maxHeight = "";
           p.previousElementSibling.classList.remove("active");
-          });
-
-          if (isOpen) {
-            // Zuklappen
-            panel.style.maxHeight = "";
-            button.classList.remove("active");
-          } else {
-            // Aufklappen
-            panel.style.maxHeight = panel.scrollHeight + "px";
-            button.classList.add("active");
-          }
         });
+
+        if (isOpen) {
+          // Zuklappen
+          panel.style.maxHeight = "";
+          button.classList.remove("active");
+        } else {
+          // Aufklappen
+          panel.style.maxHeight = panel.scrollHeight + "px";
+          button.classList.add("active");
+        }
       });
-    </script>
+    });
+  </script>
 </body>
+
 </html>
