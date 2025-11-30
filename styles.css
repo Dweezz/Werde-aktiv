@@ -167,7 +167,7 @@ a {
 }
 
 .percent-bar-wrapper {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 90%;
     font-family: Arial, sans-serif;
 }
@@ -300,40 +300,6 @@ p {
     font-family: Oswald;
 }
 
-
-#kalender {
-    background-color: #D2B48C;
-    /* Khaki Braun für Veranstaltungskalender */
-}
-
-#panel_kalender {
-    background-color: #EFE0C8;
-}
-
-#downloads {
-    background-color: #8EC8B3;
-}
-
-#panel_downloads {
-    background-color: #BFEADA;
-}
-
-
-#uber {
-    background-color: #FFD050;
-}
-
-#panel_uber {
-    background-color: #FFEAB1;
-}
-
-#warum {
-    background-color: #8EC8B3;
-}
-
-#panel_warum {
-    background-color: #BFEADA;
-}
 
 #accordion-root {
     margin-bottom: 15px;
