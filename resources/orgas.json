@@ -171,8 +171,7 @@
         "info_en": "Solawi is the association of Community-Supported Agriculture (CSA) in Austria, connecting producers and consumers to promote fair, ecological, and sustainable farming together. Consumers pay a solidarity membership fee, share the operational costs, and in return receive a portion of the harvest. The association supports its members through advice, educational programs, public outreach, and the development of new CSA initiatives.",
         "website": "https://www.solawi-leben.at/",
         "instagram": "https://www.instagram.com/solidarischelandwirtschaft/?hl=en"
-      },
-      {}
+      }
     ]
   },
   "allgemein": {
@@ -292,243 +291,244 @@
         "website": "https://transx.at/index.php",
         "instagram": ""
       }
-    ],
-    "parteien": {
-      "catEn": "parties",
-      "mainC": "#FA8072",
-      "secondC": "#FAD2C5",
-      "groups": [
-        {
-          "name": "KJÖ (Kommunistische Jugend Österreichs)",
-          "info": "Die Kommunistische Jugend Österreichs wurde 1970 gegründet und versteht sich als revolutionäre Jugendorganisation, die für Frieden, Demokratie und Sozialismus kämpft. Sie arbeitet auf marxistisch-leninistischer Grundlage und steht in der antifaschistischen Tradition.",
-          "info_en": "The Communist Youth of Austria was founded in 1970 and sees itself as a revolutionary youth organization fighting for peace, democracy, and socialism. It operates on a Marxist-Leninist basis and stands in the antifascist tradition.",
-          "website": "https://kommunistischejugend.at/",
-          "instagram": "https://www.instagram.com/kjoe_wien"
-        },
-        {
-          "name": "KPÖ (Kommunistische Partei Österreichs)",
-          "info": "Die KPÖ wurde 1918 gegründet und zählt zu den ältesten kommunistischen Parteien weltweit. Sie war eine bedeutende antifaschistische Kraft und strebt sozialistischen demokratischen Sozialismus an.",
-          "info_en": "The Communist Party of Austria was founded in 1918 and ranks among the oldest communist parties worldwide. It was a significant antifascist force and aspires to democratic socialism.",
-          "website": "https://kpoe.at/",
-          "instagram": "https://www.instagram.com/kpoe.at"
-        },
-        {
-          "name": "LINKS Wien",
-          "info": "LINKS ist eine 2020 gegründete antikapitalistische, antirassistische, queerfeministische Partei mit Mandaten in Bezirksvertretungen. Sie fordert u.a. Arbeitszeitverkürzung und Mindestlohn.",
-          "info_en": "LINKS is an anti-capitalist, anti-racist, queer-feminist party founded in 2020 with mandates in district councils. It demands, among other things, reduced working hours and minimum wage.",
-          "website": "https://links.wien/",
-          "instagram": "https://www.instagram.com/linkswien"
-        }
-      ]
-    },
-    "besetzungen": {
-      "catEn": "squads",
-      "mainC": "#FF6F61",
-      "secondC": "#FFDAD4",
-      "groups": [
-        {
-          "name": "Lobau Bleibt",
-          "info": "Lobau Bleibt ist eine Protestbewegung gegen den Bau der Lobau-Autobahn und Stadtstraße in Wien, die von Fridays for Future Wien, System Change not Climate Change, Jugendrat und Extinction Rebellion initiiert wurde. Die Bewegung besetzte ab August 2021 mehrere Baustellen und erreichte im November 2021 den Stopp der Lobau-Autobahn durch Klimaschutzministerin Gewessler. Nach der Räumung am 1. Februar 2022 durch die Polizei setzt die Bewegung ihren Widerstand für eine soziale und klimagerechte Mobilitätswende fort.",
-          "info_en": "Lobau Bleibt is a protest movement against the construction of the Lobau motorway and city road in Vienna, initiated by Fridays for Future Vienna, System Change not Climate Change, Youth Council, and Extinction Rebellion. The movement occupied multiple construction sites starting in August 2021 and achieved the halt of the Lobau motorway by Climate Protection Minister Gewessler in November 2021. After being cleared by police on February 1, 2022, the movement continues its resistance for a socially just and climate-fair mobility transition.",
-          "website": "https://lobaubleibt.at/",
-          "instagram": "https://www.instagram.com/lobaubleibt"
-        },
-        {
-          "name": "Fischa Au",
-          "info": "Besetzung zum Schutz von Flussufer und Auenlandschaften an der Fischa in Österreich.",
-          "info_en": "Occupation for the protection of river banks and floodplain landscapes at the Fischa in Austria.",
-          "website": null,
-          "instagram": "https://www.instagram.com/fisch.acker"
-        }
-      ]
-    },
-    "linke-spaces": {
-      "catEn": "left-spaces",
-      "mainC": "#7EC8E3",
-      "secondC": "#D6ECF7",
-      "groups": [
-        {
-          "name": "Althangrund / 4lthangrund",
-          "info": "Das Kulturzentrum 4lthangrund ist ein selbstverwaltetes Kulturzentrum auf dem Gelände der alten Wirtschaftsuniversität in der Augasse 2-6, 1090 Wien, das seit 2018 Kunst, Kultur und soziales Miteinander im Grätzel verankert. Der als gemeinnütziger Verein organisierte Raum bietet über 40 Gruppen und Initiativen eine Basis mit Büroräumen, Veranstaltungsräumen (Alte Mensa, Wolke, Hütte) und einem umfangreichen Jahresprogramm mit rund 200 Veranstaltungen. Das Motto Althangrund für Alle steht für solidarische Raumnutzung und alle Veranstaltungen sind kostenfrei zugänglich.",
-          "info_en": "The 4lthangrund cultural center is a self-managed cultural center on the grounds of the former Vienna University of Economics at Augasse 2-6, 1090 Vienna, which has anchored art, culture, and social togetherness in the neighborhood since 2018. Organized as a nonprofit association, the space provides office rooms, event spaces (Alte Mensa, Wolke, Hütte), and an extensive annual program with around 200 events for over 40 groups and initiatives. The motto Althangrund for All stands for solidarity in space use and all events are free to attend.",
-          "website": "https://4lthangrund.jetzt/",
-          "instagram": "https://www.instagram.com/4lthangrund"
-        },
-        {
-          "name": "EKH (Ernst-Kirchweger-Haus)",
-          "info": "Das Ernst-Kirchweger-Haus (EKH) ist ein seit 1990 bestehendes Zentrum der autonomen Szene in Wien-Favoriten (Wielandgasse 2-4), das nach dem antifaschistischen Widerstandskämpfer Ernst Kirchweger benannt wurde. Das Gebäude wurde als Komensky-Schule erbaut, 1990 besetzt und ist seit 2008 legalisiert, nachdem die Stadt Wien die Immobilie kaufte und Nutzungsverträge abschloss. Im EKH sind zahlreiche politische, kulturelle und soziale Gruppen aktiv, und es finden fast täglich Veranstaltungen wie Konzerte, Lesungen und Diskussionen statt.",
-          "info_en": "The Ernst-Kirchweger-House (EKH) is a center of the autonomous scene in Vienna-Favoriten (Wielandgasse 2-4) that has existed since 1990 and is named after the anti-fascist resistance fighter Ernst Kirchweger. The building was originally constructed as the Komensky School, was occupied in 1990, and has been legalized since 2008 after the City of Vienna purchased the property and established usage contracts. Numerous political, cultural, and social groups are active in the EKH, and events such as concerts, readings, and discussions take place almost daily.",
-          "website": "https://med-user.net/~ekh/",
-          "instagram": null
-        },
-        {
-          "name": "WUK (Werkstätten- und Kulturhaus)",
-          "info": "Das WUK ist ein selbstverwaltetes Kultur- und Bildungszentrum in Wien mit Werkstätten, Ateliers und Veranstaltungsräumen, das verschiedenste künstlerische und politische Gruppen beheimatet. Das Zentrum funktioniert basisdemokratisch und bietet Raum für alternative Kultur, Handwerk und politische Aktivitäten.",
-          "info_en": "The WUK is a self-managed culture and education center in Vienna with workshops, studios, and event spaces that houses diverse artistic and political groups. The center functions in a base-democratic manner and provides space for alternative culture, crafts, and political activities.",
-          "website": "https://wuk.at/",
-          "instagram": "https://www.instagram.com/wukvienna"
-        },
-        {
-          "name": "Hafen",
-          "info": "Der Hafen in Ottakring gehört zu einem linken Kulturraum und Veranstaltungsort in Wien. Der Hafen bietet eine Plattform für politische und kulturelle Veranstaltungen, die Raum für solidarisches Miteinander, alternative Lebensweisen und kreative Projekte schaffen. Er fördert Vernetzung und Austausch in der Szene und trägt zur Vielfalt der Wiener Kulturlandschaft bei.",
-          "info_en": "Der Hafen in Ottakring is part of a leftist cultural space and event venue in Vienna. Hafen offers a platform for political and cultural events that create space for solidarity, alternative lifestyles, and creative projects. It promotes networking and exchange within the scene and contributes to the diversity of Vienna's cultural landscape.",
-          "website": null,
-          "instagram": "https://www.instagram.com/der.hafen.ottakring"
-        },
-        {
-          "name": "Villa Vida",
-          "info": "Villa Vida ist ein soziales Projekt in Wien, das einen Raum für Solidarität, Gemeinschaft und politische Vernetzung bietet. Es versteht sich als kultureller und sozialer Treffpunkt, der Raum für vielfältige Aktivitäten, Workshops und Veranstaltungen schafft, um soziale Gerechtigkeit und gegenseitige Unterstützung zu fördern.",
-          "info_en": "Villa Vida is a social project in Vienna that provides a space for solidarity, community, and political networking. It understands itself as a cultural and social meeting point that creates space for diverse activities, workshops, and events to promote social justice and mutual support.",
-          "website": "https://villavida.at/",
-          "instagram": "https://www.instagram.com/villavidacafe"
-        },
-        {
-          "name": "Kaleidoskop",
-          "info": "Das Kaleidoskop ist ein Freiraum für gemeinsames Leben, Lernen und Gestalten. Hier entsteht Kultur jenseits von Marktlogik - offen, solidarisch und unkommerziell. Ob Kunstprojekt, Lesekreis, Workshop oder Jam-Session: Im Kaleidoskop können Menschen ihre Ideen teilen und verwirklichen - auf Basis von Respekt, Reflexion und Gemeinschaftssinn.",
-          "info_en": "Kaleidoskop is a free space for living, learning, and creating together. Culture emerges here beyond market logic—open, solidaristic, and non-commercial. Whether art project, reading circle, workshop, or jam session: In Kaleidoskop, people can share and realize their ideas—based on respect, reflection, and a sense of community.",
-          "website": "https://www.anarchismus.at/wien/58-kaleidoskop",
-          "instagram": "https://www.instagram.com/kaleidoskopwien"
-        },
-        {
-          "name": "KSSHSHD",
-          "info": "Der Klub slovenskih študentk*študentov na Dunaju (KSSSD) ist ein traditionsreicher Verein slowenischer Studierender in Wien, der seit 1923 besteht und als Ort für gemeinsames politisches und kulturelles Engagement dient. Thematische Schwerpunkte liegen auf Antifaschismus, Feminismus und Minderheitenschutz, und der Klub veranstaltet regelmäßig kulturelle und politische Events sowie Sprachkurse. KSSSD ist ein wichtiger Treffpunkt für die slowenischsprachige Gemeinschaft und fördert Vernetzung, Solidarität und politische Bildung.",
-          "info_en": "The Club of Slovenian Students in Vienna (KSSSD) is a traditional association of Slovenian students in Vienna that has existed since 1923 and serves as a place for joint political and cultural engagement. Thematic focuses are on anti-fascism, feminism, and minority protection, and the club regularly hosts cultural and political events as well as language courses. KSSSD is an important meeting point for the Slovenian-speaking community and promotes networking, solidarity, and political education.",
-          "website": "https://www.ksssd.org/",
-          "instagram": "https://www.instagram.com/rdeca_vrata"
-        }
-      ]
-    },
-    "veganismus": {
-      "catEn": "veganism",
-      "mainC": "#90EE90",
-      "secondC": "#DFF0D8",
-      "groups": [
-        {
-          "name": "Anonymous for the Voiceless",
-          "info": "Anonymous for the Voiceless ist eine internationale Tierrechtsorganisation, die sich auf vegane Straßenaktivismus formiert hat. Mit den bekannten Cubes of Truth machen sie passivem Publikum die Realität der Tierausbeutung sichtbar und schaffen so Bewusstsein und Wandel. Die Gruppe verfolgt eine abolitionistische Haltung gegen jegliche Ausbeutung nichtmenschlicher Tiere und setzt klare, direkte vegane Botschaften um.",
-          "info_en": "Anonymous for the Voiceless is an international animal rights organization that has organized around vegan street activism. With their famous Cubes of Truth, they make the reality of animal exploitation visible to passive audiences, creating awareness and change. The group pursues an abolitionist stance against any exploitation of non-human animals and implements clear, direct vegan messages.",
-          "website": "https://anonymousforthevoiceless.org/",
-          "instagram": null
-        },
-        {
-          "name": "Plant-Based Universities",
-          "info": "Plant-Based Universities ist eine internationale, von Studierenden geführte Kampagne, die darauf abzielt, an Universitäten eine 100% pflanzenbasierte Verpflegung einzuführen, um der Klimakrise und Umweltzerstörung entgegenzuwirken. Die Bewegung begann 2021 in Großbritannien und hat sich inzwischen auf über 60 Hochschulen in mehreren europäischen Ländern ausgedehnt, darunter auch Österreich und Deutschland.",
-          "info_en": "Plant-Based Universities is an international student-led campaign aiming to implement 100% plant-based catering at universities to address the climate crisis and environmental damage. The movement started in 2021 in the UK and has since spread to over 60 universities across several European countries, including Austria and Germany.",
-          "website": "https://plantbaseduniversities.org/",
-          "instagram": "https://www.instagram.com/plantbasedunisvienna/"
-        },
-        {
-          "name": "vegan.at",
-          "info": "Vegan.at ist die Online-Plattform der Vegane Gesellschaft Österreich, die Informationen, Rezepte und Neuigkeiten rund um die vegane Lebensweise in Österreich bereitstellt. Die Seite fördert einen bewussten, nachhaltigen und tierfreundlichen Lebensstil durch vielfältige Inhalte und aktuelle Berichte.",
-          "info_en": "Vegan.at is the online platform of the Vegan Society of Austria, providing information, recipes, and news about the vegan lifestyle in Austria. The site promotes a conscious, sustainable, and animal-friendly way of living through diverse content and up-to-date reports.",
-          "website": "https://www.vegan.at/",
-          "instagram": "https://www.instagram.com/vegane_gesellschaft"
-        },
-        {
-          "name": "VGT (Verein gegen Tierfabriken)",
-          "info": "Der Verein gegen Tierfabriken (VGT) wurde 1992 gegründet und ist mit rund 18.000 Mitgliedern Österreichs führende Tierschutzorganisation, die sich für Mitgefühl und Respekt gegenüber Tieren einsetzt. Der VGT kämpft mit dem Grundsatz der Gewaltlosigkeit gegen Tierfabriken, Tierversuche, Pelz, Wildtierzirkusse und für bessere Tierschutzgesetze. Die Organisation kann Erfolge wie die Schließung aller Pelzfarmen, das Ende von Legebatterien, das Verbot von Wildtieren im Zirkus und die Verankerung von Tierschutz in der Verfassung vorweisen.",
-          "info_en": "The Association Against Animal Factories (VGT) was founded in 1992 and is Austria's leading animal protection organization with around 18,000 members committed to compassion and respect for animals. The VGT fights, on the principle of nonviolence, against animal factories, animal testing, fur, wild animals in circuses, and for better animal protection laws. The organization can point to successes such as the closure of all fur farms, the end of battery cages, the ban on wild animals in circuses, and the anchoring of animal protection in the constitution.",
-          "website": "https://vgt.at/",
-          "instagram": "https://www.instagram.com/vgt.austria"
-        }
-      ]
-    },
-    "antikapitalismus": {
-      "catEn": "anticapitalism",
-      "mainC": "#FFB6C1",
-      "secondC": "#FFE4E1",
-      "groups": [
-        {
-          "name": "Attac Österreich",
-          "info": "Attac Österreich ist eine globalisierungskritische Bewegung, die sich gegen neoliberale Globalisierung, Finanzmarktspekulation und die Macht von Konzernen einsetzt. Die Organisation fordert demokratische Kontrolle der Finanzmärkte, eine Finanztransaktionssteuer, faire Handelspolitik und gerechte Besteuerung von Konzernen und Vermögen. Attac hat zentrale Erfolge erzielt, wie das Stoppen von TTIP und der Doha-Runde der WTO, und brachte Themen wie Steuergerechtigkeit und Privatisierung ins Zentrum politischer Debatten.",
-          "info_en": "Attac Austria is a globalization-critical movement that opposes neoliberal globalization, financial market speculation, and corporate power. The organization demands democratic control of financial markets, a financial transaction tax, fair trade policy, and just taxation of corporations and wealth. Attac has achieved significant successes, such as stopping TTIP and the WTO Doha Round, and brought issues like tax justice and privatization to the center of political debate.",
-          "website": "https://attac.at/",
-          "instagram": "https://www.instagram.com/attac.at"
-        }
-      ]
-    },
-    "rechtshilfe": {
-      "catEn": "legal assistance",
-      "mainC": "#ADD8E6",
-      "secondC": "#E3F2FD",
-      "groups": [
-        {
-          "name": "Grad Recht",
-          "info": "Grad Recht ist eine Initiative von (Jus-)Studierenden, Jurist:innen und erfahrenen Klimaaktivist:innen, die kostenlose Rechtsberatung für Klimaaktivist:innen anbietet. Die Organisation unterstützt Menschen bei rechtlichen Anliegen im Kontext von Klimaschutz und sozial gerechter Klimapolitik und baut ein breites Netzwerk von Rechtsanwält:innen für diese Zwecke auf. Grad Recht hat bereits zahlreiche Aktivist:innen rechtlich beraten und steht für solidarische rechtliche Begleitung.",
-          "info_en": "Grad Recht is an initiative of law students, lawyers, and experienced climate activists that offers free legal advice to climate activists. The organization supports people with legal matters in the context of climate protection and socially just climate policy and builds a broad network of lawyers for these purposes. Grad Recht has already provided legal advice to numerous activists and stands for solidarity-based legal support.",
-          "website": "https://www.gradrecht.at/",
-          "instagram": "https://www.instagram.com/grad.recht"
-        },
-        {
-          "name": "Rechtsinfokollektiv",
-          "info": "Das Rechtsinfokollektiv (RiKo) ist ein unabhängiges und bündnisübergreifendes Kollektiv in Österreich, das Aktivist*innen und zivilgesellschaftliche Gruppen bei rechtlichen Fragen im Zusammenhang mit Demonstrationen, Versammlungen und politischem Aktivismus unterstützt. Es bietet praktische Rechtsinformationen, Beratung und Rechtshilfe, um gegen staatliche und polizeiliche Repression vorzugehen und gesellschaftlichen Protest zu stärken.",
-          "info_en": "The Rechtsinfokollektiv (RiKo) is an independent and alliance-based collective in Austria that provides legal information and support to activists and civil society groups, especially regarding demonstrations, assemblies, and political activism. RiKo offers practical legal advice and assistance to help individuals counter state repression and strengthen social protest movements.",
-          "website": "https://at.rechtsinfokollektiv.org/",
-          "instagram": "https://www.instagram.com/grad.recht"
-        },
-        {
-          "name": "Rote Hilfe Wien",
-          "info": "Die Rote Hilfe Wien ist ein Verein, der Menschen unterstützt, die aufgrund ihres politischen Engagements Repression durch Polizei und Justiz erfahren. Die Organisation versteht sich als strömungsübergreifende Solidaritätsorganisation und bietet an drei Mittwochabenden im Monat kostenlose Beratung in Strafsachen und Verwaltungsstrafen an verschiedenen Orten in Wien. Die Rote Hilfe unterstützt durch Beratung, politische Solidarität und bei Bedarf auch finanziell (bis zu 70% der Kosten) unter der Voraussetzung politischer Prozessführung.",
-          "info_en": "Red Aid Vienna is an association that supports people experiencing repression through police and judicial systems because of their political engagement. The organization sees itself as a cross-ideological solidarity organization and offers free legal consultation on criminal and administrative fines three Wednesday evenings per month at various locations in Vienna. Red Aid provides support through consultation, political solidarity, and if needed, financial assistance (up to 70% of costs) under the condition of political case conduct.",
-          "website": "https://rotehilfe.wien/",
-          "instagram": null
-        }
-      ]
-    },
-    "unipolitik": {
-      "catEn": "unipolitics",
-      "mainC": "#FFC300",
-      "secondC": "#FFECB3",
-      "groups": [
-        {
-          "name": "ÖH (Österreichische Hochschüler:innenschaften)",
-          "info": "Die ÖH ist die offizielle gesetzliche Interessensvertretung der Studierenden an österreichischen Hochschulen. Die ÖH Uni Wien setzt sich für bessere Studienbedingungen, Bekämpfung von Diskriminierung und Unterstützung von benachteiligten Studierendengruppen ein. Die ÖH wird durch Fraktionswahlen alle zwei Jahre neu gewählt.",
-          "info_en": "The ÖH is the official legal representative body of students at Austrian universities. ÖH University of Vienna advocates for better study conditions, combating discrimination, and supporting disadvantaged student groups. The ÖH is re-elected every two years through faction elections.",
-          "website": "https://oeh.univie.ac.at/",
-          "instagram": "https://www.instagram.com/oeh_univie"
-        },
-        {
-          "name": "KSV Lili (Kommunistischer Student:innenverband - Linke Liste)",
-          "info": "Der Kommunistische Student:innenverband - Linke Liste (KSV-LiLi) ist eine linksradikale Studentenorganisation an österreichischen Hochschulen und die Studentenorganisation der KPÖ. Der KSV-LiLi orientiert sich an der Bundes-KPÖ und versteht sich als kommunistisch, feministisch, antifaschistisch und basisdemokratisch. Die Organisation engagiert sich für Abschaffung von Studiengebühren, gegen Rassismus, für Klimaschutz, und war bei der ÖH-Wahl 2023 mit 5,21% in die Bundesvertretung eingezogen.",
-          "info_en": "The Communist Student Association - Left List (KSV-LiLi) is a left-radical student organization at Austrian universities and the student organization of the Communist Party of Austria. KSV-LiLi orients itself toward the federal Communist Party of Austria and understands itself as communist, feminist, anti-fascist, and base-democratic. The organization is committed to the abolition of tuition fees, against racism, for climate protection, and was elected to the federal representation at the 2023 ÖH election with 5.21%.",
-          "website": "https://ksv-lili.at/",
-          "instagram": "https://www.instagram.com/ksv.lili"
-        },
-        {
-          "name": "KSV KJÖ",
-          "info": "Der KSV KJÖ ist die Studentenorganisation der Kommunistischen Jugend Österreichs (KJÖ) und tritt an verschiedenen österreichischen Hochschulen, insbesondere an der Universität Wien unter dem Namen KJÖ StudentInnen, bei ÖH-Wahlen an. Die Gruppe kämpft für bessere Studienbedingungen, gegen Studiengebühren und für emanzipatorische Hochschulpolitik.",
-          "info_en": "KSV KJÖ is the student organization of the Communist Youth of Austria (KJÖ) and runs in ÖH elections at various Austrian universities, particularly at the University of Vienna under the name KJÖ Students. The group fights for better study conditions, against tuition fees, and for emancipatory university politics.",
-          "website": "https://ksv-kjoe.at/",
-          "instagram": "https://www.instagram.com/kjoe_wien"
-        },
-        {
-          "name": "GRAS (Grüne & Alternative Student:innen)",
-          "info": "Die Grünen & Alternativen Student:innen (GRAS) sind eine der Partei Die Grünen nahestehende Studierendenorganisation in Österreich. Die GRAS verstehen sich als basisdemokratisch, antidiskriminierend, ökologisch-nachhaltig, antikapitalistisch, antifaschistisch und feministisch. Sie sitzen derzeit in der Exekutive der Bundesvertretung der ÖH und sind an zahlreichen Hochschulen in Österreich vertreten.",
-          "info_en": "The Greens & Alternative Students (GRAS) is a student organization in Austria that is affiliated with the Green Party. GRAS understands itself as base-democratic, anti-discriminatory, ecologically sustainable, anti-capitalist, anti-fascist, and feminist. They currently sit in the executive of the ÖH federal representation and are represented at numerous universities in Austria.",
-          "website": "https://www.gras.at/",
-          "instagram": "https://www.instagram.com/gras_oe"
-        },
-        {
-          "name": "VSStÖ (Verband Sozialistischer Student:innen Österreichs)",
-          "info": "Der Verband Sozialistischer Student:innen in Österreich (VSStÖ) ist eine sozialistische Studierendenorganisation an österreichischen Hochschulen mit Wurzeln bis 1893. Der VSStÖ setzt sich für Abschaffung von Studiengebühren, bessere Studienförderung, Frauenpolitik und Gleichberechtigung aus Sicht einer linken Sozialpolitik ein. Der VSStÖ ist derzeit die stärkste Kraft in der ÖH Bundesvertretung.",
-          "info_en": "The Association of Socialist Students in Austria (VSStÖ) is a socialist student organization at Austrian universities with roots dating back to 1893. VSStÖ advocates for the abolition of tuition fees, better student funding, women's politics, and equality from the perspective of left-wing social policy. VSStÖ is currently the strongest force in the ÖH federal representation.",
-          "website": "https://vsstoe.at/",
-          "instagram": "https://www.instagram.com/vsstoe"
-        }
-      ]
-    },
-    "lokale": {
-      "catEn": "local",
-      "mainC": "#B7E4C7",
-      "secondC": "#caf0d7",
-      "groups": [
-        {
-          "name": "Wir machen Wien",
-          "info": "Wir machen Wien ist eine unabhängige zivilgesellschaftliche Plattform zur Vernetzung von Aktivistinnen und Bürgerinnen-Initiativen im Mobilitäts- und Klimabereich. Die Initiative bietet Know-How, erstellt eine Online-Karte der Initiativen, produziert Tutorials und stärkt durch Kooperation das zivilgesellschaftliche Engagement. Ziel ist eine klimagerechte, lebenswerte und partizipative Stadt Wien.",
-          "info_en": "\"Wir machen Wien\" is an independent civil society platform for networking activists and citizen initiatives in the mobility and climate sectors. The initiative provides expertise, creates an online map of initiatives, produces tutorials, and strengthens civil society engagement through cooperation. The goal is a climate-just, livable, and participatory Vienna.",
-          "website": "https://wirmachen.wien/",
-          "instagram": "https://www.instagram.com/wir.machen.wien"
-        }
-      ]
-    }
+    ]
+  },
+  "parteien": {
+    "catEn": "parties",
+    "mainC": "#FA8072",
+    "secondC": "#FAD2C5",
+    "groups": [
+      {
+        "name": "KJÖ (Kommunistische Jugend Österreichs)",
+        "info": "Die Kommunistische Jugend Österreichs wurde 1970 gegründet und versteht sich als revolutionäre Jugendorganisation, die für Frieden, Demokratie und Sozialismus kämpft. Sie arbeitet auf marxistisch-leninistischer Grundlage und steht in der antifaschistischen Tradition.",
+        "info_en": "The Communist Youth of Austria was founded in 1970 and sees itself as a revolutionary youth organization fighting for peace, democracy, and socialism. It operates on a Marxist-Leninist basis and stands in the antifascist tradition.",
+        "website": "https://kommunistischejugend.at/",
+        "instagram": "https://www.instagram.com/kjoe_wien"
+      },
+      {
+        "name": "KPÖ (Kommunistische Partei Österreichs)",
+        "info": "Die KPÖ wurde 1918 gegründet und zählt zu den ältesten kommunistischen Parteien weltweit. Sie war eine bedeutende antifaschistische Kraft und strebt sozialistischen demokratischen Sozialismus an.",
+        "info_en": "The Communist Party of Austria was founded in 1918 and ranks among the oldest communist parties worldwide. It was a significant antifascist force and aspires to democratic socialism.",
+        "website": "https://kpoe.at/",
+        "instagram": "https://www.instagram.com/kpoe.at"
+      },
+      {
+        "name": "LINKS Wien",
+        "info": "LINKS ist eine 2020 gegründete antikapitalistische, antirassistische, queerfeministische Partei mit Mandaten in Bezirksvertretungen. Sie fordert u.a. Arbeitszeitverkürzung und Mindestlohn.",
+        "info_en": "LINKS is an anti-capitalist, anti-racist, queer-feminist party founded in 2020 with mandates in district councils. It demands, among other things, reduced working hours and minimum wage.",
+        "website": "https://links.wien/",
+        "instagram": "https://www.instagram.com/linkswien"
+      }
+    ]
+  },
+  "besetzungen": {
+    "catEn": "squads",
+    "mainC": "#FF6F61",
+    "secondC": "#FFDAD4",
+    "groups": [
+      {
+        "name": "Lobau Bleibt",
+        "info": "Lobau Bleibt ist eine Protestbewegung gegen den Bau der Lobau-Autobahn und Stadtstraße in Wien, die von Fridays for Future Wien, System Change not Climate Change, Jugendrat und Extinction Rebellion initiiert wurde. Die Bewegung besetzte ab August 2021 mehrere Baustellen und erreichte im November 2021 den Stopp der Lobau-Autobahn durch Klimaschutzministerin Gewessler. Nach der Räumung am 1. Februar 2022 durch die Polizei setzt die Bewegung ihren Widerstand für eine soziale und klimagerechte Mobilitätswende fort.",
+        "info_en": "Lobau Bleibt is a protest movement against the construction of the Lobau motorway and city road in Vienna, initiated by Fridays for Future Vienna, System Change not Climate Change, Youth Council, and Extinction Rebellion. The movement occupied multiple construction sites starting in August 2021 and achieved the halt of the Lobau motorway by Climate Protection Minister Gewessler in November 2021. After being cleared by police on February 1, 2022, the movement continues its resistance for a socially just and climate-fair mobility transition.",
+        "website": "https://lobaubleibt.at/",
+        "instagram": "https://www.instagram.com/lobaubleibt"
+      },
+      {
+        "name": "Fischa Au",
+        "info": "Besetzung zum Schutz von Flussufer und Auenlandschaften an der Fischa in Österreich.",
+        "info_en": "Occupation for the protection of river banks and floodplain landscapes at the Fischa in Austria.",
+        "website": null,
+        "instagram": "https://www.instagram.com/fisch.acker"
+      }
+    ]
+  },
+  "linke-spaces": {
+    "catEn": "left-spaces",
+    "mainC": "#7EC8E3",
+    "secondC": "#D6ECF7",
+    "groups": [
+      {
+        "name": "Althangrund / 4lthangrund",
+        "info": "Das Kulturzentrum 4lthangrund ist ein selbstverwaltetes Kulturzentrum auf dem Gelände der alten Wirtschaftsuniversität in der Augasse 2-6, 1090 Wien, das seit 2018 Kunst, Kultur und soziales Miteinander im Grätzel verankert. Der als gemeinnütziger Verein organisierte Raum bietet über 40 Gruppen und Initiativen eine Basis mit Büroräumen, Veranstaltungsräumen (Alte Mensa, Wolke, Hütte) und einem umfangreichen Jahresprogramm mit rund 200 Veranstaltungen. Das Motto Althangrund für Alle steht für solidarische Raumnutzung und alle Veranstaltungen sind kostenfrei zugänglich.",
+        "info_en": "The 4lthangrund cultural center is a self-managed cultural center on the grounds of the former Vienna University of Economics at Augasse 2-6, 1090 Vienna, which has anchored art, culture, and social togetherness in the neighborhood since 2018. Organized as a nonprofit association, the space provides office rooms, event spaces (Alte Mensa, Wolke, Hütte), and an extensive annual program with around 200 events for over 40 groups and initiatives. The motto Althangrund for All stands for solidarity in space use and all events are free to attend.",
+        "website": "https://4lthangrund.jetzt/",
+        "instagram": "https://www.instagram.com/4lthangrund"
+      },
+      {
+        "name": "EKH (Ernst-Kirchweger-Haus)",
+        "info": "Das Ernst-Kirchweger-Haus (EKH) ist ein seit 1990 bestehendes Zentrum der autonomen Szene in Wien-Favoriten (Wielandgasse 2-4), das nach dem antifaschistischen Widerstandskämpfer Ernst Kirchweger benannt wurde. Das Gebäude wurde als Komensky-Schule erbaut, 1990 besetzt und ist seit 2008 legalisiert, nachdem die Stadt Wien die Immobilie kaufte und Nutzungsverträge abschloss. Im EKH sind zahlreiche politische, kulturelle und soziale Gruppen aktiv, und es finden fast täglich Veranstaltungen wie Konzerte, Lesungen und Diskussionen statt.",
+        "info_en": "The Ernst-Kirchweger-House (EKH) is a center of the autonomous scene in Vienna-Favoriten (Wielandgasse 2-4) that has existed since 1990 and is named after the anti-fascist resistance fighter Ernst Kirchweger. The building was originally constructed as the Komensky School, was occupied in 1990, and has been legalized since 2008 after the City of Vienna purchased the property and established usage contracts. Numerous political, cultural, and social groups are active in the EKH, and events such as concerts, readings, and discussions take place almost daily.",
+        "website": "https://med-user.net/~ekh/",
+        "instagram": null
+      },
+      {
+        "name": "WUK (Werkstätten- und Kulturhaus)",
+        "info": "Das WUK ist ein selbstverwaltetes Kultur- und Bildungszentrum in Wien mit Werkstätten, Ateliers und Veranstaltungsräumen, das verschiedenste künstlerische und politische Gruppen beheimatet. Das Zentrum funktioniert basisdemokratisch und bietet Raum für alternative Kultur, Handwerk und politische Aktivitäten.",
+        "info_en": "The WUK is a self-managed culture and education center in Vienna with workshops, studios, and event spaces that houses diverse artistic and political groups. The center functions in a base-democratic manner and provides space for alternative culture, crafts, and political activities.",
+        "website": "https://wuk.at/",
+        "instagram": "https://www.instagram.com/wukvienna"
+      },
+      {
+        "name": "Hafen",
+        "info": "Der Hafen in Ottakring gehört zu einem linken Kulturraum und Veranstaltungsort in Wien. Der Hafen bietet eine Plattform für politische und kulturelle Veranstaltungen, die Raum für solidarisches Miteinander, alternative Lebensweisen und kreative Projekte schaffen. Er fördert Vernetzung und Austausch in der Szene und trägt zur Vielfalt der Wiener Kulturlandschaft bei.",
+        "info_en": "Der Hafen in Ottakring is part of a leftist cultural space and event venue in Vienna. Hafen offers a platform for political and cultural events that create space for solidarity, alternative lifestyles, and creative projects. It promotes networking and exchange within the scene and contributes to the diversity of Vienna's cultural landscape.",
+        "website": null,
+        "instagram": "https://www.instagram.com/der.hafen.ottakring"
+      },
+      {
+        "name": "Villa Vida",
+        "info": "Villa Vida ist ein soziales Projekt in Wien, das einen Raum für Solidarität, Gemeinschaft und politische Vernetzung bietet. Es versteht sich als kultureller und sozialer Treffpunkt, der Raum für vielfältige Aktivitäten, Workshops und Veranstaltungen schafft, um soziale Gerechtigkeit und gegenseitige Unterstützung zu fördern.",
+        "info_en": "Villa Vida is a social project in Vienna that provides a space for solidarity, community, and political networking. It understands itself as a cultural and social meeting point that creates space for diverse activities, workshops, and events to promote social justice and mutual support.",
+        "website": "https://villavida.at/",
+        "instagram": "https://www.instagram.com/villavidacafe"
+      },
+      {
+        "name": "Kaleidoskop",
+        "info": "Das Kaleidoskop ist ein Freiraum für gemeinsames Leben, Lernen und Gestalten. Hier entsteht Kultur jenseits von Marktlogik - offen, solidarisch und unkommerziell. Ob Kunstprojekt, Lesekreis, Workshop oder Jam-Session: Im Kaleidoskop können Menschen ihre Ideen teilen und verwirklichen - auf Basis von Respekt, Reflexion und Gemeinschaftssinn.",
+        "info_en": "Kaleidoskop is a free space for living, learning, and creating together. Culture emerges here beyond market logic—open, solidaristic, and non-commercial. Whether art project, reading circle, workshop, or jam session: In Kaleidoskop, people can share and realize their ideas—based on respect, reflection, and a sense of community.",
+        "website": "https://www.anarchismus.at/wien/58-kaleidoskop",
+        "instagram": "https://www.instagram.com/kaleidoskopwien"
+      },
+      {
+        "name": "KSSHSHD",
+        "info": "Der Klub slovenskih študentk*študentov na Dunaju (KSSSD) ist ein traditionsreicher Verein slowenischer Studierender in Wien, der seit 1923 besteht und als Ort für gemeinsames politisches und kulturelles Engagement dient. Thematische Schwerpunkte liegen auf Antifaschismus, Feminismus und Minderheitenschutz, und der Klub veranstaltet regelmäßig kulturelle und politische Events sowie Sprachkurse. KSSSD ist ein wichtiger Treffpunkt für die slowenischsprachige Gemeinschaft und fördert Vernetzung, Solidarität und politische Bildung.",
+        "info_en": "The Club of Slovenian Students in Vienna (KSSSD) is a traditional association of Slovenian students in Vienna that has existed since 1923 and serves as a place for joint political and cultural engagement. Thematic focuses are on anti-fascism, feminism, and minority protection, and the club regularly hosts cultural and political events as well as language courses. KSSSD is an important meeting point for the Slovenian-speaking community and promotes networking, solidarity, and political education.",
+        "website": "https://www.ksssd.org/",
+        "instagram": "https://www.instagram.com/rdeca_vrata"
+      }
+    ]
+  },
+  "veganismus": {
+    "catEn": "veganism",
+    "mainC": "#90EE90",
+    "secondC": "#DFF0D8",
+    "groups": [
+      {
+        "name": "Anonymous for the Voiceless",
+        "info": "Anonymous for the Voiceless ist eine internationale Tierrechtsorganisation, die sich auf vegane Straßenaktivismus formiert hat. Mit den bekannten Cubes of Truth machen sie passivem Publikum die Realität der Tierausbeutung sichtbar und schaffen so Bewusstsein und Wandel. Die Gruppe verfolgt eine abolitionistische Haltung gegen jegliche Ausbeutung nichtmenschlicher Tiere und setzt klare, direkte vegane Botschaften um.",
+        "info_en": "Anonymous for the Voiceless is an international animal rights organization that has organized around vegan street activism. With their famous Cubes of Truth, they make the reality of animal exploitation visible to passive audiences, creating awareness and change. The group pursues an abolitionist stance against any exploitation of non-human animals and implements clear, direct vegan messages.",
+        "website": "https://anonymousforthevoiceless.org/",
+        "instagram": null
+      },
+      {
+        "name": "Plant-Based Universities",
+        "info": "Plant-Based Universities ist eine internationale, von Studierenden geführte Kampagne, die darauf abzielt, an Universitäten eine 100% pflanzenbasierte Verpflegung einzuführen, um der Klimakrise und Umweltzerstörung entgegenzuwirken. Die Bewegung begann 2021 in Großbritannien und hat sich inzwischen auf über 60 Hochschulen in mehreren europäischen Ländern ausgedehnt, darunter auch Österreich und Deutschland.",
+        "info_en": "Plant-Based Universities is an international student-led campaign aiming to implement 100% plant-based catering at universities to address the climate crisis and environmental damage. The movement started in 2021 in the UK and has since spread to over 60 universities across several European countries, including Austria and Germany.",
+        "website": "https://plantbaseduniversities.org/",
+        "instagram": "https://www.instagram.com/plantbasedunisvienna/"
+      },
+      {
+        "name": "vegan.at",
+        "info": "Vegan.at ist die Online-Plattform der Vegane Gesellschaft Österreich, die Informationen, Rezepte und Neuigkeiten rund um die vegane Lebensweise in Österreich bereitstellt. Die Seite fördert einen bewussten, nachhaltigen und tierfreundlichen Lebensstil durch vielfältige Inhalte und aktuelle Berichte.",
+        "info_en": "Vegan.at is the online platform of the Vegan Society of Austria, providing information, recipes, and news about the vegan lifestyle in Austria. The site promotes a conscious, sustainable, and animal-friendly way of living through diverse content and up-to-date reports.",
+        "website": "https://www.vegan.at/",
+        "instagram": "https://www.instagram.com/vegane_gesellschaft"
+      },
+      {
+        "name": "VGT (Verein gegen Tierfabriken)",
+        "info": "Der Verein gegen Tierfabriken (VGT) wurde 1992 gegründet und ist mit rund 18.000 Mitgliedern Österreichs führende Tierschutzorganisation, die sich für Mitgefühl und Respekt gegenüber Tieren einsetzt. Der VGT kämpft mit dem Grundsatz der Gewaltlosigkeit gegen Tierfabriken, Tierversuche, Pelz, Wildtierzirkusse und für bessere Tierschutzgesetze. Die Organisation kann Erfolge wie die Schließung aller Pelzfarmen, das Ende von Legebatterien, das Verbot von Wildtieren im Zirkus und die Verankerung von Tierschutz in der Verfassung vorweisen.",
+        "info_en": "The Association Against Animal Factories (VGT) was founded in 1992 and is Austria's leading animal protection organization with around 18,000 members committed to compassion and respect for animals. The VGT fights, on the principle of nonviolence, against animal factories, animal testing, fur, wild animals in circuses, and for better animal protection laws. The organization can point to successes such as the closure of all fur farms, the end of battery cages, the ban on wild animals in circuses, and the anchoring of animal protection in the constitution.",
+        "website": "https://vgt.at/",
+        "instagram": "https://www.instagram.com/vgt.austria"
+      }
+    ]
+  },
+  "antikapitalismus": {
+    "catEn": "anticapitalism",
+    "mainC": "#FFB6C1",
+    "secondC": "#FFE4E1",
+    "groups": [
+      {
+        "name": "Attac Österreich",
+        "info": "Attac Österreich ist eine globalisierungskritische Bewegung, die sich gegen neoliberale Globalisierung, Finanzmarktspekulation und die Macht von Konzernen einsetzt. Die Organisation fordert demokratische Kontrolle der Finanzmärkte, eine Finanztransaktionssteuer, faire Handelspolitik und gerechte Besteuerung von Konzernen und Vermögen. Attac hat zentrale Erfolge erzielt, wie das Stoppen von TTIP und der Doha-Runde der WTO, und brachte Themen wie Steuergerechtigkeit und Privatisierung ins Zentrum politischer Debatten.",
+        "info_en": "Attac Austria is a globalization-critical movement that opposes neoliberal globalization, financial market speculation, and corporate power. The organization demands democratic control of financial markets, a financial transaction tax, fair trade policy, and just taxation of corporations and wealth. Attac has achieved significant successes, such as stopping TTIP and the WTO Doha Round, and brought issues like tax justice and privatization to the center of political debate.",
+        "website": "https://attac.at/",
+        "instagram": "https://www.instagram.com/attac.at"
+      }
+    ]
+  },
+  "rechtshilfe": {
+    "catEn": "legal assistance",
+    "mainC": "#ADD8E6",
+    "secondC": "#E3F2FD",
+    "groups": [
+      {
+        "name": "Grad Recht",
+        "info": "Grad Recht ist eine Initiative von (Jus-)Studierenden, Jurist:innen und erfahrenen Klimaaktivist:innen, die kostenlose Rechtsberatung für Klimaaktivist:innen anbietet. Die Organisation unterstützt Menschen bei rechtlichen Anliegen im Kontext von Klimaschutz und sozial gerechter Klimapolitik und baut ein breites Netzwerk von Rechtsanwält:innen für diese Zwecke auf. Grad Recht hat bereits zahlreiche Aktivist:innen rechtlich beraten und steht für solidarische rechtliche Begleitung.",
+        "info_en": "Grad Recht is an initiative of law students, lawyers, and experienced climate activists that offers free legal advice to climate activists. The organization supports people with legal matters in the context of climate protection and socially just climate policy and builds a broad network of lawyers for these purposes. Grad Recht has already provided legal advice to numerous activists and stands for solidarity-based legal support.",
+        "website": "https://www.gradrecht.at/",
+        "instagram": "https://www.instagram.com/grad.recht"
+      },
+      {
+        "name": "Rechtsinfokollektiv",
+        "info": "Das Rechtsinfokollektiv (RiKo) ist ein unabhängiges und bündnisübergreifendes Kollektiv in Österreich, das Aktivist*innen und zivilgesellschaftliche Gruppen bei rechtlichen Fragen im Zusammenhang mit Demonstrationen, Versammlungen und politischem Aktivismus unterstützt. Es bietet praktische Rechtsinformationen, Beratung und Rechtshilfe, um gegen staatliche und polizeiliche Repression vorzugehen und gesellschaftlichen Protest zu stärken.",
+        "info_en": "The Rechtsinfokollektiv (RiKo) is an independent and alliance-based collective in Austria that provides legal information and support to activists and civil society groups, especially regarding demonstrations, assemblies, and political activism. RiKo offers practical legal advice and assistance to help individuals counter state repression and strengthen social protest movements.",
+        "website": "https://at.rechtsinfokollektiv.org/",
+        "instagram": "https://www.instagram.com/grad.recht"
+      },
+      {
+        "name": "Rote Hilfe Wien",
+        "info": "Die Rote Hilfe Wien ist ein Verein, der Menschen unterstützt, die aufgrund ihres politischen Engagements Repression durch Polizei und Justiz erfahren. Die Organisation versteht sich als strömungsübergreifende Solidaritätsorganisation und bietet an drei Mittwochabenden im Monat kostenlose Beratung in Strafsachen und Verwaltungsstrafen an verschiedenen Orten in Wien. Die Rote Hilfe unterstützt durch Beratung, politische Solidarität und bei Bedarf auch finanziell (bis zu 70% der Kosten) unter der Voraussetzung politischer Prozessführung.",
+        "info_en": "Red Aid Vienna is an association that supports people experiencing repression through police and judicial systems because of their political engagement. The organization sees itself as a cross-ideological solidarity organization and offers free legal consultation on criminal and administrative fines three Wednesday evenings per month at various locations in Vienna. Red Aid provides support through consultation, political solidarity, and if needed, financial assistance (up to 70% of costs) under the condition of political case conduct.",
+        "website": "https://rotehilfe.wien/",
+        "instagram": null
+      }
+    ]
+  },
+  "unipolitik": {
+    "catEn": "unipolitics",
+    "mainC": "#FFC300",
+    "secondC": "#FFECB3",
+    "groups": [
+      {
+        "name": "ÖH (Österreichische Hochschüler:innenschaften)",
+        "info": "Die ÖH ist die offizielle gesetzliche Interessensvertretung der Studierenden an österreichischen Hochschulen. Die ÖH Uni Wien setzt sich für bessere Studienbedingungen, Bekämpfung von Diskriminierung und Unterstützung von benachteiligten Studierendengruppen ein. Die ÖH wird durch Fraktionswahlen alle zwei Jahre neu gewählt.",
+        "info_en": "The ÖH is the official legal representative body of students at Austrian universities. ÖH University of Vienna advocates for better study conditions, combating discrimination, and supporting disadvantaged student groups. The ÖH is re-elected every two years through faction elections.",
+        "website": "https://oeh.univie.ac.at/",
+        "instagram": "https://www.instagram.com/oeh_univie"
+      },
+      {
+        "name": "KSV Lili (Kommunistischer Student:innenverband - Linke Liste)",
+        "info": "Der Kommunistische Student:innenverband - Linke Liste (KSV-LiLi) ist eine linksradikale Studentenorganisation an österreichischen Hochschulen und die Studentenorganisation der KPÖ. Der KSV-LiLi orientiert sich an der Bundes-KPÖ und versteht sich als kommunistisch, feministisch, antifaschistisch und basisdemokratisch. Die Organisation engagiert sich für Abschaffung von Studiengebühren, gegen Rassismus, für Klimaschutz, und war bei der ÖH-Wahl 2023 mit 5,21% in die Bundesvertretung eingezogen.",
+        "info_en": "The Communist Student Association - Left List (KSV-LiLi) is a left-radical student organization at Austrian universities and the student organization of the Communist Party of Austria. KSV-LiLi orients itself toward the federal Communist Party of Austria and understands itself as communist, feminist, anti-fascist, and base-democratic. The organization is committed to the abolition of tuition fees, against racism, for climate protection, and was elected to the federal representation at the 2023 ÖH election with 5.21%.",
+        "website": "https://ksv-lili.at/",
+        "instagram": "https://www.instagram.com/ksv.lili"
+      },
+      {
+        "name": "KSV KJÖ",
+        "info": "Der KSV KJÖ ist die Studentenorganisation der Kommunistischen Jugend Österreichs (KJÖ) und tritt an verschiedenen österreichischen Hochschulen, insbesondere an der Universität Wien unter dem Namen KJÖ StudentInnen, bei ÖH-Wahlen an. Die Gruppe kämpft für bessere Studienbedingungen, gegen Studiengebühren und für emanzipatorische Hochschulpolitik.",
+        "info_en": "KSV KJÖ is the student organization of the Communist Youth of Austria (KJÖ) and runs in ÖH elections at various Austrian universities, particularly at the University of Vienna under the name KJÖ Students. The group fights for better study conditions, against tuition fees, and for emancipatory university politics.",
+        "website": "https://ksv-kjoe.at/",
+        "instagram": "https://www.instagram.com/kjoe_wien"
+      },
+      {
+        "name": "GRAS (Grüne & Alternative Student:innen)",
+        "info": "Die Grünen & Alternativen Student:innen (GRAS) sind eine der Partei Die Grünen nahestehende Studierendenorganisation in Österreich. Die GRAS verstehen sich als basisdemokratisch, antidiskriminierend, ökologisch-nachhaltig, antikapitalistisch, antifaschistisch und feministisch. Sie sitzen derzeit in der Exekutive der Bundesvertretung der ÖH und sind an zahlreichen Hochschulen in Österreich vertreten.",
+        "info_en": "The Greens & Alternative Students (GRAS) is a student organization in Austria that is affiliated with the Green Party. GRAS understands itself as base-democratic, anti-discriminatory, ecologically sustainable, anti-capitalist, anti-fascist, and feminist. They currently sit in the executive of the ÖH federal representation and are represented at numerous universities in Austria.",
+        "website": "https://www.gras.at/",
+        "instagram": "https://www.instagram.com/gras_oe"
+      },
+      {
+        "name": "VSStÖ (Verband Sozialistischer Student:innen Österreichs)",
+        "info": "Der Verband Sozialistischer Student:innen in Österreich (VSStÖ) ist eine sozialistische Studierendenorganisation an österreichischen Hochschulen mit Wurzeln bis 1893. Der VSStÖ setzt sich für Abschaffung von Studiengebühren, bessere Studienförderung, Frauenpolitik und Gleichberechtigung aus Sicht einer linken Sozialpolitik ein. Der VSStÖ ist derzeit die stärkste Kraft in der ÖH Bundesvertretung.",
+        "info_en": "The Association of Socialist Students in Austria (VSStÖ) is a socialist student organization at Austrian universities with roots dating back to 1893. VSStÖ advocates for the abolition of tuition fees, better student funding, women's politics, and equality from the perspective of left-wing social policy. VSStÖ is currently the strongest force in the ÖH federal representation.",
+        "website": "https://vsstoe.at/",
+        "instagram": "https://www.instagram.com/vsstoe"
+      }
+    ]
+  },
+  "lokale": {
+    "catEn": "local",
+    "mainC": "#B7E4C7",
+    "secondC": "#caf0d7",
+    "groups": [
+      {
+        "name": "Wir machen Wien",
+        "info": "Wir machen Wien ist eine unabhängige zivilgesellschaftliche Plattform zur Vernetzung von Aktivistinnen und Bürgerinnen-Initiativen im Mobilitäts- und Klimabereich. Die Initiative bietet Know-How, erstellt eine Online-Karte der Initiativen, produziert Tutorials und stärkt durch Kooperation das zivilgesellschaftliche Engagement. Ziel ist eine klimagerechte, lebenswerte und partizipative Stadt Wien.",
+        "info_en": "\"Wir machen Wien\" is an independent civil society platform for networking activists and citizen initiatives in the mobility and climate sectors. The initiative provides expertise, creates an online map of initiatives, produces tutorials, and strengthens civil society engagement through cooperation. The goal is a climate-just, livable, and participatory Vienna.",
+        "website": "https://wirmachen.wien/",
+        "instagram": "https://www.instagram.com/wir.machen.wien"
+      }
+    ]
   }
+}
