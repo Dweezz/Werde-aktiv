@@ -141,8 +141,8 @@
   },
   "essen": {
     "catEn": "food",
-    "mainC": "#FFD050",
-    "secondC": "#FFEAB1",
+    "mainC": "#EDB6A3",
+    "secondC": "#F7E1DA",
     "groups": [
       {
         "name": "Robin Foods",
@@ -281,8 +281,8 @@
   },
   "lgbtqia+": {
     "catEn": "lgbtqia+",
-    "mainC": "#FFD050",
-    "secondC": "#FFEAB1",
+    "mainC": "#324A5F",
+    "secondC": "#ADC6DC",
     "groups": [
       {
         "name": "Trans X",
