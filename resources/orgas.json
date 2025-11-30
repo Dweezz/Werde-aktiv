@@ -50,8 +50,8 @@
   },
   "femismus": {
     "catEn": "feminsim",
-    "mainC": "#FFD050",
-    "secondC": "#FFEAB1",
+    "mainC": "#B38CB4",
+    "secondC": "#F6E0F7",
     "groups": [
       {
         "name": "Frauen* beraten Frauen*",
@@ -64,8 +64,8 @@
   },
   "... for future": {
     "catEn": "... for future",
-    "mainC": "#FFD050",
-    "secondC": "#FFEAB1",
+    "mainC": "#7796CB",
+    "secondC": "#BBCCEA",
     "groups": [
       {
         "name": "Scientists4Future Österreich",
